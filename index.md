@@ -1,3 +1,8 @@
+---
+title: First page
+layout: post
+---
+
 what the heck
 -------------
 
