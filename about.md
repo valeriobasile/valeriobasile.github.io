@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-Some information about you!
+I am a PhD candidate at the University of Groningen (Netherlands). My
+research interests include:
 
-### More Information
+* Computational Semantics
+* Natural Language Generation
+* Linguistic Annotation
+* Gamification
+* Social Media
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+I like math, videogames, beer, and Oxford commas :)
