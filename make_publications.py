@@ -19,7 +19,7 @@ for bib_item in bib_database.entries:
     else:
         pages = ''
 
-    print ("* {0} *{1}* ({2}), {3}, {4}".format(bib_item['author'],
+    print ("- {0} *{1}* ({2}), {3}, {4}".format(bib_item['author'],
                                                 bib_item['title'],
                                                 bib_item['year'],
                                                 venue,
