@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-permalink: /about/
+permalink: /
 ---
 
 I am a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/),
