@@ -18,6 +18,6 @@ You only need a valid Twitter API key! (and a few Python libraries...)
 There are options to control the rate limit, exclude retweets and
 control the output format.
 
-Here's the software github page: https://github.com/valeriobasile/twittercrawler
+Here's the software github page: [https://github.com/valeriobasile/twittercrawler](https://github.com/valeriobasile/twittercrawler)
 
 Have fun!
