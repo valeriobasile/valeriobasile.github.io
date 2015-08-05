@@ -3,8 +3,12 @@ layout: page
 title: About me
 ---
 
-I am a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/),
-[University of Groningen](http://www.rug.nl/), under the supervision of [Prof. Johan
+I am a researcher in the [Wimmics](http://wimmics.inria.fr/) team of
+[INRIA](www.inria.fr), under the direction of [Fabien
+Gandon](http://fabien.info).
+
+Previously, I was a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/),
+[University of Groningen](http://www.rug.nl/), under the supervision of [Johan
 Bos](http://www.rug.nl/staff/johan.bos/).
 
 My research interests include:
