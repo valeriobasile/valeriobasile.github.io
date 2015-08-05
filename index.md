@@ -4,7 +4,7 @@ title: About me
 ---
 
 I am a researcher in the [Wimmics](http://wimmics.inria.fr/) team of
-[INRIA](www.inria.fr), under the direction of [Fabien
+[INRIA](http://www.inria.fr), under the direction of [Fabien
 Gandon](http://fabien.info).
 
 Previously, I was a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/),
