@@ -45,7 +45,7 @@ pre {
 <body>
 <h1>Crawling <a href="http://del.icio.us">del.icio.us</a> for data</h1>
 <p>
-<a href="data/delicious_crawl.xml.bz2">Here</a> is the dataset I've got by
+<a href="http://www.let.rug.nl/basile/delicious/data/delicious_crawl.xml.bz2">Here</a> is the dataset I've got by
 crawling <a href="http://del.icio.us">del.icio.us</a>.
 Details follow.
 </p>
@@ -61,7 +61,7 @@ a user tags a document, so the majority of data is lost.
 <p>
 The second step was to take every single document in the downloaded data and
 simply download <em>all</em> its tags, along with the users who tagged it and
-the timestamps of the tagging event. This process took about a week using ten 
+the timestamps of the tagging event. This process took about a week using ten
 different machines.
 </p>
 
@@ -162,21 +162,21 @@ The attributes of <strong>tags</strong> are:
 </ul>
 
 <div class="footnote">
-* tagging documents is not the only del.icio.us' feature, a user can ie. make a review or a comment; in these cases the number of tags in a "tagging event" can be zero. 
+* tagging documents is not the only del.icio.us' feature, a user can ie. make a review or a comment; in these cases the number of tags in a "tagging event" can be zero.
 </div>
 <h2>Downloads</h2>
 
 <table alt="del.icio.us dataset downloads">
 <tr>
 <td>
-<a href="data/delicious_crawl.xml.bz2">del.icio.us dataset</a>
+<a href="http://www.let.rug.nl/basile/delicious/data/delicious_crawl.xml.bz2">del.icio.us dataset</a>
 (XML format, Bzipped)
 </td>
 <td class="td_number">182.3 MB</td>
 </tr>
 <tr>
 <td>
-<a href="data/delicious_crawl.cor.bz2">del.icio.us dataset corpus</a>
+<a href="http://www.let.rug.nl/basile/delicious/data/delicious_crawl.cor.bz2">del.icio.us dataset corpus</a>
 (for Distributional Semantics, see below, Bzipped)
 </td>
 <td class="td_number">53.2 MB</td>
@@ -187,7 +187,7 @@ The attributes of <strong>tags</strong> are:
 <h2>Distributional semantics</h2>
 <p>
 <a href="http://en.wikipedia.org/wiki/Vector_space_model">Word Space Models</a>
-were built from the del.icio.us dataset. The idea is treating 
+were built from the del.icio.us dataset. The idea is treating
 <em>the tags associated to a document</em> as a document itself, made by just
 the (randomly ordered) list of tags.
 In this way a corpus of "documents" is created which can tehn be used for
@@ -195,9 +195,9 @@ exploring aspects of the del.icio.us folksonomy using methods from NLP such as
 Distributional Semantics.
 </p>
 <p>
-So far two models were build, namely a 
-<a href="http://code.google.com/p/airhead-research/wiki/RandomIndexing">LSA</a> 
-model (100 dimensions) and a 
+So far two models were build, namely a
+<a href="http://code.google.com/p/airhead-research/wiki/RandomIndexing">LSA</a>
+model (100 dimensions) and a
 <a href="http://en.wikipedia.org/wiki/Latent_semantic_analysis">Random
 Indexing</a> model (4000 dimensions).
 Both models were made with the <a href="http://code.google.com/p/airhead-research/">
