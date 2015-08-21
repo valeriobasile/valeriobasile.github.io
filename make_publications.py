@@ -8,7 +8,7 @@ with open('publications/publications.bib') as bibtex_file:
 with open('publication_list.md', 'w') as out_file:
     for bib_item in bib_database.entries:
         if 'booktitle' in bib_item:
-            venue = u', {}'.format(bib_item['booktitle'])
+            venue = u', {}'.format(bib_item['booktitle']).replace('{','').replace('}','')
         elif bib_item['journal']:
             venue = u', {}'.format(bib_item['journal'])
         else:
@@ -20,12 +20,12 @@ with open('publication_list.md', 'w') as out_file:
             pages = u''
      
         if 'file' in bib_item:
-            pdf_link = u'{}'.format(bib_item['file'].split(':')[1])
+            pdf_link = u' [PDF]({})'.format(bib_item['file'].split(':')[1])
         else:
             pdf_link = u''
      
-        out_file.write(u"- {0} *{1}* ({2}){3}{4} [PDF]({5})\n".format(bib_item['author'],
-                                                                      bib_item['title'],
+        out_file.write(u"- {0} *{1}* ({2}){3}{4} {5}\n".format(bib_item['author'],
+                                                                      bib_item['title'].replace('{','').replace('}',''),
                                                                       bib_item['year'],
                                                                       venue,
                                                                       pages,
