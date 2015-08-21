@@ -1,0 +1,78 @@
+body {
+	margin-left:25%;
+	margin-right:25%;
+	font-family: 'Overlock', cursive;
+	line-height: 2em;
+
+}
+
+a {
+    color: maroon;
+}
+
+a:hover {
+    color: red;
+}
+
+h1,h2 {
+    color: green;
+}
+
+hr {
+    width: 50%;
+    border: 0;
+    border-bottom: 1px green solid;
+}
+
+td {
+	border: 1px solid #ddd;
+}
+
+.td_number {
+	text-align: right;
+}
+.footnote {
+	font-size: smaller;
+	font-style: italic;
+}
+
+pre {
+	background: #ddd;
+}
+
+.logo {
+    width: 50%;
+}
+
+.example {
+    margin-left: 25%;
+    margin-right: 25%;
+    maring-top: 2em;
+    margin-bottom: 2em;
+    padding-top:1em;
+    padding-bottom:1em;
+    text-align: center;
+}
+
+.number {
+    text-align: right;
+}
+
+#menu {
+    padding: 1em;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+.gold {
+    font-weigth: bold;
+    color: #fdd017;
+}

@@ -1,0 +1,27 @@
+#!/usr/bin/env python
+
+from random import sample
+
+N = 500
+outfile = 'index.html'
+K = 50 # sample size per cluster
+
+clusters = [[] for i in range(N)]
+with open('clusters.txt') as f:
+    for line in f:
+        word, cluster_id = line.rstrip().split(' ')
+        clusters[eval(cluster_id)].append(word)
+
+with open(outfile, 'w') as html:
+    html.write("""<html>
+<head>TWITA - word2vec wordclusters</head>
+<link rel="stylesheet" type="text/css" href="clusters.css" />
+<body>
+""")
+    for cluster_id, cluster in enumerate(clusters):
+        html.write("""<div class="cluster">
+{}
+</div>""".format(' '.join(sample(cluster, K))))
+
+        html.write("""</body>
+</html>""")

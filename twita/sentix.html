@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it" >
+<head>
+<title>TWITA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Overlock:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- Google Analytics stuff -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26275011-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<link rel="stylesheet" type="text/css" href="twita.css" />
+</head>
+<body>
+<a href="about.php"><img alt="TWITA" src="twita.png" class="logo" /></a>
+<div id="menu">
+<ul>
+<li><a href="about.html">about</a></li>
+<li><a href="people.html">people</a></li>
+<li><a href="downloads.html">downloads</a></li>
+<li><a href="sentix.html">Sentiment Analysis</a></li>
+
+<h1>Sentiment Analysis</h1>
+<p>
+As part of the TWITA project investigation, we developed a lexicon for
+<a href="http://en.wikipedia.org/wiki/Sentiment_analysis">Sentiment Analysis</a>
+called <strong>Sentix</strong> (<strong>Sent</strong>iment <strong>I</strong>talian Le<strong>x</strong>icon).
+The lexicon is the result of the alignment of several resources:
+<ul>
+<li><a href="http://wordnet.princeton.edu/">WordNet</a> - a large lexical database of English</li>
+<li><a href="http://multiwordnet.fbk.eu/english/home.php">MultiWordNet</a> - a  multilingual lexical database</li>
+<li><a href="http://lcl.uniroma1.it/babelnet/">BabelNet</a> - A very large multilingual ontology</li>
+<li><a href="http://sentiwordnet.isti.cnr.it/">SentiWordNet</a> - a lexical resource for opinion mining</li>
+</ul>
+Sentix is available for download from
+the <a href="downloads.html">downloads</a> page.
+</p>
+
+<p>
+An entry in our lexicon consists in an italian lemma, part-of-speech (noun, verb, adjective, adverb), WordNet synset ID, a positive and a negative score from SentiWordNet, a polarity score ranging from -1 to 1, and an intensity score ranging from 0 to 1.
+Here is an example entry:
+
+<table alt="example of entry in Sentix lexicon" class="example">
+<thead>
+<th>lemma</td>
+<th>POS</td>
+<th>Wordnet synset ID</th>
+<th>positive score</th>
+<th>negative score</th>
+<th>polarity</th>
+<th>intensity</th>
+</thead>
+<tbody>
+<tr>
+<td>naturale</td>
+<td>A</td>
+<td>00074346</td>
+<td class="number">0,75</td>
+<td class="number">0,125</td>
+<td class="number">0,789</td>
+<td class="number">0,76</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<h2>Polarity and Intensity</h2>
+<p>
+In <a href="http://sentiwordnet.isti.cnr.it/">SentiWordNet</a> the positive <em>p</em> and negative <em>n</em> polarity scores are assigned to synsets independently, that is, the sum of positive, negative and neutral score is 1, but no constraint is posed on the relative size of <em>p</em> and <em>n</em>.
+Geometrically, a synset in <a href="http://sentiwordnet.isti.cnr.it/">SentiWordNet</a> is a point in the cartesian space where its <em>y</em> coordinate is the positive score and the <em>y</em> coordinate is the negative score. Since <em>x</em>+<em>y</em>&le;1, the <em>sentiment plane</em> is restricted to a triangle:<br/>
+<img alt="geometric sentiment space" src="img/sentspace.png" style="width:40%" class="example"/>
+</p>
+
+<p>
+Intuitively, synsets that fall into the <em>P</em> region are "positive",
+synsets that fall into the <em>N</em> region are "negative", and synsets
+that fall into the <em>U</em> region are "neutral". However, the three regions
+are not clearly delimited.
+</p>
+
+<p>
+Formally, given a cartesian-to-polar coordinates transformation:<br/>
+<img alt="geometric sentiment space" src="img/eq1.gif" class="example" /><br/>
+We define Polarity (&pi;) and Intensity (&iota;) as:<br/>
+<img alt="geometric sentiment space" src="img/eq2.gif" class="example" /><br/>
+Polarity (&pi;) ranges from -1 (totally negative) to 1 (totally positive). Intensity ranges from 0 (totally neutral) to 1 (totally polarized).
+Polarity and Intensity are functions of the positive and negative scores found in <a href="http://sentiwordnet.isti.cnr.it/">SentiWordNet</a>, thus they don't add any informationi to it. However, they are intuitive measures of lexical sentiment.
+</p>
+
+<h2>Polypathy</h2>
+<p>
+When it's not possible to perform
+<a href="http://en.wikipedia.org/wiki/Word-sense_disambiguation">
+Word Sense Disambiguation</a>,
+then all senses of a word must be considered (or one can use heuristics such as
+taking the most frequent sense). Many words are
+<a href="http://en.wikipedia.org/wiki/Polysemy">polysemous</a>,
+that is, they have multiple meanings. The meanings of a word can convey
+sentiments with opposite polarities. The <em>polypathy</em> of a lemma is a
+measure of the spread of its senses on the polarity scale.
+</p>
+
+<p>
+One way of compute the polypathy of word is the standard deviation of
+the polarity of its senses, but this method does not take into account the
+intensity of the synsets. An alternative method is to take the mean
+distance of all synsets from their centroid in the sentiment plane.
+Two lists of Italian and English words with their polypath
+(computed as standard deviation of polarities) are available for downloads in
+the <a href="downloads.html">downloads</a> page.
+</p>
+
+<h2>Statistics</h2>
+<p>
+<table alt="Sentix statistics" class="example">
+<thead>
+<th>Resource</th>
+<th>Part of speech</th>
+<th>Lemmas</th>
+<th>Synsets</th>
+</thead>
+<tbody>
+<tr>
+<td rowspan="5">Sentix</td>
+<td>noun</td>
+<td class="number">52,257</td>
+<td class="number">12,228</td>
+</tr>
+<tr>
+<td>adjective</td>
+<td class="number">3,359</td>
+<td class="number">1,805</td>
+</tr>
+<tr>
+<td>verb</td>
+<td class="number">2,775</td>
+<td class="number">1,260</td>
+</tr>
+<tr>
+<td>adverb</td>
+<td class="number">1,351</td>
+<td class="number">750</td>
+</tr>
+<tr>
+<td>all</td>
+<td class="number">59,742</td>
+<td class="number">16,043</td>
+</tr>
+<tr>
+<td rowspan="5">Sentix (only aligned with MultiWordNet)</td>
+<td>noun</td>
+<td class="number">10,042</td>
+<td class="number">4,779</td>
+</tr>
+<tr>
+<td>adjective</td>
+<td class="number">3,359</td>
+<td class="number">1,805</td>
+</tr>
+<tr>
+<td>verb</td>
+<td class="number">2,775</td>
+<td class="number">1,260</td>
+</tr>
+<tr>
+<td>adverb</td>
+<td class="number">1,351</td>
+<td class="number">750</td>
+</tr>
+<tr>
+<td>all</td>
+<td class="number">17,527</td>
+<td class="number">8,594</td>
+</tr>
+<td rowspan="5">Sentix (only aligned with Babelnet)</td>
+<td>noun</td>
+<td class="number">45,517</td>
+<td class="number">11,567</td>
+</tr>
+<tr>
+<td>adjective</td>
+<td class="number">0</td>
+<td class="number">0</td>
+</tr>
+<tr>
+<td>verb</td>
+<td class="number">0</td>
+<td class="number">0</td>
+</tr>
+<tr>
+<td>adverb</td>
+<td class="number">0</td>
+<td class="number">0</td>
+</tr>
+<tr>
+<td>all</td>
+<td class="number">45,517</td>
+<td class="number">11,567</td>
+</tr>
+<tbody>
+</table>
+</p>
+</body>
+</html>

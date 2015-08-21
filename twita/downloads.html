@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it" >
+<head>
+<title>TWITA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Overlock:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- Google Analytics stuff -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26275011-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<link rel="stylesheet" type="text/css" href="twita.css" />
+</head>
+<body>
+<a href="about.php"><img alt="TWITA" src="twita.png" class="logo" /></a>
+<div id="menu">
+<ul>
+<li><a href="about.html">about</a></li>
+<li><a href="people.html">people</a></li>
+<li><a href="downloads.html">downloads</a></li>
+<li><a href="sentix.html">Sentiment Analysis</a></li>
+
+</ul><h1>Downloads</h1>
+<p>
+The full collection of Italian tweets is not available for download due to
+the Twitter terms and conditions, so we release the TWITA as a list of the IDs
+of the tweet we collected. This is enough to recreate the collection, minus
+the tweets that have been deleted. One inefficient way of downloading a tweet
+given its ID is with the <em>wget</em> command:
+<pre>
+$ wget http://www.twitter.com/uid/statuses/TWEET_ID
+</pre>
+and subsequently parse its output looking for the tag
+<pre>
+&lt;p class="js-tweet-text tweet-text"&gt;
+</pre>
+A better way would be to use the <a href="https://dev.twitter.com/">
+Twitter Streaming API</a>.
+</p>
+
+<h2><span class="gold">new!</span> TWITA tweet ID lists</h2>
+<p>
+<ul>
+<li><a href="data/twita_ids201202.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201202.txt.gz']);">February 2012 (4,788,492 tweets 31MB)</a></li>
+<li><a href="data/twita_ids201203.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201203.txt.gz']);">March 2012 (6,915,622 tweets 45MB)</a></li>
+<li><a href="data/twita_ids201204.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201204.txt.gz']);">April 2012 (7,440,299 tweets 48MB)</a></li>
+<li><a href="data/twita_ids201205.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201205.txt.gz']);">May 2012 (8,474,224 tweets 54MB)</a></li>
+<li><a href="data/twita_ids201206.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201206.txt.gz']);">June 2012 (9,047,127 tweets 58MB)</a></li>
+<li><a href="data/twita_ids201207.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201207.txt.gz']);">July 2012 (8,978,568 tweets 58MB)</a></li>
+<li><a href="data/twita_ids201208.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201208.txt.gz']);">August 2012 (8,482,334 tweets 54MB)</a></li>
+<li><a href="data/twita_ids201209.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201209.txt.gz']);">September 2012 (9,695,155 tweets 62MB)</a></li>
+<li><a href="data/twita_ids201210.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201210.txt.gz']);">October 2012 (7,379,208 tweets 47MB)</a></li>
+<li><a href="data/twita_ids201211.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201211.txt.gz']);">November 2012 (11,306,397 tweets 71MB)</a></li>
+<li><a href="data/twita_ids201212.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201212.txt.gz']);">December 2012 (3,622,892 tweets 23MB)</a></li>
+<li><a href="data/twita_ids201301.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201301.txt.gz']);">January 2013 (12,715,122 tweets 80MB)</a></li>
+<li><a href="data/twita_ids201302.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201302.txt.gz']);">February 2013 (12,014,345 tweets 76MB)</a></li>
+<li><a href="data/twita_ids201303.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201303.txt.gz']);">March 2013 (12,933,829 tweets 82MB)</a></li>
+<li><a href="data/twita_ids201304.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201304.txt.gz']);">April 2013 (8,509,986 tweets 53MB)</a></li>
+<li><a href="data/twita_ids201305.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201305.txt.gz']);">May 2013 (18,154,491 tweets 113MB)</a></li>
+<li><a href="data/twita_ids201306.txt.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/twita_ids201306.txt.gz']);">June 2013 (5,125,215 tweets 32MB)</a></li>
+</ul>
+note: there is a "hole" in the collection from 12th to 30th June, due to a
+failure to switch to the new version of the Twitter API.
+</p>
+
+<h2>Hashtags frequency lists</h2>
+<p>
+<ul>
+<li><a href="data/2012.freq.gz">all (6.2MB)</a></li>
+<li><a href="data/201202.freq">February 2012 (5.2MB)</a></li>
+<li><a href="data/201203.freq">March 2012 (7.4MB)</a></li>
+<li><a href="data/201204.freq">April 2012 (7.8MB)</a></li>
+<li><a href="data/201205.freq">May 2012 (8.6MB)</a></li>
+<li><a href="data/201206.freq">June 2012 (8.7MB)</a></li>
+<li><a href="data/201207.freq">July 2012 (8.0MB)</a></li>
+<li><a href="data/201208.freq">August 2012 (7.4MB)</a></li>
+<li><a href="data/201209.freq">September 2012 (8.7MB)</a></li>
+<li><a href="data/201210.freq">October 2012 (6.2MB)</a></li>
+</ul>
+</p>
+
+<h2>Resources for Sentiment Analysis</h2>
+<p>
+<ul>
+<li><a href="data/sentix.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/sentix.gz']);">Sentix</a> - a lexicon for Sentiment Analysis of Italian (503KB gzipped text file)</li>
+<li><a href="data/polypathy_en.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/polypathy_en.gz']);">polypathy_en</a> - List of English lemmas ordered by their polypathy score (73.7 gzipped text file)</li>
+<li><a href="data/polypathy_it.gz" onClick="javascript: _gaq.push(['_trackPageview', 'data/polypathy_it.gz']);">polypathy_it</a> - List of Italian lemmas ordered by their polypathy score (30.7 gzipped text file)</li>
+</ul>
+
+</p>
+</body>
+</html>

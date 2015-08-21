@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>proxy to C&C/Boxer pipeline</title>
+<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26275011-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<div id="container">
+<p>
+<h1>C&amp;C/Boxer HTTP API</h1>
+The C&amp;C/Boxer HTTP API provides an easy access to the
+<a href="http://svn.ask.it.usyd.edu.au/trac/candc" title="C&amp;C tools">
+C&amp;C tools</a> without the need to install software on your machine other
+than <a href="http://curl.haxx.se/">cURL</a> or similar libraries for HTTP
+request (that usually come with the operating system anyway).
+</p>
+
+<p>
+A few reasons to use the API:
+<ol>
+<li>integrating the C&C tools into other projects and building
+upon its technology is now an HTTP request away. </li>
+<li>in a teaching environment, it's just much easier to give one
+command line to execute to the students, rather than having them install the whole pipeline on their machines.</li>
+<li>even microcomputers like the Raspberry-PI will be able to get a full
+semantic parse in a split second.</li>
+</li>
+</ol>
+</p>
+
+<p>
+I mantain an experimental installation of the HTTP API at this endpoint:<br/>
+<strong><code>
+  http://gingerbeard.alwaysdata.net/candcapi/
+</code></strong><br/>
+An example call is:
+
+<pre><code>$ curl -d 'Every man loves a woman' 'http://gingerbeard.alwaysdata.net/candcapi/proxy.php/raw/pipeline?semantics=fol'
+fol(1,not(some(A,and(n1man(A),not(some(B,some(C,and(r1patient(B,C),and(r1agent(B,A),and(v1love(B),n1woman(C))))))))))).
+</code></pre>
+
+There is a limit of <strong>5,000 requests/hour</strong> per client.
+The source code is on <a href='https://github.com/valeriobasile/candcapi'>github</a>.
+</p>
+
+<p>
+<h2>Disclaimer</h2>
+The service is provided <strong>as is</strong>. I do not guarantee its
+continuity nor the quality of the output. Please do not rely on this
+API to perform scientific experiments, I cannot guarantee the reproducibility
+of the results obtained with this API (use instead the
+<a href="http://svn.ask.it.usyd.edu.au/trac/candc/wiki/Download" title="C&amp;C tools downloads">
+stable version of the C\&amp;C tools</a>.
+By using this Web service you are also agreeing to the
+<a href="http://svn.ask.it.usyd.edu.au/trac/candc/wiki/Licence">C&amp;C System Licence Agreement</a>
+and to the Boxer licence agreement (in the main directory of the C&amp;C tools, LICENCE-BOXER.txt).</p>
+
+<p>
+To learn about the URLs and options, read the
+<a href="README.html">documentation</a>.
+
+</p>
+
+<p>
+<a href="..">back to my homepage</a>.
+</p>
+
+</div>
+</body>
+</html>

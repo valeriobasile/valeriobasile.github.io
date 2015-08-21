@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it" >
+<head>
+<title>TWITA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Overlock:400,700,400italic' rel='stylesheet' type='text/css'>
+<!-- Google Analytics stuff -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26275011-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<link rel="stylesheet" type="text/css" href="twita.css" />
+</head>
+<body>
+<a href="about.php"><img alt="TWITA" src="twita.png" class="logo" /></a>
+<div id="menu">
+<ul>
+<li><a href="about.html">about</a></li>
+<li><a href="people.html">people</a></li>
+<li><a href="downloads.html">downloads</a></li>
+<li><a href="sentix.html">Sentiment Analysis</a></li>
+</ul>
+
+<span class="gold">new!</span> the TWITA collection is now available for
+<a href="downloads.html">download</a>.
+<h1>About</h1>
+<p>
+TWITA is a collection of tweets identified as being written in the Italian
+langauge.
+</p>
+<p>
+This collection of tweets has been harvested using a two-pass language
+identification, aiming for general Italian language.
+We used <a href="http://curl.haxx.se/">cURL</a> to download from the
+<a href="https://dev.twitter.com/docs/streaming-apis">
+Twitter Streaming API</a>
+searching for a list of representative words:
+<pre>
+vita Roma forza alla quanto amore Milano Italia fare grazie
+della anche periodo bene scuola dopo tutto ancora tutti fatto
+</pre>
+The list consists of the most frequent lemma in the
+<a href="http://trac.sketchengine.co.uk/wiki/Corpora/ItWaC">ItWaC corpus</a>;
+all words that are frequent in other languages (English, Spanish and
+Portuguese) are filtered out (e.g. <em>come</em>).
+As a second step, the tweets are input to the language identification
+software <a href="https://github.com/saffsd/langid.py">langid.py</a> to
+detect Italian language.
+</p>
+<h2><span class="gold">new!</span> Statistics</h2>
+<p>
+<ul>
+<li><strong>155,583,306</strong> total tweets</li>
+<li>from <strong>February 2012</strong> to <strong>June 2013</strong></li>
+<li><strong>3,866,662</strong> tweets have geo-location information (coordinates)</li>
+</ul>
+</p>
+<h2>Processing</h2>
+<p>
+<ul>
+<li>
+URLs (<em>http://xyz.net</em>), hashtags (<em>#xyz</em>) and
+mentions (<em>@xyz</em>) have been replaced respectively with <em>URL</em>,
+<em>HASHTAG</em> and <em>MENTION</em>.</li>
+A few tweets contained tab character, which have been converted to single whitespaces.
+<li>The tweets are tokenized using
+<a href="http://ilk.uvt.nl/ucto/">
+Ucto: Unicode Tokenizer</a>
+and POS-tagged using
+<a href="http://www.ims.uni-stuttgart.de/projekte/corplex/TreeTagger/">TreeTagger</a>.
+</li>
+</ul>
+</p>
+
+<p>
+Some frequency lists of hashtags found in TWITA are available for downloads in
+the <a href="downloads.html">downloads</a> page.
+</p>
+
+<h2>Publications</h2>
+<p>
+<ul>
+<li>
+	Valerio Basile, Malvina Nissim (2013):
+	<em>Sentiment analysis on Italian tweets</em>.
+	Proceedings of the 4th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis, pp 100&ndash;107, Atlanta, United States
+ 	[<a href="http://www.let.rug.nl/basile/papers/BasileNissim2013WASSA.pdf">PDF</a>]
+ 	[<a href="http://www.let.rug.nl/basile/papers/BasileNissim2013WASSA-bib.html">BibTeX</a>]
+</li>
+</p>
+
+<p>
+<a href="..">back to Valerio's homepage</a>.
+</p>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>proxy to C&C/Boxer pipeline</title>
+<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+<div id="container">
+<h1>candcapi - HTTP API to access the C&amp;C/Boxer pipeline.</h1>
+
+<p><a href="http://svn.ask.it.usyd.edu.au/trac/candc" title="C\&amp;C tools">C\&amp;C tools</a>
+is a suite of software for linguistic analysis of the English language,
+including a tokenizer, several taggers and a parser.
+<a href="http://svn.ask.it.usyd.edu.au/trac/candc/wiki/boxer" title="Boxer">Boxer</a>
+is a tools for deep semantic analysis that takes in input the output
+of the C\&amp;C parser. Together, the C&amp;C tools and Boxer form a pipeline
+toolchain to perform a complete analysis on English text.
+Here is an example:</p>
+
+<pre><code>$ curl -d 'John loves Mary.' 'http://127.0.0.1:7778/raw/pipeline'
+sem(1,[1001:[tok:'John',pos:'NNP',lemma:'John',namex:'I-PER'],1002:[tok:loves,pos:'VBZ',lemma:love,namex:'O'],1003:[tok:'Mary',pos:'NNP',lemma:'Mary',namex:'I-PER'],1004:[tok:'.',pos:'.',lemma:'.',namex:'O']],merge(drs([[]:B,[]:C],[[1003]:named(B,mary,per,0),[1001]:named(C,john,per,0)]),drs([[]:D],[[]:rel(D,B,patient,0),[]:rel(D,C,agent,0),[1002]:pred(D,love,v,0)]))).
+</code></pre>
+
+<p>The main entry point to the C&amp;C/Boxer API is</p>
+
+<p><code>$CANDCAPI/$FORMAT/pipeline</code></p>
+
+<p><em>$CANDCAPI</em> is the URL of the API installation. <em>$FORMAT</em> is either <em>raw</em> or
+<em>json</em>, so possible entry point include:</p>
+
+<p><code>http://my.installation.of.candcapi.net/raw/pipeline</code>
+<code>http://my.installation.of.candcapi.net/json/pipeline</code></p>
+
+<p>The text to analyze must be passed as POST to the HTTP request.
+The command line options for Boxer are passed as URL paramerers. Here are
+listed:</p>
+
+<ul>
+<li><em>Option (values (<strong>default</strong>)) description</em></li>
+<li>copula (<strong>true</strong>, false) the copula will introduce an equality condition</li>
+<li>instantiate (true, <strong>false</strong>) generate Prolog atoms for all discourse referents</li>
+<li>integrate (true, <strong>false</strong>) produces one DRS for all input sentences</li>
+<li>modal (true, <strong>false</strong>) modal DRS-conditions are used</li>
+<li>nn (true, <strong>false</strong>) resolves noun-noun relations</li>
+<li>resolve (true, <strong>false</strong>) resolve all anaphoric DRSs and perform merge-reduction</li>
+<li>roles (<strong>proto</strong>, verbnet) role inventory (proto-roles or VerbNet roles</li>
+<li>tense (true, <strong>false</strong>) tense is represented following Kamp &amp; Reyle</li>
+<li>theory (<strong>drt</strong>, sdrt) Standard DRSs with drt, Segmented DRSs with sdrt</li>
+<li>semantics (<strong>drs</strong>,pdrs,fol,drg,tacitus,der] The basic (and default) formalism of semantics is <em>drs</em>, but other formats are also possible: <em>pdrs</em> (DRSs with labels, following Projective DRT); <em>fol</em> (first-order formula syntax); <em>drg</em> (discourse representation graphs); <em>tacitus</em> (Hobbsian semantics); <em>ccg</em> (input CCG derivation, nicely printed).</li>
+</ul>
+
+<p>Here's an example using the option <em>semantics</em> to get a first-order logic formula:</p>
+
+<pre><code>$ curl -d 'Every man loves a woman' 'http://127.0.0.1:7778/raw/pipeline?semantics=fol'
+fol(1,not(some(A,and(n1man(A),not(some(B,some(C,and(r1patient(B,C),and(r1agent(B,A),and(v1love(B),n1woman(C))))))))))).
+</code></pre>
+
+<p>For a more extensive description of the options of Boxer see the
+<a href="http://svn.ask.it.usyd.edu.au/trac/candc/wiki/BoxerOptions" title="Boxer documentation">official documentation</a></p>
+
+<h2>Output formats</h2>
+
+<p>The API can return either raw text or JSON. The raw text version corresponds
+to the <strong>standard output</strong> of the http://www.let.rug.nl/basile/papers/BasileBos2011ENLG.pdf pipeline.
+The JSON version is a simple JSON structure containing both the
+standard output and the standard error:</p>
+
+<p><code>{"err": "standard error", "out": "standard output"}</code></p>
+
+<h2>Other URLs</h2>
+
+<p>It is possible to access the single tools separately by using the
+folliowing URLs:</p>
+
+<p><code>$CANDCAPI/$FORMAT/t</code><br/>
+<code>$CANDCAPI/$FORMAT/candc</code><br/>
+<code>$CANDCAPI/$FORMAT/boxer</code></p>
+
+<p>The tokenizer <em>t</em> takes in input a normal text. The parser <em>candc</em> takes in
+input a tokenized text, i.e. a list of words separated by whitespace.
+<em>boxer</em> takes in input the Prolog output of the C\&amp;C parser.</p>
+
+<p>For convenience, also the combination of intermediate steps of the
+pipeline are included in the API:</p>
+
+<p><code>$CANDCAPI/$FORMAT/tcandc</code><br/>
+<code>$CANDCAPI/$FORMAT/candcboxer</code></p>
+
+<p>respectively, the call the combination tokenizer/parser and parser/Boxer.</p>
+
+<p>To see the version af C\&amp;C/Boxer used by the API:</p>
+
+<p><code>$CANDCAPI/$FORMAT/version</code></p>
+
+<h2>Graphical output</h2>
+
+<p>Discourse Representation Graph is a semantic formalism described in
+the paper
+<a href="http://www.let.rug.nl/basile/papers/BasileBos2011ENLG.pdf">V. Basile, J. Bos (2011): Towards Generating Text from Discourse Representation Structures</a>.
+The C&amp;C/Boxer API provides an entry point to generate a PNG image of the
+DRG of a given text:</p>
+
+<p><code>$CANDCAPI/drg</code></p>
+
+<p>The URL accepts the same GET parameter as <em>pipeline</em>.</p>
+</div>
+</body>
+</html>

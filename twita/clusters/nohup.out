@@ -1,0 +1,5 @@
+Starting training using file tokens.txt
+ERROR: training data file not found!
+Command exited with non-zero status 1
+0.01user 0.09system 0:00.12elapsed 81%CPU (0avgtext+0avgdata 471888maxresident)k
+0inputs+8outputs (0major+29553minor)pagefaults 0swaps
