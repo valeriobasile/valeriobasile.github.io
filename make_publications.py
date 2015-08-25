@@ -4,6 +4,7 @@ import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
 from bibtexparser.bibdatabase import BibDatabase
 
+# the bib file is generated automatically by Zotero
 with open('publications/publications.bib') as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
 
@@ -27,14 +28,17 @@ with open('publication_list.md', 'w') as md_file:
         else:
             pdf_link = u''
 
-        md_file.write(u"- {0} *{1}* ({2}){3}{4} {5}\n".format(bib_item['author'],
+        # create bibtex file
+        db = BibDatabase()
+        db.entries = [bib_item]
+        bib_file = 'bib/{0}.bib'.format(bib_item['ID'])
+        bib_link = u' [bib]({})'.format(bib_file)
+        with open('publications/{0}'.format(bib_file), 'w') as bib:
+            bib.write(writer.write(db).encode('UTF-8'))
+
+        md_file.write(u"- {0} *{1}* ({2}){3}{4} {5} {6}\n".format(bib_item['author'],
                                                                       bib_item['title'].replace('{','').replace('}',''),
                                                                       bib_item['year'],
                                                                       venue,
                                                                       pages,
-                                                                      pdf_link).encode('UTF-8'))
-
-        db = BibDatabase()
-        db.entries = [bib_item]
-        with open('publications/bib/{0}.bib'.format(bib_item['ID']), 'w') as bib_file:
-            bib_file.write(writer.write(db).encode('UTF-8'))
+                                                                      pdf_link,                                                                      bib_link).encode('UTF-8'))
