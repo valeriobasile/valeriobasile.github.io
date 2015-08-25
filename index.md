@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-I am a researcher in the [Wimmics](http://wimmics.inria.fr/) team of
+I am a postdoc research fellow in the [Wimmics](http://wimmics.inria.fr/) team of
 [INRIA](http://www.inria.fr), under the direction of [Fabien
 Gandon](http://fabien.info).
 
