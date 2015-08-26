@@ -37,8 +37,9 @@ with open('publication_list.md', 'w') as md_file:
             bib.write(writer.write(db).encode('UTF-8'))
 
         md_file.write(u"- {0} *{1}* ({2}){3}{4} {5} {6}\n".format(bib_item['author'],
-                                                                      bib_item['title'].replace('{','').replace('}',''),
-                                                                      bib_item['year'],
-                                                                      venue,
-                                                                      pages,
-                                                                      pdf_link,                                                                      bib_link).encode('UTF-8'))
+                                                                  bib_item['title'].replace('{','').replace('}',''),
+                                                                  bib_item['year'],
+                                                                  venue,
+                                                                  pages,
+                                                                  pdf_link,
+                                                                  bib_link).encode('UTF-8'))
