@@ -62,7 +62,7 @@ A large corpus of semantically annotated English text that anyone can edit.
 Wordrobe
 ------------------------------
 
-A [Game With A Purpose] to collect linguistic annotation.
+A [Game With A Purpose](https://en.wikipedia.org/wiki/Human-based_computation_game) to collect linguistic annotation.
 
 [Link (external)](http://www.wordrobe.org)
 
