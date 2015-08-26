@@ -15,6 +15,9 @@ The bare minimum material to ship a logo should include at least an
 icon version, a monochromatic version, and a version for dark
 background.
 
+Some of these were made in collaboration with [Sara
+Barcena](http://www.sarabarcena.com).
+
 Logos
 -----
 
