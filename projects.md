@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Data and Software
+title: Works
 permalink: /data/
 ---
 
-Here are some of the things I did and software I maintain.
-The [links](/links/) page also contains
-projects I was involved into in the past.
+Here are some of the things I did, or I was involved in somehow, and software I maintain.
 
 TWITA
 --------------------------
@@ -53,3 +51,25 @@ Listnet
 [GNU Octave]() implementation of the Listnet learning-to-rank algorithm.
 
 [Link (github)](https://github.com/valeriobasile/listnet)
+
+The Groningen Meaning Bank
+--------------------------
+
+A large corpus of semantically annotated English text that anyone can edit.
+
+[Link (external)](http://gmb.let.rug.nl/)
+
+Wordrobe
+------------------------------
+
+A [Game With A Purpose] to collect linguistic annotation.
+
+[Link (external)](http://www.wordrobe.org)
+
+Elephant
+-------
+
+Word and sentence boundary detection software (a *tokenizer*, that is),
+based on supervised statistical methods.
+
+[Link (external)](http://gmb.let.rug.nl/elephant)
