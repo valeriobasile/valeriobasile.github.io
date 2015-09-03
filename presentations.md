@@ -10,6 +10,9 @@ Here is a list of presentations I have given here and there.
   EURECOM, Sophia Antipolis, 28/8/2015
   [HTML](EURECOM2015/)
 
+- *Linguistic Games for Semantic Annotation: the Case of Wordrobe*
+  [Digital Humanities Seminar](https://dh.fbk.eu/events/LinguisticGamesSeminar), FBK Trento, 15/12/2014
+
 - *Bad habits in academic code*
   [PyGrunn], Groningen, 9/5/2014
   [PDF](badhabits.pdf)
@@ -80,3 +83,18 @@ Tokenization and Sentence Boundary Detection* (2013)
    *Towards Surface Realisation from Discourse Representation Structures*.
   Computational Linguistics In the Netherlands, Tilburg, Netherlands.
   [PDF](CLIN2012.pdf)
+
+Posters
+-------
+
+- WordNet as an Ontology for Generation
+  [PDF](posters/WebNLG2015.pdf)
+
+- A Lesk-inspired Unsupervised Algorithm for Lexical Choice from WordNet Synsets
+  [PDF](posters/CLiC-it.pdf)
+
+- Gamification for Word Sense Labeling
+  [PDF](posters/senses.pdf)
+
+- Elephant: Sequence Labeling for Word and Sentence Segmentation
+  [PDF](posters/elephant.pdf)
