@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>From Semantics to... Semantics</title>
+
+    <meta name="description" content="From Semantics to... Semantics">
+    <meta name="author" content="Valerio Basile">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Custom Style -->
+    <style type="text/css">
+      .reveal section img.noborder {
+      border: none;
+      background: none;
+      box-shadow: none;
+      }
+      .reveal section td.number {
+        text-align: right;
+      }
+      .reveal section p.tweet {
+        background-image: url(img/twitter.png);
+        background-repeat: no-repeat;
+        background-color: white;
+        color: black;
+        font-size: 75%;
+        font-family: serif;
+        padding: 1em;
+      }
+      .reveal section p.citation {
+        background-image: url(img/paper.png);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 10%;
+        text-align: left;
+      }
+      .reveal section p strong {
+        color: yellow;
+      }
+    </style>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section data-background="img/titlepage.png">
+          <h1>From Semantics to... Semantics</h1>
+          <h3>Adventures in Meaning Banking and Other Stories</h3>
+          <p>
+            Valerio Basile<br/>2/10/2015
+          </p>
+        </section>
+
+        <section>
+          <section>
+            <h3>> whoami</h3>
+            <p class="fragment">Wimmics, INRIA</p>
+            <p class="fragment">PhD at Groningen, NL</p>
+            <p class="fragment">MSc at Bologna, Italy</p>
+          </section>
+        </section>
+
+        <section>
+          <h3>Roadmap</h3>
+          <ol>
+            <li>A collection of Italian tweets.</li>
+            <li>Sentiment Analysis shared task.</li>
+            <li>Beyond message-level Sentiment Analysis.</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>TWITA</h3>
+
+          <section data-transition="none">
+            <p>
+  	           <img src="img/twitter.png" class="noborder"/><br/>
+               Collection of 3+ years of Twitter messages in Italian language.
+            </p>
+            <p>
+               <del>More than half a billion</del>
+               <strong>784,211,691</strong> tweets, and counting...
+            </p>
+          </section>
+
+          <section data-transition="none">
+            <p>
+              Seeds:<br/>
+              <em>vita, Roma, forza, alla, quanto, amore,
+              Milano, Italia, fare, grazie, della, anche, periodo, bene,
+              scuola, dopo, tutto, ancora, tutti, fatto</em>
+              <s>il</s>
+              <s>&egrave;</s>
+              <s>come</s>
+            </p>
+            <p>
+              Second step: <a href="https://github.com/saffsd/langid.py">langid</a>
+            </p>
+          </section>
+
+  	      <section data-transition="none">
+            <pre><code> {"contributors": null, "truncated": false,
+  "text": "\"Si nasce in un posto, si prende una barca per arrivare dove
+  poter nascere ancora, \nsi mettono fiori\u2026
+  http://t.co/Cgn1nfOWVZ", "in_reply_to_status_id": null, "id":
+  451271120575283200, "favorite_count": 0, "source":
+  "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+  "retweeted": false, "coordinates": null, "entities": {"symbols": [],
+  "user_mentions": [], "hashtags": [], "urls": [{"url":
+  "http://t.co/Cgn1nfOWVZ", "indices": [102, 124], "expanded_url":
+  "http://instagram.com/p/mR8JJ1C6V7/", "display_url":
+  "instagram.com/p/mR8JJ1C6V7/"}]}, "in_reply_to_screen_name": null,
+  "id_str": "451271120575283200", "retweet_count": 0,
+  "in_reply_to_user_id": null, "favorited": false, "user":
+  {"follow_request_sent": null, "profile_use_background_image": false,
+  "default_profile_image": false, "id": 276029690,
+  "profile_background_image_url_https":
+  "https://pbs.twimg.com/profile_background_images/774200821/b29332b24409bd98f380fb6356a6e5f7.jpeg",
+  "verified": false, "profile_image_url_https":
+  "https://pbs.twimg.com/profile_images/2653103820/4daecc232d0c1f50986717f1da2d4465_normal.jpeg",
+  "profile_sidebar_fill_color": "EFEFEF", "profile_text_color":
+  "333333", "followers_count": 362, "profile_sidebar_border_color":
+  "000000", "id_str": "276029690", "profile_background_color": "DE1D1D",
+  "listed_count": 2, "is_translation_enabled": false, "utc_offset":
+  7200, "statuses_count": 4071, "description": "profilo ufficiale di
+  maurizio montanino \r\namo la vita in ogni sua forma d'espressione, la
+  musica. cantare: rap/pop/electro funk.  scrivere poesie.",
+  "friends_count": 729, "location": "genova-italy/on the road",
+  "profile_link_color": "579900", "profile_image_url":
+  "http://pbs.twimg.com/profile_images/2653103820/4daecc232d0c1f50986717f1da2d4465_normal.jpeg",
+  "following": null, "geo_enabled": false, "profile_banner_url":
+  "https://pbs.twimg.com/profile_banners/276029690/1358196165",
+  "profile_background_image_url":
+  "http://pbs.twimg.com/profile_background_images/774200821/b29332b24409bd98f380fb6356a6e5f7.jpeg",
+  "name": "maurizio montanino", "lang": "it", "profile_background_tile":
+  true, "favourites_count": 1747, "screen_name": "maui974",
+  "notifications": null, "url": "http://BLOG.libero.it/MUSIConBLOG",
+  "created_at": "Sat Apr 02 14:11:55 +0000 2011",
+  "contributors_enabled": false, "time_zone": "Rome", "protected":
+  false, "default_profile": false, "is_translator": false}, "geo": null,
+  "in_reply_to_user_id_str": null, "possibly_sensitive": false, "lang":
+  "it", "created_at": "Wed Apr 02 08:13:14 +0000 2014", "filter_level":
+  "medium", "in_reply_to_status_id_str": null, "place": null}
+            </code></pre>
+            <p>
+  	    Rich structure.
+            </p>
+          </section>
+        </section>
+
+        <section>
+          <h3>Sentiment Analysis on TWITA</h3>
+          <section data-transition="none">
+            <p>Based on words and synsets</p>
+            <p>
+              <img src="img/wordnet.png" class="noborder"/>
+            </p>
+          </section>
+          <section data-transition="none">
+            <p>
+              MultiWordNet &#8596; WordNet &#8596; SentiWordNet
+            </p>
+            <p>
+              <code><pre>
+buono	a	00631391	0.625	0	1.0	0.625
+buono	a	00633410	0.625	0.125	0.748668167244	0.637377439199
+buono	a	01123148	0.75	0	1.0	0.75
+buono	a	01129977	1	0	1.0	1.0
+buono	a	01372049	0.625	0	1.0	0.625
+buono	a	01800349	0.625	0.125	0.748668167244	0.637377439199
+buono	a	01983162	1	0	1.0	1.0
+buono	n	04849241	0.875	0	1.0	0.875
+buono	n	05142180	0.625	0	1.0	0.625
+buono	n	06518068	0.125	0	1.0	0.125
+buono	n	10138767	0.375	0	1.0	0.375
+buono	n	10138767	0.375	0	1.0	0.375
+cattivo	a	01125429	0	0.625	-1.0	0.625
+cattivo	a	01131043	0	0.875	-1.0	0.875
+cattivo	n	09831856	0	0.25	-1.0	0.25
+cattivo	n	09831962	0	0.125	-1.0	0.125
+cattivo	n	10753546	0	0.375	-1.0	0.375
+cattivo	n	10753546	0	0.375	-1.0	0.375
+cattivo	n	10753546	0	0.375	-1.0	0.375
+cattivo	n	10753779	0	0.25	-1.0	0.25
+cattivo	n	10753779	0	0.25	-1.0	0.25
+              </code></pre>
+            <p>
+          </section>
+          <section data-transition="none">
+            <p>
+              <img src="img/sentspace.png" class="noborder"/>
+            </p>
+          </section>
+          <section data-transition="none">
+            <table>
+              <thead>
+                <th>part-of-speech</th>
+                <th>lemmas</th>
+                <th>synsets</th>
+              </thead>
+              <tr>
+                <td>noun</td>
+                <td class="number">52,257</td>
+                <td class="number">12,228</td>
+              </tr>
+              <tr>
+                <td>adjective</td>
+                <td class="number">3,359</td>
+                <td class="number">1,805</td>
+              </tr>
+              <tr>
+                <td>verb</td>
+                <td class="number">2,775</td>
+                <td class="number">1,260</td>
+              </tr>
+              <tr>
+                <td>adverb</td>
+                <td class="number">1,351</td>
+                <td class="number">750</td>
+              </tr>
+              <tr>
+                <td>all</td>
+                <td class="number">59,742</td>
+                <td class="number">16,043</td>
+              </tr>
+            </table>
+          </section>
+          <section data-transition="none">
+            <p class="tweet">
+              Ho fatto un casino, devo rimediare<br/>
+              <em>I screwed up, I have to fix</em>
+            </p>
+          </section>
+          <section data-transition="none">
+            <p>
+              <code><pre>
+fare		v	00322847	0.125	0	1.0	0.125
+fare		v	01733477	0.125	0	1.0	0.125
+fare		v	01060494	0.25	0	1.0	0.25
+fare		v	01759326	0.25	0.25	0.0	0.353553390593
+fare		v	02109045	0.25	0	1.0	0.25
+casino		n	00075618	0	0.5	-1.0	0.5
+casino		n	05687338	0	0.25	-1.0	0.25
+casino		n	07390945	0	0.25	-1.0	0.25
+casino		n	13777509	0	0.25	-1.0	0.25
+casino		n	14500047	0	0.125	-1.0	0.125
+casino		n	14500047	0	0.125	-1.0	0.125
+dovere		v	00065370	0	0.75	-1.0	0.75
+dovere		v	00065370	0	0.75	-1.0	0.75
+dovere		v	01189113	0	0.25	-1.0	0.25
+rimediare	v	02519991	0	0.125	-1.0	0.125
+              </pre></code>
+            </p>
+          </section>
+          <section data-transition="none">
+            <p class="tweet">
+              Ho fatto un casino, devo rimediare<br/>
+              <em>I screwed up, I have to fix</em>
+            </p>
+            <p>
+              fare: 0.2/0.05<br/>
+              casino: 0/0.25<br/>
+              dovere: 0/0.58<br/>
+              rimediare: 0/0.125
+            </p>
+            <p>
+              TOTAL: 0.2/1.01  &rarr; <strong>Negative</strong>
+            </p>
+          </section>
+          <section data-transition="none">
+            <p>
+              Experiments on a 2,000 tweets gold standard: three-way classification.
+            </p>
+            <p>
+              All combinations of POS-tags + polypathy filter.
+            </p>
+            <p>
+              Best accuracy: 55.4% (51.4% on topic-specific set).
+            </p>
+            <p>
+              Adverbs only + polypathy strategy wins.
+            </p>
+          </section>
+          <section data-transition="none">
+            <p class="citation">
+              V. Basile and M. Nissim<br/>
+              <em>Sentiment Analysis on Italian Tweets</em><br/>
+              Proceedings of the 4th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis
+            <p>
+          </section>
+        </section>
+
+        <section data-background="img/crowd.png" data-background-size="100%" data-background-position="bottom">
+            <h3>Sentiment Polarity Classification task</h3>
+            <section data-transition="none">
+              <p>Shared Task at EVALITA 2014</p>
+              <p>3 subtasks, 2 runs</p>
+            </section>
+            <section data-transition="none">
+              <h3>Subtask 1</h3>
+              <p><strong>Subjectivity</strong></p>
+              <p>subjective/objective</p>
+            </section>
+            <section data-transition="none">
+              <h3>Subtask 2</h3>
+              <p><strong>Polarity</strong></p>
+              <p>neutral/positive/negative/mixed</p>
+            </section>
+            <section data-transition="none">
+              <h3>Subtask 3</h3>
+              <p><strong>Irony</strong> (pilot task)</p>
+              <p>ironic/not ironic</p>
+            </section>
+            <section data-transition="none">
+              <small>
+                <table>
+                  <thead>
+                    <th>subj</th>
+                    <th>pos</th>
+                    <th>neg</th>
+                    <th>iro</th>
+                    <th>interpretation</th>
+                  </thead>
+                  <tr>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>objective</th>
+                  </tr>
+                  <tr>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>subjective</th>
+                  </tr>
+                  <tr>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>0</th>
+                    <th>positive</th>
+                  </tr>
+                  <tr>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>negative</th>
+                  </tr>
+                  <tr>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>mixed polarity</th>
+                  </tr>
+                  <tr>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>positively ironic</th>
+                  </tr>
+                  <tr>
+                    <th>1</th>
+                    <th>0</th>
+                    <th>1</th>
+                    <th>1</th>
+                    <th>negative ironic</th>
+                  </tr>
+                </table>
+              </small>
+            </section>
+            <section data-transition="none">
+              <h3>Gold standard</h3>
+              <p>2 sources: <a href="http://www.di.unito.it/~tutreeb/sentiTUT.html">SentiTUT</a> (Turin),
+                <a href="http://valeriobasile.github.io/twita/">TWITA</a> (Groningen)</p>
+              <p>2 subsets: general, topic-specific (politics)</p>
+              <p>4,513 (training set) + 1,935 (test set) = <strong>6,448</strong> tweets</p>
+              <p>Difficult task for humans! (<em>k=0.35</em> for Task 3)</p>
+            </section>
+            <section data-transition="none">
+              <p>F-score</p>
+              <small>
+                <table>
+                  <thead>
+                    <th>team</th>
+                    <th colspan="2">task 1</th>
+                    <th colspan="2">task 2</th>
+                    <th colspan="2">task 3</th>
+                  </thead>
+                  <thead>
+                    <th></th>
+                    <th>const.</th>
+                    <th>uncost.</th>
+                    <th>const.</th>
+                    <th>uncost.</th>
+                    <th>const.</th>
+                    <th>uncost.</th>
+                  </thead>
+                  <tr>
+                    <td>uniba2930</td>
+                    <td class="number">0.714</td>
+                    <td class="number">0.689</td>
+                    <td class="number">0.677</td>
+                    <td class="number">0.663</td>
+                    <td class="number"></td>
+                    <td class="number"></td>
+                  </tr>
+                  <tr>
+                    <td>UNITOR</td>
+                    <td class="number">0.687</td>
+                    <td class="number">0.689</td>
+                    <td class="number">0.629</td>
+                    <td class="number">0.654</td>
+                    <td class="number">0.575</td>
+                    <td class="number">0.595</td>
+                  </tr>
+                  <tr>
+                    <td>IRADABE</td>
+                    <td class="number">0.670</td>
+                    <td class="number">0.646</td>
+                    <td class="number">0.634</td>
+                    <td class="number">0.618</td>
+                    <td class="number">0.541</td>
+                    <td class="number">0.551</td>
+                  </tr>
+                  <tr>
+                    <td>UPFtaln</td>
+                    <td class="number">0.649</td>
+                    <td class="number"></td>
+                    <td class="number">0.604</td>
+                    <td class="number"></td>
+                    <td class="number">0.468</td>
+                    <td class="number"></td>
+                  </tr>
+                  <tr>
+                    <td>ficlit+cs@unibo</td>
+                    <td class="number">0.597</td>
+                    <td class="number"></td>
+                    <td class="number">0.598</td>
+                    <td class="number"></td>
+                    <td class="number"></td>
+                    <td class="number"></td>
+                  </tr>
+                  <tr>
+                    <td>mind</td>
+                    <td class="number">0.590</td>
+                    <td class="number"></td>
+                    <td class="number">0.534</td>
+                    <td class="number"></td>
+                    <td class="number">0.477</td>
+                    <td class="number"></td>
+                  </tr>
+                  <tr>
+                    <td>SVMSLU</td>
+                    <td class="number">0.582</td>
+                    <td class="number"></td>
+                    <td class="number">0.602</td>
+                    <td class="number"></td>
+                    <td class="number">0.539</td>
+                    <td class="number"></td>
+                  </tr>
+                  <tr>
+                    <td>fbkshelldkm</td>
+                    <td class="number">0.559</td>
+                    <td class="number"></td>
+                    <td class="number">0.562</td>
+                    <td class="number"></td>
+                    <td class="number">0.470</td>
+                    <td class="number"></td>
+                  </tr>
+                  <tr>
+                    <td>itagetaruns</td>
+                    <td class="number">0.522</td>
+                    <td class="number"></td>
+                    <td class="number">0.518</td>
+                    <td class="number"></td>
+                    <td class="number">0.492</td>
+                    <td class="number"></td>
+                  </tr>
+                  <tr>
+                    <td>Itanlp-wafi</td>
+                    <td class="number"></td>
+                    <td class="number"></td>
+                    <td class="number">0.663*</td>
+                    <td class="number"></td>
+                    <td class="number"></td>
+                    <td class="number"></td>
+                  </tr>
+                  <tr>
+                    <td>baseline</td>
+                    <td class="number">0.400</td>
+                    <td class="number"></td>
+                    <td class="number">0.371</td>
+                    <td class="number"></td>
+                    <td class="number"></td>
+                    <td class="number"></td>
+                  </tr>
+                </table>
+              </small>
+            </section>
+            <section data-transition="none">
+              <p class="citation">
+                V. Basile, A. Bolioli, M. Nissim, V. Patti and P. Rosso<br/>
+                <em>Overview of the Evalita 2014 SENTIment POLarity Classification Task</em><br/>
+                Proceedings of the 4th evaluation campaign of Natural Language Processing and Speech tools for Italian (EVALITA'14)
+              <p>
+            </section>
+        </section>
+
+        <section>
+            <h3>Beyond Message-Level Sentiment Analysis</h3>
+            <section data-transition="none">
+              <p>Entity Linking</p>
+              <p class="tweet"><em>il profilo nuovo</em> fa schifo.tutto quel bianco mi fa vomitare.ed è la copia di facebook.ma *****o.</p>
+            </section>
+            <section data-transition="none">
+              <p>Aspect-based Sentiment Analysis</p>
+              <p class="tweet">Tristezza, quando vedi ancora gente che odia i tedeschi per il loro <em>"passato"</em>. Credevo che l'ignoranza e i pregiudizi ormai fossero estinti</p>
+            </section>
+            <section data-transition="none">
+              <p>
+                  Beyond irony
+              <p>
+              <p>
+                <strong>Figurative language</strong>: metaphore, simile, sarcasm, ...
+              <p>
+            </section>
+            <section data-transition="none">
+              <small>
+                <table>
+                  <thead>
+                    <th>subj</th>
+                    <th>pos</th>
+                    <th>neg</th>
+                    <th>iro</th>
+                    <th><strong>opos</strong></th>
+                    <th><strong>subj</strong></th>
+                    <th>description</th>
+                  </thead>
+                  <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><strong>0</strong></td>
+                    <td><strong>0</strong></td>
+                    <td>objective tweet</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><strong>1</strong></td>
+                    <td><strong>0</strong></td>
+                    <td>subjective tweet, positive polarity, no irony</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td><strong>0</strong></td>
+                    <td><strong>0</strong></td>
+                    <td>subjective tweet, neutral polarity, no irony</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td><strong>0</strong></td>
+                    <td><strong>1</strong></td>
+                    <td>subjective tweet, negative polarity, no irony</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td><strong>1</strong></td>
+                    <td><strong>0</strong></td>
+                    <td>subjective tweet, negative literal polarity, positive overall polarity</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td><strong>0</strong></td>
+                    <td><strong>1</strong></td>
+                    <td>subjective tweet, positive literal polarity, negative overall polarity</td>
+                  </tr>
+                </table>
+              </small>
+            </section>
+            <section data-transition="none">
+              <p class="citation">
+                P. Basile, V Basile, M. Nissim and N. Novielli<br/>
+                <em>Deep Tweets: from Entity Linking to Sentiment Analysis</em><br/>
+                (unpublished)
+              <p>
+            </section>
+        </section>
+
+        <section data-transition="zoom" data-background="img/endpage.jpg">
+            <h1>Grazie!</h1>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
