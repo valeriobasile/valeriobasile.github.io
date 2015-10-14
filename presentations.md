@@ -6,6 +6,10 @@ permalink: /presentations/
 
 Here is a list of presentations I have given here and there.
 
+- *From Semantics to... Semantics: Adventures in Meaning Banking and other stories*
+  INRIA, Sophia Antipolis, 2/10/2015
+  [PDF](Wimmics2015.pdf)
+
 - *Sentiment Analysis on Twitter: The Case of Italian Language*
   EURECOM, Sophia Antipolis, 28/8/2015
   [HTML](EURECOM2015/)
