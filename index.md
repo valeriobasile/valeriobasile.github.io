@@ -20,4 +20,4 @@ My research interests include:
 * Social Media
 * Legal Informatics
 
-I like math, videogames, beer, and Oxford commas :)
+I like math, videogames, ~beer~ chamomile tea, and Oxford commas :)
