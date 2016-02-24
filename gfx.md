@@ -21,6 +21,44 @@ Barcena](http://www.sarabarcena.com).
 Logos
 -----
 
+![Centre for Digital Humanities](cdh.png)
+
+The Groningen Centre for Digital Humanities provides a vibrant
+research climate for researchers working at the intersections of
+computer science and the humanities. (from the website)
+
+The logo uses a classical design and warm colors (including the RUG's
+trademark red), while switching to a terminal-type font for the
+initials C, D and H, for a subtle integration of digital and
+humanities feel.
+
+[website](http://www.rug.nl/research/research-let/expertisecentra/centre-for-digital-humanities/?lang=en)
+
+- - -
+
+![Open Game Benchmarks](ogb.png)
+
+A platform to share benchmarks of videogames run on different
+hardware configurations and operating systems.
+
+The logo mixes a gamepad (a staple of gaming) with a stethoscope,
+a typical medical examination tool.
+
+[website](http://www.opengamebenchmarks.org/)
+
+- - -
+
+![PDRT Sandbox](pdrtsandbox.png)
+
+Haskell library that implements Discourse Representation Theory (DRT),
+and its extension Projective Discourse Representation Theory (PDRT).
+
+The logo is simply a pictorial representation of a physical sandbox.
+
+[website](http://hbrouwer.github.io/pdrt-sandbox/)
+
+- - -
+
 ![Groningen Meaning Bank](gmb.png)
 
 A free semantically annotated corpus that anyone can edit.
@@ -41,7 +79,7 @@ Netherlands.
 A free semantically annotated **parallel** corpus (English, Dutch,
 German, and Italian).
 
-Derived from the GMB logo, the cirls is modified to symbolize the
+Derived from the GMB logo, the cirle is modified to symbolize the
 parallelism (parallel bands, that was easy). The color is the inverse
 of the GMB logo.
 
