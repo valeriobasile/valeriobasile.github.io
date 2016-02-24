@@ -1,0 +1,87 @@
+---
+layout: page
+title: PhD Defense
+---
+
+Valerio's Dutch PhD Defense
+===========================
+
+Ever been to a PhD defense in the Netherlands?
+It turns out, the dutch really want to pretend
+it's a big thing, so they dress funny and put on a fancy show.
+
+After the candidate has finished writing the book, it has been
+submitted and approved, they book a time slot for the 
+official ceremony months in advance.
+
+Here are some pictures of what mine looked like.
+Compared to most defenses I've been to, this time
+the room was pretty empty.
+
+<a href="pics/valerio_phd_1.jpg">
+<img alt="PhD defense 1" src="pics/valerio_phd_1.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_2.jpg">
+<img alt="PhD defense 2" src="pics/valerio_phd_2.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_3.jpg">
+<img alt="PhD defense 3" src="pics/valerio_phd_3.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_4.jpg">
+<img alt="PhD defense 4" src="pics/valerio_phd_4.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_5.jpg">
+<img alt="PhD defense 5" src="pics/valerio_phd_5.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_6.jpg">
+<img alt="PhD defense 6" src="pics/valerio_phd_6.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_7.jpg">
+<img alt="PhD defense 7" src="pics/valerio_phd_7.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_8.jpg">
+<img alt="PhD defense 8" src="pics/valerio_phd_8.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_9.jpg">
+<img alt="PhD defense 9" src="pics/valerio_phd_9.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_10.jpg">
+<img alt="PhD defense 10" src="pics/valerio_phd_10.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_11.jpg">
+<img alt="PhD defense 11" src="pics/valerio_phd_11.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_12.jpg">
+<img alt="PhD defense 12" src="pics/valerio_phd_12.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_13.jpg">
+<img alt="PhD defense 13" src="pics/valerio_phd_13.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_14.jpg">
+<img alt="PhD defense 14" src="pics/valerio_phd_14.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_15.jpg">
+<img alt="PhD defense 15" src="pics/valerio_phd_15.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_16.jpg">
+<img alt="PhD defense 16" src="pics/valerio_phd_16.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_17.jpg">
+<img alt="PhD defense 17" src="pics/valerio_phd_17.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_18.jpg">
+<img alt="PhD defense 18" src="pics/valerio_phd_18.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_19.jpg">
+<img alt="PhD defense 19" src="pics/valerio_phd_19.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_20.jpg">
+<img alt="PhD defense 20" src="pics/valerio_phd_20.jpg" width="200px" />
+</a>
+<a href="pics/valerio_phd_21.jpg">
+<img alt="PhD defense 21" src="pics/valerio_phd_21.jpg" width="200px" />
+</a>
+
+After the actual defense (45 minutes of Q&A), the
+supervisor gives a little lighthearted speech praising the
+candidate. [Here is mine](laudatio.md).
