@@ -1,0 +1,42 @@
+body {
+    background: url('back.png');
+}
+
+#container {
+	margin-left:24%;
+	margin-right:24%;
+	font-family: 'Cardo', serif;
+	color: 202020;
+    background-color: #fff;
+    padding: 2em;
+}
+
+td {
+	border: 1px solid #ddd;
+}
+
+.td_number {
+	text-align: right;
+}
+.footnote {
+	font-size: smaller;
+	font-style: italic;
+}
+
+pre {
+	background: #ddd;
+}
+
+hr {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-style: solid;
+    border-width: 1px;
+    width: 30%;
+    clear: both;
+}
+
+h1 {
+    color: #5d4e45;
+}
