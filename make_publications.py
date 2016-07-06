@@ -10,10 +10,10 @@ with open('publications/publications.bib') as bibtex_file:
 
 writer = BibTexWriter()
 with open('publication_list.md', 'w') as md_file:
-    for bib_item in bib_database.entries:
+    for bib_item in reversed(bib_database.entries):
         if 'booktitle' in bib_item:
             venue = u', {}'.format(bib_item['booktitle']).replace('{','').replace('}','')
-        elif bib_item['journal']:
+        elif 'journal' in bib_item:
             venue = u', {}'.format(bib_item['journal'])
         else:
             venue = u''
@@ -28,6 +28,11 @@ with open('publication_list.md', 'w') as md_file:
         else:
             pdf_link = u''
 
+        if 'year' in bib_item:
+            year = u'({})'.format(bib_item['year'])
+        else:
+            year = u''
+
         # create bibtex file
         db = BibDatabase()
         db.entries = [bib_item]
@@ -36,9 +41,9 @@ with open('publication_list.md', 'w') as md_file:
         with open('publications/{0}'.format(bib_file), 'w') as bib:
             bib.write(writer.write(db).encode('UTF-8'))
 
-        md_file.write(u"- {0} *{1}* ({2}){3}{4} {5} {6}\n".format(bib_item['author'],
+        md_file.write(u"- {0} *{1}* {2}{3}{4} {5} {6}\n".format(bib_item['author'],
                                                                   bib_item['title'].replace('{','').replace('}',''),
-                                                                  bib_item['year'],
+                                                                  year,
                                                                   venue,
                                                                   pages,
                                                                   pdf_link,
