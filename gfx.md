@@ -21,6 +21,35 @@ Barcena](http://www.sarabarcena.com).
 Logos
 -----
 
+![KNEWS](knews.png)
+
+KNEWS (Knowledge Extraction With Semantics) is a software that bridges
+semantic parsing, word sense disambiguation, and entity linking to
+produce a unified, LOD-compliant abstract representation of meaning.
+
+Here I used a classic Bodoni font with some kerning adjustment that
+playes with the serifs.
+
+[KNEWS source code](https://github.com/valeriobasile/learningbyreading)
+
+[KNEWS demo](http://gingerbeard.alwaysdata.net/knews/)
+
+- - -
+
+![JURIX](jurix.png)
+
+The 29th International Conference on Legal Knowledge and Information Systems.
+
+The symbol under the word Jurix is reminiscent of a [lambda
+calculus](https://en.wikipedia.org/wiki/Lambda_calculus) expression,
+with the lambda (&lambda;) replaced by a scale, a typical symbol for
+law and justice. The touch of color on the year tries to replicate the
+beautiful blue of the Riviera seaside (venue of the conference).
+
+[website](http://jurix2016.unice.fr/)
+
+- - -
+
 ![Centre for Digital Humanities](cdh.png)
 
 The Groningen Centre for Digital Humanities provides a vibrant
