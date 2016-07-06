@@ -13,11 +13,14 @@ Bos](http://www.rug.nl/staff/johan.bos/).
 My research interests include:
 
 * Computational Semantics
+* Semantic Web
 * Natural Language Generation
+* information Extraction
 * Linguistic Annotation
 * Distributional Semantics
+* General Knowledge Basesy
 * Gamification
 * Social Media
 * Legal Informatics
 
-I like math, videogames, ~beer~ chamomile tea, and Oxford commas :)
+I like math, videogames, <del>beer</del> pasta, and Oxford commas :)
