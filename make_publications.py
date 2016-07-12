@@ -10,7 +10,7 @@ with open('publications/publications.bib') as bibtex_file:
 
 writer = BibTexWriter()
 with open('publication_list.md', 'w') as md_file:
-    for bib_item in reversed(bib_database.entries):
+    for bib_item in bib_database.entries:
         if 'booktitle' in bib_item:
             venue = u', {}'.format(bib_item['booktitle']).replace('{','').replace('}','')
         elif 'journal' in bib_item:
