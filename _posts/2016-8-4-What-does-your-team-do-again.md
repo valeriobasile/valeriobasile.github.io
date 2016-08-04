@@ -25,7 +25,7 @@ in this example on a plane, with their respective distance
 proportional to the similarity of their interests according to their
 overlaps:
 
-![Plot of research interests of Alice, Bob, and Charlie.]("/_posts/researchinterests1.png")
+![Plot of research interests of Alice, Bob, and Charlie.]("/images/researchinterests1.png")
 
 Let's take a closer look at the keywords though. It seems that the
 research of Charlie is much more similar to that of Bob rather than
@@ -34,7 +34,7 @@ Ray tracing is somewhat related to computer graphics, user
 interfaces and human-computer interaction are clearly similar
 fields. Actually the plot above should look like this:
 
-![Plot of research interests of Alice, Bob, and Charlie, corrected.]("/_posts/researchinterests2.png")
+![Plot of research interests of Alice, Bob, and Charlie, corrected.]("/images/researchinterests2.png")
 
 Obviously the simple model based on keyword overlap is not able to
 capture the finer aspects of the semantics of the keywords. Can we do
@@ -77,7 +77,7 @@ dimensionality reduction, is needed. I used
 for dimensionality reduction particularly designed with visualization
 in mind. Here's the result, plotted with [matplotlib]():
 
-![Plot of research interests of the WIMMICS team at Inria.]("/_posts/researchinterests3.png")
+![Plot of research interests of the WIMMICS team at Inria.]("/images/researchinterests3.png")
 
 Since the people vectors and the interest vectors live in the same
 geometric space, they can be plotted together. t-SNE ensures, up to a
