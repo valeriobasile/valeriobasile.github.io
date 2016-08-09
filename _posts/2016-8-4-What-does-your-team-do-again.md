@@ -103,7 +103,7 @@ EDIT 9/8/2016
 The picture above is nice, but it has something that really bothers
 me: overlapping labels. So I exported the coordinates, the labels and
 the respective colors, and I imported them into R. Here, I used the
-popular plotting library [ggpolt](http://ggplot2.org/) to make a new
+popular plotting library [ggplot](http://ggplot2.org/) to make a new
 plot. More interestingly, I used a new library called
 [ggrepel](https://github.com/slowkow/ggrepel) to have the labels in
 the plot sort of *repelling* each other, so they are not intersecting
@@ -113,3 +113,7 @@ the labels will still overlap sometimes, but the result is beautiful:
 [![Plot of research interests of the WIMMICS team at Inria with
 repelling
 labels.](https://valeriobasile.github.io/images/researchinterests4.png)](https://valeriobasile.github.io/images/researchinterests4.png)
+
+Also, this map is more complete and contains the research interests of
+most members of the [SPARKS](http://www.i3s.unice.fr/sparks) joint
+team.
