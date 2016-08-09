@@ -77,7 +77,8 @@ dimensionality reduction, is needed. I used
 for dimensionality reduction particularly designed with visualization
 in mind. Here's the result, plotted with [matplotlib]():
 
-![Plot of research interests of the WIMMICS team at Inria.](https://valeriobasile.github.io/images/researchinterests3.png)
+[![Plot of research interests of the WIMMICS team at
+Inria.](https://valeriobasile.github.io/images/researchinterests3.png)](https://valeriobasile.github.io/images/researchinterests3.png)
 
 Since the people vectors and the interest vectors live in the same
 geometric space, they can be plotted together. t-SNE ensures, up to a
@@ -95,3 +96,20 @@ apart.
 
 Nevertheless, it's been a fun afternoon project in under 50 lines of
 Python, and perhaps we now know a little bit more about our own work.
+
+EDIT 9/8/2016
+-------------
+
+The picture above is nice, but it has something that really bothers
+me: overlapping labels. So I exported the coordinates, the labels and
+the respective colors, and I imported them into R. Here, I used the
+popular plotting library [ggpolt](http://ggplot2.org/) to make a new
+plot. More interestingly, I used a new library called
+[ggrepel](https://github.com/slowkow/ggrepel) to have the labels in
+the plot sort of *repelling* each other, so they are not intersecting
+anymore. It still takes some adjustment, if the plot is too crammed
+the labels will still overlap sometimes, but the result is beautiful:
+
+[![Plot of research interests of the WIMMICS team at Inria with
+repelling
+labels.](https://valeriobasile.github.io/images/researchinterests4.png)](https://valeriobasile.github.io/images/researchinterests4.png)
