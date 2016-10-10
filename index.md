@@ -15,12 +15,14 @@ My research interests include:
 * Computational Semantics
 * Semantic Web
 * Natural Language Generation
-* information Extraction
+* Information Extraction
 * Linguistic Annotation
 * Distributional Semantics
-* General Knowledge Basesy
+* General Knowledge Bases
 * Gamification
 * Social Media
+* Sentiment Analysis
 * Legal Informatics
+* Argument Mining
 
 I like math, videogames, <del>beer</del> pasta, and Oxford commas :)
