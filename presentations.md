@@ -6,6 +6,14 @@ permalink: /presentations/
 
 Here is a list of presentations I have given here and there.
 
+- *Building a default knowledge base of objects (and other stories of robots)*
+  University of Turin, 16/11/2016
+  [PDF](Unito2016.pdf)
+
+- *Meaning Banking and Beyond*
+  University of Montreal, 18/11/2015
+  [PDF](MeaningBankingAndBeyond.pdf)
+
 - *From Semantics to... Semantics: Adventures in Meaning Banking and other stories*
   INRIA, Sophia Antipolis, 2/10/2015
   [PDF](Wimmics2015.pdf)
