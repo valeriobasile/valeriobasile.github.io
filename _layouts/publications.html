@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<style>
+  #bibtex_code {
+  display: none;
+  }
+</style>
+
+
+<article class="publications">
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <ul>
+    {% for publication in site.data.publications %}
+    <li>
+      {{ publication.Author }}:
+      <em>{{ publication.Title }}</em>,
+      <a href="{{ publication.PublicationURL }}">{{ publication.Publication }} </a>
+      <a href="{{ publication.URL }}">PDF</a>
+      <div id="bibtex">
+	bibtex
+	<div id="bibtex_code">
+	<pre>
+{{ publication.Bibtex }}
+        </pre>
+	</div>
+      </div>
+    </li>
+    {% endfor %}
+    </ul>
+</article>
+
+<script language='javascript'>
+$(document).ready(function(){
+  $('#bibtex').click(function(){
+    $(this).find('#bibtex_code').toggle();
+  });
+});
+</script>
+
+y
