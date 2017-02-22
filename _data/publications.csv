@@ -1,14 +1,20 @@
 "Type","Year","Author","Title","Publication","PublicationURL","URL","Bibtex"
+"conferencePaper","2016","Valerio Basile, Francesco Barbieri, Danilo Croce, Malvina Nissim, Nicole Novielli, Viviana Patti","Overview of the EVALITA 2016 SENTiment POLarity Classification Task","CliC-it 2016/EVALITA2016","http://clic-it2016.dieti.unina.it/index.php/en/","https://hal.inria.fr/hal-01414731/document","@article{basile_evalita_2016,
+	title = {Evalita 2016 {Sentipolc} {Task} {Task} {Guidelines}},
+	author = {Basile, Valerio and Barbieri, Francesco and Croce, Danilo and Nissim, Malvina and Novielli, Nicole and Patti, Viviana},
+	year = {2016}
+}"
+"conferencePaper","2016","Pierpaolo Basile, Valerio Basile, Elena Cabrio, Serena Villata","Argument Mining on Italian News Blogs","CliC-it 2016/EVALITA201","http://clic-it2016.dieti.unina.it/index.php/en/","https://hal.inria.fr/hal-01414698/document","@inproceedings{basile2016argument,
+  title={Argument Mining on Italian News Blogs},
+  author={Basile, Pierpaolo and Basile, Valerio and Cabrio, Elena and Villata, Serena},
+  booktitle={Third Italian Conference on Computational Linguistics (CLiC-it 2016) \& Fifth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2016)},
+  year={2016}
+}"
 "conferencePaper","2016","Valerio Basile, Soufian Jebbara, Elena Cabrio, Philipp Cimiano","Populating a Knowledge Base with Object-Location Relations Using Distributional Semantics","EKAW 2016","http://ekaw2016.cs.unibo.it/","https://hal.inria.fr/hal-01403909/document","@article{basile_populating_2016,
 	title = {Populating a {Knowledge} {Base} with {Object}-{Location} {Relations} {Using} {Distributional} {Semantics}},
 	author = {Basile, Valerio and Jebbara, Soufian and Cabrio, Elena and Cimiano, Philipp},
 	year = {2016},
 	file = {ekaw2016.pdf:files/295/ekaw2016.pdf:application/pdf}
-}"
-"journalArticle","2016","Valerio Basile, Francesco Barbieri, Danilo Croce, Malvina Nissim, Nicole Novielli, Viviana Patti","Evalita 2016 Sentipolc Task Task Guidelines","CliC-it 2016/EVALITA2016","http://clic-it2016.dieti.unina.it/index.php/en/","https://hal.inria.fr/hal-01414731/document","@article{basile_evalita_2016,
-	title = {Evalita 2016 {Sentipolc} {Task} {Task} {Guidelines}},
-	author = {Basile, Valerio and Barbieri, Francesco and Croce, Danilo and Nissim, Malvina and Novielli, Nicole and Patti, Viviana},
-	year = {2016}
 }"
 "conferencePaper","2016","Valerio Basile, Elena Cabrio, Serena Villata, Claude Frasson, Fabien Gandon","A Pragma-Semantic Analysis of the Emotion/Sentiment Relation in Debates","AIC 2016","http://www.di.unito.it/~lieto/AIC2016/","https://hal.inria.fr/hal-01342438/document","@inproceedings{basile_pragma-semantic_2016,
 	title = {A {Pragma}-{Semantic} {Analysis} of the {Emotion}/{Sentiment} {Relation} in {Debates}},
@@ -17,7 +23,7 @@
 	year = {2016},
 	file = {AIC2016.pdf:files/286/AIC2016.pdf:application/pdf}
 }"
-"conferencePaper","2016","Young Jay, Valerio Basile, Lars Kunze, Elena Cabrio, Hawes Nick","Towards Lifelong Object Learning by Integrating Situated Robot Perception and Semantic Web Mining","ECAI 2016","http://www.ecai2016.org/","https://hal.inria.fr/hal-01370140/document","@inproceedings{jay_towards_2016,
+"conferencePaper","2016","Jay Young, Valerio Basile, Lars Kunze, Elena Cabrio, Nick Hawes","Towards Lifelong Object Learning by Integrating Situated Robot Perception and Semantic Web Mining","ECAI 2016","http://www.ecai2016.org/","https://hal.inria.fr/hal-01370140/document","@inproceedings{jay_towards_2016,
 	title = {Towards {Lifelong} {Object} {Learning} by {Integrating} {Situated} {Robot} {Perception} and {Semantic} {Web} {Mining}},
 	booktitle = {Proceedings of the {European} {Conference} on {Artificial} {Intelligence} ({ECAI})},
 	author = {Jay, Young and Basile, Valerio and Kunze, Lars and Cabrio, Elena and Nick, Hawes},
