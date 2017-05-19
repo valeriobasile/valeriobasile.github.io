@@ -2,13 +2,6 @@
 layout: default
 ---
 
-<style>
-  #bibtex_code {
-  display: none;
-  }
-</style>
-
-
 <article class="publications">
 
   <h1>{{ page.title }}</h1>
@@ -28,7 +21,7 @@ layout: default
         <a href="{{ publication.PublicationURL }}">{{ publication.Publication }}</a>,
       {% endif %}
       <a href="{{ publication.URL }}">PDF</a>,
-      <!--<a href="bibtex.html#{{ publication.Id }}">bibtex</a>-->
+      <a href="/bibtex#{{ publication.Id }}">bibtex</a>
     </li>
     {% endfor %}
     </ul>
