@@ -22,27 +22,14 @@ layout: default
     <li>
       {{ publication.Author }}:
       <em>{{ publication.Title }}</em>,
-      <a href="{{ publication.PublicationURL }}">{{ publication.Publication }} </a>
-      <a href="{{ publication.URL }}">PDF</a>
-      <div id="bibtex">
-	bibtex
-	<div id="bibtex_code">
-	<pre>
-{{ publication.Bibtex }}
-        </pre>
-	</div>
-      </div>
+      {% if publication.PublicationURL == null %}
+        {{ publication.Publication }},
+      {% else %}
+        <a href="{{ publication.PublicationURL }}">{{ publication.Publication }}</a>,
+      {% endif %}
+      <a href="{{ publication.URL }}">PDF</a>,
+      <!--<a href="bibtex.html#{{ publication.Id }}">bibtex</a>-->
     </li>
     {% endfor %}
     </ul>
 </article>
-
-<script language='javascript'>
-$(document).ready(function(){
-  $('#bibtex').click(function(){
-    $(this).find('#bibtex_code').toggle();
-  });
-});
-</script>
-
-y
