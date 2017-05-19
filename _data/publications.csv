@@ -1,4 +1,10 @@
 "Id","Type","Year","Author","Title","Publication","PublicationURL","URL","Bibtex"
+25,"conferencePaper",2017,"Jay Young, Lars Kunze, Valerio Basile, Elena Cabrio, Nick Hawes, Barbara Caputo","Semantic Web-Mining and Deep Vision for Lifelong Object Discovery","ICRA 2017","http://www.icra2017.org/","https://hal.inria.fr/hal-01524902/document","@inproceedings{young2017semantic,
+  title={Semantic Web-Mining and Deep Vision for Lifelong Object Discovery},
+  author={Young, Jay and Basile, V and Cabrio, E and Hawes, N and Caputo, B},
+  booktitle={Proc ICRA},
+  year={2017}
+}"
 24,"conferencePaper","2016","Valerio Basile, Francesco Barbieri, Danilo Croce, Malvina Nissim, Nicole Novielli, Viviana Patti","Overview of the EVALITA 2016 SENTiment POLarity Classification Task","CliC-it 2016/EVALITA2016","http://clic-it2016.dieti.unina.it/index.php/en/","https://hal.inria.fr/hal-01414731/document","@article{basile_evalita_2016,
 	title = {Evalita 2016 {Sentipolc} {Task} {Task} {Guidelines}},
 	author = {Basile, Valerio and Barbieri, Francesco and Croce, Danilo and Nissim, Malvina and Novielli, Nicole and Patti, Viviana},
