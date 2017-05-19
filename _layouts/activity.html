@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="activity">
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <ul>
+    {% for item in site.data.activity %}
+    <li>
+      <strong>{{ item.Role }} ({{ item.Year }})</strong><br/>
+      {% if item.URL != null %}
+        <a href="{{ item.URL }}">{{ item.Description }}</a>
+      {% else %}
+        {{ item.Description }}
+      {% endif %}
+    </li>
+    {% endfor %}
+    </ul>
+</article>
