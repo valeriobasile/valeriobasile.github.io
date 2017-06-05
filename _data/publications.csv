@@ -1,4 +1,13 @@
 "Id","Type","Year","Author","Title","Publication","PublicationURL","URL","Bibtex"
+26,"book review",2017,"Valerio Basile","van Deemter K., Computational Models of Referring: A study in cognitive science","Language and Cognition","https://www.cambridge.org/core/journals/language-and-cognition",,"@article{basile2017van,
+  title={van Deemter K., Computational Models of Referring: A study in cognitive science. MIT Press, 2016. Pp. 339. ISBN: 978-0-262-03455-5 (hardcover)},
+  author={BASILE, VALERIO},
+  journal={Language and Cognition},
+  pages={1--5},
+  year={2017},
+  publisher={Cambridge University Press}
+}
+"
 25,"conferencePaper",2017,"Jay Young, Lars Kunze, Valerio Basile, Elena Cabrio, Nick Hawes, Barbara Caputo","Semantic Web-Mining and Deep Vision for Lifelong Object Discovery","ICRA 2017","http://www.icra2017.org/","https://hal.inria.fr/hal-01524902/document","@inproceedings{young2017semantic,
   title={Semantic Web-Mining and Deep Vision for Lifelong Object Discovery},
   author={Young, Jay and Basile, V and Cabrio, E and Hawes, N and Caputo, B},
