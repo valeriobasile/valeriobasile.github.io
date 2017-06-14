@@ -21,6 +21,21 @@ Barcena](http://www.sarabarcena.com).
 Logos
 -----
 
+![CREOL](creol.png)
+
+Contextual Representation of Objects and Events in Language (CREOL
+2017) is the first edition of an international venue focussed on
+investigating the relationship between representations of objects and
+events in ontological and linguistic resources, and their
+interpretation in their context of occurrence.
+
+The logo takes inspiration by a typical example used in the field,
+that of an orange observed as food as opposed to as a child's toy.
+
+[CREOL 2017 workshop](http://creol2017.di.unito.it/)
+
+- - -
+
 ![WASABI](wasabi.png)
 
 WASABI is a research project that aims at enriching the experience of
@@ -36,6 +51,7 @@ reference to the popular japanese sauce by the same name.
 [WASABI project page](http://www.agence-nationale-recherche.fr/?Project=ANR-16-CE23-0017)
 
 - - -
+
 ![KNEWS](knews.png)
 
 KNEWS (Knowledge Extraction With Semantics) is a software that bridges
