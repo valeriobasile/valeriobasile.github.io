@@ -6,6 +6,17 @@ permalink: /data/
 
 Here are some of the things I did, or I was involved in somehow, and software I maintain.
 
+KNEWS
+-----
+
+KNEWS (Knowledge Extraction With Semantics) is a software that bridges
+semantic parsing, word sense disambiguation, and entity linking to
+produce a unified, LOD-compliant abstract representation of meaning.
+
+[KNEWS source code](https://github.com/valeriobasile/learningbyreading)
+
+[KNEWS demo](http://gingerbeard.alwaysdata.net/knews/)
+
 TWITA
 --------------------------
 
