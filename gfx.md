@@ -21,6 +21,20 @@ Barcena](http://www.sarabarcena.com).
 Logos
 -----
 
+![DeKO](deko.png)
+
+DeKO (Default Knowledge about Objects) is a large database of common
+knowledge about objects. The knowledge has been collected as part of
+the work of the [ALOOF project](https://project.inria.fr/aloof/) and
+it comes from several sources and techniques.
+
+The shapes encased in the letters are highly abstract representations
+of a knife and a glass of water.
+
+[DeKO page](http://dekokg.org/)
+
+- - -
+
 ![CREOL](creol.png)
 
 Contextual Representation of Objects and Events in Language (CREOL
