@@ -21,6 +21,21 @@ Barcena](http://www.sarabarcena.com).
 Logos
 -----
 
+![WASABI](wasabi.png)
+
+WASABI is a research project that aims at enriching the experience of
+music listeners by providing additional information such as biography
+or albums by the same artist, and offer suggestions to listen to other
+artists or songs "similar". The technology involved in the project
+includes the automatic analysis of music and lyrics, as well as
+linking and reasoning on the Semantic Web.
+
+The W of the logo resembles a waveform, while the color green is a
+reference to the popular japanese sauce by the same name.
+
+[WASABI project page](http://www.agence-nationale-recherche.fr/?Project=ANR-16-CE23-0017)
+
+- - -
 ![KNEWS](knews.png)
 
 KNEWS (Knowledge Extraction With Semantics) is a software that bridges
