@@ -1,5 +1,5 @@
 "Id","Type","Year","Author","Title","Publication","PublicationURL","URL","Bibtex"
-27,"book chapter",2017,"Johan Bos, Valerio Basile, Kilian Evang, Noortje Venhuizen, Johannes Bjerva","The Groningen Meaning Bank","Handbook of Linguistic Annotation","http://www.springer.com/us/book/9789402408799","https://link.springer.com/chapter/10.1007/978-94-024-0881-2_18","@incollection{bos2017groningen,
+27,"book chapter",2017,"Johan Bos, Valerio Basile, Kilian Evang, Noortje Venhuizen, Johannes Bjerva","The Groningen Meaning Bank","Handbook of Linguistic Annotation","http://www.springer.com/us/book/9789402408799","https://hal.inria.fr/hal-01547329/document","@incollection{bos2017groningen,
   title={The groningen meaning bank},
   author={Bos, Johan and Basile, Valerio and Evang, Kilian and Venhuizen, Noortje J and Bjerva, Johannes},
   booktitle={Handbook of Linguistic Annotation},
