@@ -1,4 +1,13 @@
 "Id","Type","Year","Author","Title","Publication","PublicationURL","URL","Bibtex"
+27,"book chapter",2017,"Johan Bos, Valerio Basile, Kilian Evang, Noortje Venhuizen, Johannes Bjerva","The Groningen Meaning Bank","Handbook of Linguistic Annotation","http://www.springer.com/us/book/9789402408799","https://link.springer.com/chapter/10.1007/978-94-024-0881-2_18","@incollection{bos2017groningen,
+  title={The groningen meaning bank},
+  author={Bos, Johan and Basile, Valerio and Evang, Kilian and Venhuizen, Noortje J and Bjerva, Johannes},
+  booktitle={Handbook of Linguistic Annotation},
+  pages={463--496},
+  year={2017},
+  publisher={Springer Netherlands}
+}
+"
 26,"book review",2017,"Valerio Basile","van Deemter K., Computational Models of Referring: A study in cognitive science","Language and Cognition","https://www.cambridge.org/core/journals/language-and-cognition",,"@article{basile2017van,
   title={van Deemter K., Computational Models of Referring: A study in cognitive science. MIT Press, 2016. Pp. 339. ISBN: 978-0-262-03455-5 (hardcover)},
   author={BASILE, VALERIO},
