@@ -6,6 +6,10 @@ permalink: /presentations/
 
 Here is a list of presentations I have given here and there.
 
+- *ALOOF: Autonomous Learning of the Meaning of Objects*
+  CREOL @ JOWO 2017, Free University of Bolzano, 23/9/2017
+  [HTML](ALOOF/)
+
 - *Building a default knowledge base of objects (and other stories of robots)*
   University of Turin, 16/11/2016
   [PDF](Unito2016.pdf)
