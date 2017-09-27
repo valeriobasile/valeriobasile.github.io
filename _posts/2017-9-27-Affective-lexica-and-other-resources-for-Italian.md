@@ -14,4 +14,9 @@ Publication: [V. Basile and M. Nissim (WASSA 2013)](http://www.aclweb.org/anthol
 
 * Lexicon created semi-automatically for the participation to the [EVALITA 2014](http://www.evalita.it/2014) shared task [SENTIPOLC](http://www.di.unito.it/~tutreeb/sentipolc-evalita14/index.html). Described in [Di Gennaro, Rossi e Tamburini (EVALITA 2014)](https://docs.google.com/viewer?url=http%3A%2F%2Fwww.fileli.unipi.it%2Fprojects%2Fclic%2Fproceedings%2FProceedings-EVALITA-2014.pdf).
 
+* Sentiment lexicon developed semi-automatically for the [Opener project]. It contains 24.293 lexical entries labeled with positive/neutral/negative polarity. Available at [https://dspace-clarin-it.ilc.cnr.it/repository/xmlui/handle/20.500.11752/ILC-73](https://dspace-clarin-it.ilc.cnr.it/repository/xmlui/handle/20.500.11752/ILC-73).*
+
+* Proprietary sentiment lexicon containing single words, multiword expressions and idiomatic expressions, annotated with polarity, intensity, emotions and domain distributed by [CELI](https://www.celi.it/) under commercial licence. Described in [A. Bolioli, F. Salamino, V. Porzionato (ESSEM 2013)](http://ceur-ws.org/Vol-1096/paper12.pdf).
+
+
 If you know of other resources that would fit the list above, feel free to contact me, I'ĺl be happy to update the list.
