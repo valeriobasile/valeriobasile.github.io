@@ -26,6 +26,8 @@ Publication: [V. Basile and M. Nissim (WASSA 2013)](http://www.aclweb.org/anthol
 
 * **SentiWords** High coverage resource containing roughly 155.000 English words associated with a sentiment score included between -1 and 1. Available at [http://hlt-nlp.fbk.eu/technologies/sentiwords](http://hlt-nlp.fbk.eu/technologies/sentiwords). Described in [Gatti L., Guerini M. & Turchi M. (2015)](http://arxiv.org/abs/1510.09079).
 
-A big thank you to all the contributors. If you know of other resources that would fit the list above, feel free to contact me, I'ĺl be happy to update the list.
+* **SentIta and Doxa** italian databases and tools for sentiment analysis.
+
+A big thank you to all the contributors. If you know of other resources that would fit the list above, feel free to contact me, I'll be happy to update the list.
 
 
