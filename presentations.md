@@ -6,6 +6,10 @@ permalink: /presentations/
 
 Here is a list of presentations I have given here and there.
 
+- *Commonsense Knowledge Bases*
+  [LCL Reading Group](http://wwwusers.di.uniroma1.it/~basile/readinggroup/), University of Rome "La Sapienza", 23/11/2017
+  [PDF](commonsensekb.pdf)
+
 - *ALOOF: Autonomous Learning of the Meaning of Objects*
   CREOL @ JOWO 2017, Free University of Bolzano, 23/9/2017
   [HTML](ALOOF/)
