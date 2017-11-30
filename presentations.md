@@ -107,14 +107,8 @@ Tokenization and Sentence Boundary Detection* (2013)
 Posters
 -------
 
-- WordNet as an Ontology for Generation
-  [PDF](posters/WebNLG2015.pdf)
+[![WordNet as an Ontology for Generation](posters/WebNLG2015.png)](posters/WebNLG2015.pdf)
+[![A Lesk-inspired Unsupervised Algorithm for Lexical Choice from WordNet Synsets](posters/CLiC-it.png)](posters/CLiC-it.pdf)
+[![Gamification for Word Sense Labeling](posters/senses.png)](posters/senses.pdf)
+[![Elephant: Sequence Labeling for Word and Sentence Segmentation](posters/elephant.png)](posters/elephant.pdf)
 
-- A Lesk-inspired Unsupervised Algorithm for Lexical Choice from WordNet Synsets
-  [PDF](posters/CLiC-it.pdf)
-
-- Gamification for Word Sense Labeling
-  [PDF](posters/senses.pdf)
-
-- Elephant: Sequence Labeling for Word and Sentence Segmentation
-  [PDF](posters/elephant.pdf)

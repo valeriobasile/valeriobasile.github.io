@@ -1,5 +1,13 @@
-"Id","Type","Year","Author","Title","Publication","PublicationURL","URL","Bibtex"
-27,"book chapter",2017,"Johan Bos, Valerio Basile, Kilian Evang, Noortje Venhuizen, Johannes Bjerva","The Groningen Meaning Bank","Handbook of Linguistic Annotation","http://www.springer.com/us/book/9789402408799","https://hal.inria.fr/hal-01547329/document","@incollection{bos2017groningen,
+Id,Type,Year,Author,Title,Publication,PublicationURL,URL,Bibtex
+28,,2017,"Jay Young, Valerio Basile, Markus Suchi, Lars Kunze, Nick Hawes, Markus Vincze, Barbara Caputo",Making sense of indoor spaces using semantic web mining and situated robot perception,ESWC 2017,https://2017.eswc-conferences.org/,https://pdfs.semanticscholar.org/7a0f/24f82b632cd08134777d869c7c9941af67fb.pdf,"@inproceedings{young2017making,
+  title={Making sense of indoor spaces using semantic web mining and situated robot perception},
+  author={Young, Jay and Basile, Valerio and Suchi, Markus and Kunze, Lars and Hawes, Nick and Vincze, Markus and Caputo, Barbara},
+  booktitle={European Semantic Web Conference},
+  pages={299--313},
+  year={2017},
+  organization={Springer, Cham}
+}"
+27,book chapter,2017,"Johan Bos, Valerio Basile, Kilian Evang, Noortje Venhuizen, Johannes Bjerva",The Groningen Meaning Bank,Handbook of Linguistic Annotation,http://www.springer.com/us/book/9789402408799,https://hal.inria.fr/hal-01547329/document,"@incollection{bos2017groningen,
   title={The groningen meaning bank},
   author={Bos, Johan and Basile, Valerio and Evang, Kilian and Venhuizen, Noortje J and Bjerva, Johannes},
   booktitle={Handbook of Linguistic Annotation},
@@ -8,7 +16,7 @@
   publisher={Springer Netherlands}
 }
 "
-26,"book review",2017,"Valerio Basile","van Deemter K., Computational Models of Referring: A study in cognitive science","Language and Cognition","https://www.cambridge.org/core/journals/language-and-cognition",,"@article{basile2017van,
+26,book review,2017,Valerio Basile,"van Deemter K., Computational Models of Referring: A study in cognitive science",Language and Cognition,https://www.cambridge.org/core/journals/language-and-cognition,,"@article{basile2017van,
   title={van Deemter K., Computational Models of Referring: A study in cognitive science. MIT Press, 2016. Pp. 339. ISBN: 978-0-262-03455-5 (hardcover)},
   author={BASILE, VALERIO},
   journal={Language and Cognition},
@@ -17,58 +25,58 @@
   publisher={Cambridge University Press}
 }
 "
-25,"conferencePaper",2017,"Jay Young, Lars Kunze, Valerio Basile, Elena Cabrio, Nick Hawes, Barbara Caputo","Semantic Web-Mining and Deep Vision for Lifelong Object Discovery","ICRA 2017","http://www.icra2017.org/","https://hal.inria.fr/hal-01524902/document","@inproceedings{young2017semantic,
+25,conferencePaper,2017,"Jay Young, Lars Kunze, Valerio Basile, Elena Cabrio, Nick Hawes, Barbara Caputo",Semantic Web-Mining and Deep Vision for Lifelong Object Discovery,ICRA 2017,http://www.icra2017.org/,https://hal.inria.fr/hal-01524902/document,"@inproceedings{young2017semantic,
   title={Semantic Web-Mining and Deep Vision for Lifelong Object Discovery},
   author={Young, Jay and Basile, V and Cabrio, E and Hawes, N and Caputo, B},
   booktitle={Proc ICRA},
   year={2017}
 }"
-24,"conferencePaper","2016","Valerio Basile, Francesco Barbieri, Danilo Croce, Malvina Nissim, Nicole Novielli, Viviana Patti","Overview of the EVALITA 2016 SENTiment POLarity Classification Task","CliC-it 2016/EVALITA2016","http://clic-it2016.dieti.unina.it/index.php/en/","https://hal.inria.fr/hal-01414731/document","@article{basile_evalita_2016,
+24,conferencePaper,2016,"Valerio Basile, Francesco Barbieri, Danilo Croce, Malvina Nissim, Nicole Novielli, Viviana Patti",Overview of the EVALITA 2016 SENTiment POLarity Classification Task,CliC-it 2016/EVALITA2016,http://clic-it2016.dieti.unina.it/index.php/en/,https://hal.inria.fr/hal-01414731/document,"@article{basile_evalita_2016,
 	title = {Evalita 2016 {Sentipolc} {Task} {Task} {Guidelines}},
 	author = {Basile, Valerio and Barbieri, Francesco and Croce, Danilo and Nissim, Malvina and Novielli, Nicole and Patti, Viviana},
 	year = {2016}
 }"
-23,"conferencePaper","2016","Pierpaolo Basile, Valerio Basile, Elena Cabrio, Serena Villata","Argument Mining on Italian News Blogs","CliC-it 2016/EVALITA201","http://clic-it2016.dieti.unina.it/index.php/en/","https://hal.inria.fr/hal-01414698/document","@inproceedings{basile2016argument,
+23,conferencePaper,2016,"Pierpaolo Basile, Valerio Basile, Elena Cabrio, Serena Villata",Argument Mining on Italian News Blogs,CliC-it 2016/EVALITA201,http://clic-it2016.dieti.unina.it/index.php/en/,https://hal.inria.fr/hal-01414698/document,"@inproceedings{basile2016argument,
   title={Argument Mining on Italian News Blogs},
   author={Basile, Pierpaolo and Basile, Valerio and Cabrio, Elena and Villata, Serena},
   booktitle={Third Italian Conference on Computational Linguistics (CLiC-it 2016) \& Fifth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian. Final Workshop (EVALITA 2016)},
   year={2016}
 }"
-22,"conferencePaper","2016","Valerio Basile, Soufian Jebbara, Elena Cabrio, Philipp Cimiano","Populating a Knowledge Base with Object-Location Relations Using Distributional Semantics","EKAW 2016","http://ekaw2016.cs.unibo.it/","https://hal.inria.fr/hal-01403909/document","@article{basile_populating_2016,
+22,conferencePaper,2016,"Valerio Basile, Soufian Jebbara, Elena Cabrio, Philipp Cimiano",Populating a Knowledge Base with Object-Location Relations Using Distributional Semantics,EKAW 2016,http://ekaw2016.cs.unibo.it/,https://hal.inria.fr/hal-01403909/document,"@article{basile_populating_2016,
 	title = {Populating a {Knowledge} {Base} with {Object}-{Location} {Relations} {Using} {Distributional} {Semantics}},
 	author = {Basile, Valerio and Jebbara, Soufian and Cabrio, Elena and Cimiano, Philipp},
 	year = {2016},
 	file = {ekaw2016.pdf:files/295/ekaw2016.pdf:application/pdf}
 }"
-21,"conferencePaper","2016","Valerio Basile, Elena Cabrio, Serena Villata, Claude Frasson, Fabien Gandon","A Pragma-Semantic Analysis of the Emotion/Sentiment Relation in Debates","AIC 2016","http://www.di.unito.it/~lieto/AIC2016/","https://hal.inria.fr/hal-01342438/document","@inproceedings{basile_pragma-semantic_2016,
+21,conferencePaper,2016,"Valerio Basile, Elena Cabrio, Serena Villata, Claude Frasson, Fabien Gandon",A Pragma-Semantic Analysis of the Emotion/Sentiment Relation in Debates,AIC 2016,http://www.di.unito.it/~lieto/AIC2016/,https://hal.inria.fr/hal-01342438/document,"@inproceedings{basile_pragma-semantic_2016,
 	title = {A {Pragma}-{Semantic} {Analysis} of the {Emotion}/{Sentiment} {Relation} in {Debates}},
 	booktitle = {4th {International} {Workshop} on {Artificial} {Intelligence} and {Cognition}},
 	author = {Basile, Valerio and Cabrio, Elena and Villata, Serena and Frasson, Claude and Gandon, Fabien},
 	year = {2016},
 	file = {AIC2016.pdf:files/286/AIC2016.pdf:application/pdf}
 }"
-20,"conferencePaper","2016","Jay Young, Valerio Basile, Lars Kunze, Elena Cabrio, Nick Hawes","Towards Lifelong Object Learning by Integrating Situated Robot Perception and Semantic Web Mining","ECAI 2016","http://www.ecai2016.org/","https://hal.inria.fr/hal-01370140/document","@inproceedings{jay_towards_2016,
+20,conferencePaper,2016,"Jay Young, Valerio Basile, Lars Kunze, Elena Cabrio, Nick Hawes",Towards Lifelong Object Learning by Integrating Situated Robot Perception and Semantic Web Mining,ECAI 2016,http://www.ecai2016.org/,https://hal.inria.fr/hal-01370140/document,"@inproceedings{jay_towards_2016,
 	title = {Towards {Lifelong} {Object} {Learning} by {Integrating} {Situated} {Robot} {Perception} and {Semantic} {Web} {Mining}},
 	booktitle = {Proceedings of the {European} {Conference} on {Artificial} {Intelligence} ({ECAI})},
 	author = {Jay, Young and Basile, Valerio and Kunze, Lars and Cabrio, Elena and Nick, Hawes},
 	year = {2016},
 	file = {ecai2016-2.pdf:files/288/ecai2016-2.pdf:application/pdf}
 }"
-19,"conferencePaper","2016","Valerio Basile, Elena Cabrio, Claudia Schon","KNEWS: Using Logical and Lexical Semantics to Extract Knowledge from Natural Language","ECAI 2016","http://www.ecai2016.org/","http://www.ecai2016.org/content/uploads/2016/09/demo3-NLP.pdf","@inproceedings{basile_knews:_2016,
+19,conferencePaper,2016,"Valerio Basile, Elena Cabrio, Claudia Schon",KNEWS: Using Logical and Lexical Semantics to Extract Knowledge from Natural Language,ECAI 2016,http://www.ecai2016.org/,http://www.ecai2016.org/content/uploads/2016/09/demo3-NLP.pdf,"@inproceedings{basile_knews:_2016,
 	title = {{KNEWS}: {Using} {Logical} and {Lexical} {Semantics} to {Extract} {Knowledge} from {Natural} {Language}},
 	booktitle = {Proceedings of the {European} {Conference} on {Artificial} {Intelligence} ({ECAI}) 2016 conference},
 	author = {Basile, Valerio and Cabrio, Elena and Schon, Claudia},
 	year = {2016},
 	file = {demo3-NLP.pdf:files/291/demo3-NLP.pdf:application/pdf}
 }"
-18,"conferencePaper","2016","Valerio Basile","A repository of frame instance lexicalizations for generation","WebNLG 2016","https://webnlg2016.sciencesconf.org/","https://aclweb.org/anthology/W/W16/W16-3502.pdf","@inproceedings{basile_repository_2016,
+18,conferencePaper,2016,Valerio Basile,A repository of frame instance lexicalizations for generation,WebNLG 2016,https://webnlg2016.sciencesconf.org/,https://aclweb.org/anthology/W/W16/W16-3502.pdf,"@inproceedings{basile_repository_2016,
 	title = {A repository of frame instance lexicalizations for generation},
 	booktitle = {Proceedings of the 2nd {International} {Workshop} on {Natural} {Language} {Generation} and the {Semantic} {Web}},
 	author = {Basile, Valerio},
 	year = {2016},
 	file = {webnlg2016.pdf:files/293/webnlg2016.pdf:application/pdf}
 }"
-17,"conferencePaper","2016","Valerio Basile, Elena Cabrio, Fabien Gandon","Building a General Knowledge Base of Physical Objects for Robots","ESWC 2016","http://2016.eswc-conferences.org/","https://hal.inria.fr/hal-01330142/","@inproceedings{basile_building_2016,
+17,conferencePaper,2016,"Valerio Basile, Elena Cabrio, Fabien Gandon",Building a General Knowledge Base of Physical Objects for Robots,ESWC 2016,http://2016.eswc-conferences.org/,https://hal.inria.fr/hal-01330142/,"@inproceedings{basile_building_2016,
 	title = {Building a {General} {Knowledge} {Base} of {Physical} {Objects} for {Robots}},
 	url = {https://hal.inria.fr/hal-01330142/},
 	urldate = {2016-07-06},
@@ -77,7 +85,7 @@
 	year = {2016},
 	file = {document.pdf:files/282/document.pdf:application/pdf}
 }"
-16,"thesis","2015","Valerio Basile","From Logic to Language: Natural Language Generation from Logical Forms",,"http://www.rug.nl/research/gradschool-humanities/news/phd-ceremony-basile-10dec2015?lang=en","https://www.rug.nl/research/portal/files/26252478/Complete_thesis.pdf","@phdthesis{basile_logic_2015,
+16,thesis,2015,Valerio Basile,From Logic to Language: Natural Language Generation from Logical Forms,,http://www.rug.nl/research/gradschool-humanities/news/phd-ceremony-basile-10dec2015?lang=en,https://www.rug.nl/research/portal/files/26252478/Complete_thesis.pdf,"@phdthesis{basile_logic_2015,
 	address = {Groningen},
 	title = {From logic to language: natural language generation from logical forms},
 	shorttitle = {From logic to language},
@@ -88,7 +96,7 @@
 	note = {OCLC: 930023296},
 	file = {Complete_thesis.pdf!null:files/278/Complete_thesis.pdf:application/pdf}
 }"
-15,"conferencePaper","2015","Pierpaolo Basile, Valerio Basile, Malvina Nissim, Nicole Novielli","Deep Tweets: from Entity Linking to Sentiment Analysis","CliC-it 2015","https://clic2015.fbk.eu/","https://iris.unito.it/retrieve/handle/2318/1532924/75495/Accademia_University_Press_978-88-99200-62-6.pdf#page=43","@article{basile_deep_2015,
+15,conferencePaper,2015,"Pierpaolo Basile, Valerio Basile, Malvina Nissim, Nicole Novielli",Deep Tweets: from Entity Linking to Sentiment Analysis,CliC-it 2015,https://clic2015.fbk.eu/,https://iris.unito.it/retrieve/handle/2318/1532924/75495/Accademia_University_Press_978-88-99200-62-6.pdf#page=43,"@article{basile_deep_2015,
 	title = {Deep {Tweets}: from {Entity} {Linking} to {Sentiment} {Analysis}},
 	shorttitle = {Deep {Tweets}},
 	url = {https://iris.unito.it/retrieve/handle/2318/1532924/75495/Accademia_University_Press_978-88-99200-62-6.pdf#page=43},
@@ -99,14 +107,14 @@
 	pages = {41},
 	file = {5667f9cf08ae34c89a02bbf4.pdf:files/280/5667f9cf08ae34c89a02bbf4.pdf:application/pdf}
 }"
-14,"conferencePaper","2015","Valerio Basile","WordNet as an Ontology for Generation","WebNLG 2015",,"https://hal.inria.fr/hal-01195793/document","@inproceedings{basile_wordnet_2015,
+14,conferencePaper,2015,Valerio Basile,WordNet as an Ontology for Generation,WebNLG 2015,,https://hal.inria.fr/hal-01195793/document,"@inproceedings{basile_wordnet_2015,
 	title = {{WordNet} as an {Ontology} for {Generation}},
 	booktitle = {{WebNLG} 2015 1st {International} {Workshop} on {Natural} {Language} {Generation} from the {Semantic} {Web}},
 	author = {Basile, Valerio},
 	year = {2015},
 	file = {basile-abstract.pdf:files/251/basile-abstract.pdf:application/pdf}
 }"
-13,"journalArticle","2015","Valerio Basile, Silvio Peroni, Fabio Tamburini, Fabio Vitali","Topical tags vs non-topical tags: Towards a bipartite classification?","Journal of Information Science","http://journals.sagepub.com/home/jis","http://dx.doi.org/10.1177/0165551515585283","@article{basile_topical_2015,
+13,journalArticle,2015,"Valerio Basile, Silvio Peroni, Fabio Tamburini, Fabio Vitali",Topical tags vs non-topical tags: Towards a bipartite classification?,Journal of Information Science,http://journals.sagepub.com/home/jis,http://dx.doi.org/10.1177/0165551515585283,"@article{basile_topical_2015,
 	title = {Topical tags vs non-topical tags: {Towards} a bipartite classification?},
 	volume = {41},
 	url = {http://dx.doi.org/10.1177/0165551515585283},
@@ -118,7 +126,7 @@
 	pages = {486--505},
 	file = {55a4f9eb08ae81aec91327f8.pdf:files/253/55a4f9eb08ae81aec91327f8.pdf:application/pdf}
 }"
-12,"journalArticle","2015","Giuseppe Attardi, Valerio Basile, Cristina Bosco, Tommaso Caselli, Felice Dell’Orletta, Simonetta Montemagni, Viviana Patti, Maria Simi, Rachele Sprugnoli","State of the Art Language Technologies for Italian: The EVALITA 2014 Perspective","Intelligenza Artificiale","http://www.iospress.nl/journal/intelligenza-artificiale/","http://www.medra.org/servlet/aliasResolver?alias=iospress&doi=10.3233/IA-150076","@article{attardi_state_2015,
+12,journalArticle,2015,"Giuseppe Attardi, Valerio Basile, Cristina Bosco, Tommaso Caselli, Felice Dell’Orletta, Simonetta Montemagni, Viviana Patti, Maria Simi, Rachele Sprugnoli",State of the Art Language Technologies for Italian: The EVALITA 2014 Perspective,Intelligenza Artificiale,http://www.iospress.nl/journal/intelligenza-artificiale/,http://www.medra.org/servlet/aliasResolver?alias=iospress&doi=10.3233/IA-150076,"@article{attardi_state_2015,
 	title = {State of the {Art} {Language} {Technologies} for {Italian}: {The} {EVALITA} 2014 {Perspective}},
 	volume = {9},
 	issn = {17248035, 22110097},
@@ -134,14 +142,14 @@
 	year = {2015},
 	pages = {43--61}
 }"
-11,"conferencePaper","2014","Valerio Basile, Andrea Bolioli, Malvina Nissim, Viviana Patti, Paolo Rosso","Overview of the Evalita 2014 SENTIment POLarity Classification Task","AI*IA 2014/EVALITA 2014","http://aiia2014.di.unipi.it/","https://hal.inria.fr/hal-01228925/document","@inproceedings{basile_overview_2014,
+11,conferencePaper,2014,"Valerio Basile, Andrea Bolioli, Malvina Nissim, Viviana Patti, Paolo Rosso",Overview of the Evalita 2014 SENTIment POLarity Classification Task,AI*IA 2014/EVALITA 2014,http://aiia2014.di.unipi.it/,https://hal.inria.fr/hal-01228925/document,"@inproceedings{basile_overview_2014,
 	title = {Overview of the {Evalita} 2014 {SENTIment} {POLarity} {Classification} {Task}},
 	booktitle = {Proceedings of the 4th evaluation campaign of {Natural} {Language} {Processing} and {Speech} tools for {Italian} ({EVALITA}'14)},
 	author = {Basile, Valerio and Bolioli, Andrea and Nissim, Malvina and Patti, Viviana and Rosso, Paolo},
 	year = {2014},
 	file = {Sentipolc2014.pdf:files/255/Sentipolc2014.pdf:application/pdf}
 }"
-10,"conferencePaper","2014","Valerio Basile","A Lesk-inspired Unsupervised Algorithm for Lexical Choice from WordNet Synsets","CliC-it 2014","http://www.fileli.unipi.it/projects/clic/en/","http://www.torrossa.it/gs/resourceProxy?an=3003965&publisher=F46792#page=59","@inproceedings{basile_lesk-inspired_2014,
+10,conferencePaper,2014,Valerio Basile,A Lesk-inspired Unsupervised Algorithm for Lexical Choice from WordNet Synsets,CliC-it 2014,http://www.fileli.unipi.it/projects/clic/en/,http://www.torrossa.it/gs/resourceProxy?an=3003965&publisher=F46792#page=59,"@inproceedings{basile_lesk-inspired_2014,
 	title = {A {Lesk}-inspired {Unsupervised} {Algorithm} for {Lexical} {Choice} from {WordNet} {Synsets}},
 	url = {http://www.torrossa.it/gs/resourceProxy?an=3003965&publisher=F46792#page=59},
 	urldate = {2015-08-21},
@@ -151,7 +159,7 @@
 	pages = {48},
 	file = {Basile2014.pdf:files/275/Basile2014.pdf:application/pdf}
 }"
-9,"conferencePaper","2013","Kilian Evang, Valerio Basile, Grzegorz Chrupala, Johan Bos","Elephant: Sequence Labeling for Word and Sentence Segmentation.","EMNLP 2013","http://hum.csse.unimelb.edu.au/emnlp2013/","http://www.aclweb.org/anthology/D13-1146","@inproceedings{evang_elephant:_2013,
+9,conferencePaper,2013,"Kilian Evang, Valerio Basile, Grzegorz Chrupala, Johan Bos",Elephant: Sequence Labeling for Word and Sentence Segmentation.,EMNLP 2013,http://hum.csse.unimelb.edu.au/emnlp2013/,http://www.aclweb.org/anthology/D13-1146,"@inproceedings{evang_elephant:_2013,
 	title = {Elephant: {Sequence} {Labeling} for {Word} and {Sentence} {Segmentation}.},
 	booktitle = {{EMNLP}},
 	author = {Evang, Kilian and Basile, Valerio and Chrupala, Grzegorz and Bos, Johan},
@@ -159,7 +167,7 @@
 	pages = {1422--1426},
 	file = {D13-1146.pdf:files/259/D13-1146.pdf:application/pdf}
 }"
-8,"conferencePaper","2013","Valerio Basile, Johan Bos","Aligning Formal Meaning Representations with Surface Strings for Wide-coverage Text Generation","ENLG 2013","http://www.um.edu.mt/events/enlg2013/","https://www.aclweb.org/anthology/W/W13/W13-2101.pdf","@inproceedings{basile_aligning_2013,
+8,conferencePaper,2013,"Valerio Basile, Johan Bos",Aligning Formal Meaning Representations with Surface Strings for Wide-coverage Text Generation,ENLG 2013,http://www.um.edu.mt/events/enlg2013/,https://www.aclweb.org/anthology/W/W13/W13-2101.pdf,"@inproceedings{basile_aligning_2013,
 	title = {Aligning {Formal} {Meaning} {Representations} with {Surface} {Strings} for {Wide}-coverage {Text} {Generation}},
 	booktitle = {{ENLG} 2013},
 	author = {Basile, Valerio and Bos, Johan},
@@ -168,7 +176,7 @@
 	file = {W13-2101.pdf:files/261/W13-2101.pdf:application/pdf}
 }
 "
-7,"conferencePaper","2013","Noortje J. Venhuizen, Valerio Basile, Kilian Evang, Johan Bos","Gamification for Word Sense Labeling","IWCS 2013","http://www.ling.uni-potsdam.de/iwcs2013/","http://www.aclweb.org/anthology/W13-0215","@inproceedings{venhuizen_gamification_2013,
+7,conferencePaper,2013,"Noortje J. Venhuizen, Valerio Basile, Kilian Evang, Johan Bos",Gamification for Word Sense Labeling,IWCS 2013,http://www.ling.uni-potsdam.de/iwcs2013/,http://www.aclweb.org/anthology/W13-0215,"@inproceedings{venhuizen_gamification_2013,
 	address = {Potsdam, Germany},
 	title = {Gamification for {Word} {Sense} {Labeling}},
 	url = {http://www.aclweb.org/anthology/W13-0215},
@@ -180,7 +188,7 @@
 	pages = {397--403},
 	file = {W13-0215.pdf:files/271/W13-0215.pdf:application/pdf}
 }"
-6,"conferencePaper","2013","Valerio Basile, Malvina Nissim","Sentiment analysis on Italian tweets","WASSA 2013","http://optima.jrc.it/wassa2013/index.htm","http://www.aclweb.org/anthology/W/W13/W13-16.pdf#page=112","@inproceedings{basile_sentiment_2013,
+6,conferencePaper,2013,"Valerio Basile, Malvina Nissim",Sentiment analysis on Italian tweets,WASSA 2013,http://optima.jrc.it/wassa2013/index.htm,http://www.aclweb.org/anthology/W/W13/W13-16.pdf#page=112,"@inproceedings{basile_sentiment_2013,
 	title = {Sentiment analysis on {Italian} tweets},
 	url = {http://www.aclweb.org/anthology/W/W13/W13-16.pdf#page=112},
 	urldate = {2015-08-21},
@@ -191,7 +199,7 @@
 	file = {W13-1614.pdf:files/273/W13-1614.pdf:application/pdf}
 }
 "
-5,"conferencePaper","2012","Valerio Basile, Johan Bos, Kilian Evang, Noortje Venhuizen","A platform for collaborative semantic annotation","EACL 2012","http://mirror.aclweb.org/eacl2012/","http://dl.acm.org/citation.cfm?id=2380921.2380940","@inproceedings{basile_platform_2012,
+5,conferencePaper,2012,"Valerio Basile, Johan Bos, Kilian Evang, Noortje Venhuizen",A platform for collaborative semantic annotation,EACL 2012,http://mirror.aclweb.org/eacl2012/,http://dl.acm.org/citation.cfm?id=2380921.2380940,"@inproceedings{basile_platform_2012,
 	title = {A platform for collaborative semantic annotation},
 	booktitle = {Proceedings of the {Demonstrations} at the 13th {Conference} of the {European} {Chapter} of the {Association} for {Computational} {Linguistics}},
 	publisher = {Association for Computational Linguistics},
@@ -200,7 +208,7 @@
 	pages = {92--96},
 	file = {BasileBosEvangVenhuizen2012EACL.pdf:files/257/BasileBosEvangVenhuizen2012EACL.pdf:application/pdf}
 }"
-4,"conferencePaper","2012","Adam Wyner, Johan Bos, Valerio Basile, Paulo Quaresma","An Empirical Approach to the Semantic Representation of Laws.","JURIX 2012","http://conference.jurix.nl/2012/cfp.html"," https://hal.inria.fr/hal-01389435/document","@inproceedings{wyner_empirical_2012,
+4,conferencePaper,2012,"Adam Wyner, Johan Bos, Valerio Basile, Paulo Quaresma",An Empirical Approach to the Semantic Representation of Laws.,JURIX 2012,http://conference.jurix.nl/2012/cfp.html, https://hal.inria.fr/hal-01389435/document,"@inproceedings{wyner_empirical_2012,
 	title = {An {Empirical} {Approach} to the {Semantic} {Representation} of {Laws}.},
 	booktitle = {{JURIX}},
 	author = {Wyner, Adam and Bos, Johan and Basile, Valerio and Quaresma, Paulo},
@@ -208,7 +216,7 @@
 	pages = {177--180},
 	file = {WynerEtAlCCBoxerJURIX2012.pdf:files/263/WynerEtAlCCBoxerJURIX2012.pdf:application/pdf}
 }"
-3,"conferencePaper","2012","Valerio Basile, Johan Bos, Kilian Evang, Noortje Venhuizen","Ugroningen: Negation detection with discourse representation structures","*SEM 2012","http://ixa2.si.ehu.es/starsem/","http://ixa2.si.ehu.es/starsem/proc/pdf/STARSEM-SEMEVAL040.pdf","@inproceedings{basile_ugroningen:_2012,
+3,conferencePaper,2012,"Valerio Basile, Johan Bos, Kilian Evang, Noortje Venhuizen",Ugroningen: Negation detection with discourse representation structures,*SEM 2012,http://ixa2.si.ehu.es/starsem/,http://ixa2.si.ehu.es/starsem/proc/pdf/STARSEM-SEMEVAL040.pdf,"@inproceedings{basile_ugroningen:_2012,
 	title = {Ugroningen: {Negation} detection with discourse representation structures},
 	booktitle = {Proceedings of the {First} {Joint} {Conference} on {Lexical} and {Computational} {Semantics}-{Volume} 1: {Proceedings} of the main conference and the shared task, and {Volume} 2: {Proceedings} of the {Sixth} {International} {Workshop} on {Semantic} {Evaluation}},
 	publisher = {Association for Computational Linguistics},
@@ -217,7 +225,7 @@
 	pages = {301--309},
 	file = {S12-1040.pdf:files/265/S12-1040.pdf:application/pdf}
 }"
-2,"conferencePaper","2012","Valerio Basile, Johan Bos, Kilian Evang, Noortje Venhuizen","Developing a large semantically annotated corpus.","LREC 2012","http://www.lrec-conf.org/lrec2012/","http://www.lrec-conf.org/proceedings/lrec2012/pdf/534_Paper.pdf","@inproceedings{basile_developing_2012,
+2,conferencePaper,2012,"Valerio Basile, Johan Bos, Kilian Evang, Noortje Venhuizen",Developing a large semantically annotated corpus.,LREC 2012,http://www.lrec-conf.org/lrec2012/,http://www.lrec-conf.org/proceedings/lrec2012/pdf/534_Paper.pdf,"@inproceedings{basile_developing_2012,
 	title = {Developing a large semantically annotated corpus.},
 	volume = {12},
 	booktitle = {{LREC}},
@@ -226,7 +234,7 @@
 	pages = {3196--3200},
 	file = {534_Paper.pdf:files/267/534_Paper.pdf:application/pdf}
 }"
-1,"conferencePaper","2011","Valerio Basile, Johan Bos","Towards generating text from discourse representation structures","ENLG 2011",,"http://www.aclweb.org/anthology/W11-2819","@inproceedings{basile_towards_2011,
+1,conferencePaper,2011,"Valerio Basile, Johan Bos",Towards generating text from discourse representation structures,ENLG 2011,,http://www.aclweb.org/anthology/W11-2819,"@inproceedings{basile_towards_2011,
 	title = {Towards generating text from discourse representation structures},
 	booktitle = {Proceedings of the 13th {European} {Workshop} on {Natural} {Language} {Generation}},
 	publisher = {Association for Computational Linguistics},
