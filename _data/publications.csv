@@ -85,7 +85,7 @@ Id,Type,Year,Author,Title,Publication,PublicationURL,URL,Bibtex
 	year = {2016},
 	file = {document.pdf:files/282/document.pdf:application/pdf}
 }"
-16,thesis,2015,Valerio Basile,From Logic to Language: Natural Language Generation from Logical Forms,,http://hdl.handle.net/11370/16f993bf-bb74-4372-9077-a363d4d05804,,"@phdthesis{basile_logic_2015,
+16,thesis,2015,Valerio Basile,From Logic to Language: Natural Language Generation from Logical Forms,,http://hdl.handle.net/11370/16f993bf-bb74-4372-9077-a363d4d05804,https://www.rug.nl/research/portal/files/41544529/Complete_thesis.pdf,"@phdthesis{basile_logic_2015,
 	address = {Groningen},
 	title = {From logic to language: natural language generation from logical forms},
 	shorttitle = {From logic to language},
