@@ -20,7 +20,11 @@ layout: default
       {% else %}
         <a href="{{ publication.PublicationURL }}">{{ publication.Publication }}</a>,
       {% endif %}
-      <a href="{{ publication.URL }}">PDF</a>,
+      {% if publication.URL == null %}
+        n/a,
+      {% else %}
+        <a href="{{ publication.URL }}">PDF</a>,
+      {% endif %}
       <a href="/bibtex#{{ publication.Id }}">bibtex</a>
     </li>
     {% endfor %}

@@ -7,7 +7,7 @@ Id,Type,Year,Author,Title,Publication,PublicationURL,URL,Bibtex
   year={2017},
   organization={Springer, Cham}
 }"
-27,book chapter,2017,"Johan Bos, Valerio Basile, Kilian Evang, Noortje Venhuizen, Johannes Bjerva",The Groningen Meaning Bank,Handbook of Linguistic Annotation,http://www.springer.com/us/book/9789402408799,https://hal.inria.fr/hal-01547329/document,"@incollection{bos2017groningen,
+27,book chapter,2017,"Johan Bos, Valerio Basile, Kilian Evang, Noortje Venhuizen, Johannes Bjerva",The Groningen Meaning Bank,Handbook of Linguistic Annotation,http://www.springer.com/us/book/9789402408799,,"@incollection{bos2017groningen,
   title={The groningen meaning bank},
   author={Bos, Johan and Basile, Valerio and Evang, Kilian and Venhuizen, Noortje J and Bjerva, Johannes},
   booktitle={Handbook of Linguistic Annotation},
@@ -85,7 +85,7 @@ Id,Type,Year,Author,Title,Publication,PublicationURL,URL,Bibtex
 	year = {2016},
 	file = {document.pdf:files/282/document.pdf:application/pdf}
 }"
-16,thesis,2015,Valerio Basile,From Logic to Language: Natural Language Generation from Logical Forms,,http://www.rug.nl/research/gradschool-humanities/news/phd-ceremony-basile-10dec2015?lang=en,https://www.rug.nl/research/portal/files/26252478/Complete_thesis.pdf,"@phdthesis{basile_logic_2015,
+16,thesis,2015,Valerio Basile,From Logic to Language: Natural Language Generation from Logical Forms,,http://hdl.handle.net/11370/16f993bf-bb74-4372-9077-a363d4d05804,,"@phdthesis{basile_logic_2015,
 	address = {Groningen},
 	title = {From logic to language: natural language generation from logical forms},
 	shorttitle = {From logic to language},
