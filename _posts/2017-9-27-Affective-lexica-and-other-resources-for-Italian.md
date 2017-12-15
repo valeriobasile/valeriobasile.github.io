@@ -28,6 +28,8 @@ Publication: [V. Basile and M. Nissim (WASSA 2013)](http://www.aclweb.org/anthol
 
 * **SentIta and Doxa** italian databases and tools for sentiment analysis.
 
+* Affective lexicon developed for [EVALITA 2014](http://www.evalita.it/2014): **UNIBA at EVALITA 2014-SENTIPOLC Task: Predicting tweet sentiment polarity combining micro-blogging, lexicon and semantic features**. Described in [P. Basile, N. Novielli (Proceedings of EVALITA, 2014)](https://scholar.google.it/scholar?oi=bibs&cluster=15023499061838399838&btnI=1&hl=it).
+
 A big thank you to all the contributors. If you know of other resources that would fit the list above, feel free to contact me, I'll be happy to update the list.
 
 
