@@ -1,5 +1,15 @@
 Id,Role,Year,Description,URL
-47,program committee member,2017,The Web Conference (WWW 2018),https://www2018.thewebconf.org/
+57,program committee member,2018,Language Resources and Evaluation Conference (LREC 2018),http://lrec2018.lrec-conf.org/en/
+56,program committee member,2018,International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2018),http://www.ijcai-18.org/
+55,organizer,2018,"SemEval-2018 Task 2, Multilingual Emoji Prediction",https://competitions.codalab.org/competitions/17344
+54,program committee member,2018,ACM Symposium On Applied Computing (SAC 2018),https://www.sigapp.org/sac/sac2018/
+53,program committee member,2018,Open Knowledge Extraction Open Challenge (OKE 2018),https://project-hobbit.eu/open-challenges/oke-open-challenge/
+52,program committee member,2018,AAAI Conference on Artificial Intelligence (AAAI-18),https://aaai.org/Conferences/AAAI-18/
+51,program committee member,2018,Annual Meeting of the Association for Computational Linguistics (ACL 2018),http://acl2018.org/
+50,program committee member,2018,Conference of the North American Chapter of the Association for Computational Linguistics - Human Language Technologies (NAACL-HLT 2018),http://naacl.org/
+49,program committee member,2018,Symposium on Emotion Modeling and Detection in Social Media and Online Interaction (Emotions@AISB 2018),http://collab.di.uniba.it/aisbemotions/
+48,program committee member,2018,Extended Semantic Web Conference (ESWC 2018),https://2018.eswc-conferences.org/
+47,program committee member,2018,The Web Conference (WWW 2018),https://www2018.thewebconf.org/
 46,reviewer,2017,Artificial Intelligence,https://www.journals.elsevier.com/artificial-intelligence/
 45,program committee member,2017,1st Workshop on Natural Language for Artificial Intelligence (NL4AI),http://sag.art.uniroma2.it/NL4AI/
 44,reviewer,2017,Advances in Knowledge Discovery and Management Vol. 8 (AKDM-8),http://www.labri.fr/perso/bpinaud/akdm8/
@@ -13,7 +23,7 @@ Id,Role,Year,Description,URL
 36,program committee member,2017,European Chapter of the Association for Computational Linguistics (EACL 2017),http://eacl2017.org/
 35,program committee member,2017,IEEE International Conference on Robotics and Automation (ICRA 2017),http://www.icra2017.org/
 34,program committee member,2017,1st International Workshop on Application of Semantic Web technologies in Robotics (AnSWeR 2017),http://answer.kmi.open.ac.uk/
-33,program committee member,2017,European Semantic Web Conference (ESWC 2017),http://2017.eswc-conferences.org/
+33,program committee member,2017,Extended Semantic Web Conference (ESWC 2017),http://2017.eswc-conferences.org/
 32,program committee member,2017,16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2017),http://www.aamas2017.org/
 30,speaker,2017,"Seminar ""Building a default knowledge base of objects (and other stories of robots)"", University of Turin",
 29,reviewer,2017,Language and Cognition,https://www.cambridge.org/core/journals/language-and-cognition
