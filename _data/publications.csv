@@ -1,4 +1,10 @@
 Id,Type,Year,Author,Title,Publication,PublicationURL,URL,Bibtex
+30,journalArticle,2018,"Soufian Jebbara, Valerio Basile, Elena Cabrio, Philip Cimiano",Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models,Semantic Web,http://www.semantic-web-journal.net/,http://www.semantic-web-journal.net/system/files/swj1772.pdf,"@article{jebbara2018extracting,
+  title={Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models},
+  author={Jebbara, Soufian and Basile, Valerio and Cabrio, Elena and Cimiano, Philipp},
+  journal={Semantic Web},
+  year={2018}
+}"
 29,book chapter,2017,"Pierpaolo Basile, Valerio Basile, Malvina Nissim, Nicole Novielli, Viviana Patti",Sentiment Analysis of Microblogging Data,,http://www.springer.com/it/book/9781461461692,https://iris.unito.it/handle/2318/1652672,"@article{basile2017sentiment,
   title={Sentiment Analysis of Microblogging Data},
   author={Basile, Pierpaolo and Basile, Valerio and Nissim, Malvina and Novielli, Nicole and Patti, Viviana and others},
