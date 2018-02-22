@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Jura";
+  src: url(Jura-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Droid";
+  src: url(DroidSans.ttf) format("truetype");
+}
+
+
+#container {
+	margin-left:24%;
+	margin-right:24%;
+	color: 202020;
+    background-color: #ffffff;
+    padding: 2em;
+    font-family: "Droid";
+}
+
+#header {
+    font-family: "Jura";
+    background-color: #000000;
+    padding: 10px;
+    color: #ffffff;
+}
+
+#header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+#header p {
+    font-family: "Droid";
+    background-color: #000000;
+    padding: 10px;
+}
+
+
+td {
+	border: 1px solid #ddd;
+}
+
+.time {
+	white-space: nowrap;
+}
+
+.footnote {
+	font-size: smaller;
+	font-style: italic;
+}
+
+pre {
+	background: #ddd;
+}
+
+hr {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-style: solid;
+    border-width: 1px;
+    width: 30%;
+    clear: both;
+}
+
+h1,h2,h3 {
+    color: #009246;
+}
+
+h3 {
+    border-bottom: 1px #009246 solid;
+    
+}
+
+
+#main a {
+    color: #009246;
+    text-decoration: none;
+}
+
+#main a:hover {
+    text-decoration: underline;
+}
+
+tr.gray td {
+    background-color: #e0e0e0;
+}
