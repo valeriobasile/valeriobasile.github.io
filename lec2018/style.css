@@ -8,11 +8,9 @@
   src: url(DroidSans.ttf) format("truetype");
 }
 
-
 #container {
-	margin-left:24%;
-	margin-right:24%;
-	color: 202020;
+	margin-left:20%;
+	margin-right:20%;
     background-color: #ffffff;
     padding: 2em;
     font-family: "Droid";
@@ -69,7 +67,7 @@ hr {
     clear: both;
 }
 
-h1,h2,h3 {
+h2,h3 {
     color: #009246;
 }
 
