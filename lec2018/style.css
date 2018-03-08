@@ -8,24 +8,44 @@
   src: url(DroidSans.ttf) format("truetype");
 }
 
+/* container div */
+/* mobile layout */
 #container {
-	margin-left:20%;
-	margin-right:20%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto; 
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-areas: "header"
+                         "main"
+                         "map";
     background-color: #ffffff;
     padding: 2em;
     font-family: "Droid";
 }
 
-@media only screen and (max-width: 500px) {
+/* large screen layout */
+@media (min-width: 1000px) {
     #container {
-        margin-left:0%;
-		margin-right:0%;
-
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto; 
+        grid-template-rows: 1fr auto 1fr;
+        grid-template-areas: "header"
+                             "main"
+                             "map";
+	margin-left:20%;
+	margin-right:20%;
+    background-color: #ffffff;
+    padding: 2em;
+    font-family: "Droid";
     }
 }
 
+
+/* header div */
 #header {
-    font-family: "Jura";
+    grid-area: header;
+	font-family: "Jura";
     background-color: #000000;
     padding: 10px;
     color: #ffffff;
@@ -47,7 +67,26 @@
     padding: 10px;
 }
 
+/* main div */
+# main {
+	grid-area: main;
+}
+	
+#main a {
+    color: #009246;
+    text-decoration: none;
+}
 
+#main a:hover {
+    text-decoration: underline;
+}
+
+/* map div */
+# map {
+	grid-area: map;
+}
+
+/* table properties */
 td {
 	border: 1px solid #ddd;
 }
@@ -56,25 +95,12 @@ td {
 	white-space: nowrap;
 }
 
-.footnote {
-	font-size: smaller;
-	font-style: italic;
+tr.gray td {
+    background-color: #e0e0e0;
 }
 
-pre {
-	background: #ddd;
-}
 
-hr {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-style: solid;
-    border-width: 1px;
-    width: 30%;
-    clear: both;
-}
-
+/* headings */
 h2,h3 {
     color: #009246;
 }
@@ -85,15 +111,3 @@ h3 {
 }
 
 
-#main a {
-    color: #009246;
-    text-decoration: none;
-}
-
-#main a:hover {
-    text-decoration: underline;
-}
-
-tr.gray td {
-    background-color: #e0e0e0;
-}
