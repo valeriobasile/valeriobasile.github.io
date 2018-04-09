@@ -3,9 +3,9 @@ layout: page
 title: About me
 ---
 
-I am a postdoc research fellow in the [Linguistic Computing Laboratory](http://lcl.uniroma1.it/) at [Sapienza University of Rome](http://uniroma1.it/).
+I am a postdoc research fellow in the [Content-Centered Computing group](http://beta.di.unito.it/index.php/english/research/groups/content-centered-computing/people) at University of Turin.
 
-Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inria.fr/) team of [INRIA](http://www.inria.fr), and before that a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/), [University of Groningen](http://www.rug.nl/), under the supervision of [Johan Bos](http://www.rug.nl/staff/johan.bos/).
+Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inria.fr/) team of [INRIA](http://www.inria.fr) and at [Sapienza University of Rome](http://uniroma1.it/), and before that a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/), [University of Groningen](http://www.rug.nl/).
 
 My research interests include:
 
