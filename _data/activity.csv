@@ -1,4 +1,15 @@
 Id,Role,Year,Description,URL
+69,program committee member,2018,Re-coding Black Mirror workshop at WWW2018,https://kmitd.github.io/recoding-black-mirror/
+68,program committee member,2018,17th International Semantic Web Conference (ISWC 2018),http://iswc2018.semanticweb.org/
+67,program committee member,2018,2nd International Workshop on the Application of Semantic Web technologies in Robotics (AnSWeR18),http://answer.kmi.open.ac.uk/
+66,program committee member,2018,Emotion Modeling and Detection in Social Media and Online Interaction (Emotions@AISB 2018),http://collab.di.uniba.it/aisbemotions/
+65,program committee member,2018,Open Knowledge Extraction Challenge (OKE 2018),https://project-hobbit.eu/challenges/oke2018-challenge-eswc-2018/
+64,program committee member,2018,AI*IA Doctoral Consortium (AI*IA-DC 2018),http://aixia2018.fbk.eu/index.php/call-for-doctoral-consortium/
+63,program committee member,2018,The 33rd ACM Symposium On Applied Computing (SAC 2018),https://www.sigapp.org/sac/sac2018/
+62,reviewer,2018,Intelligent Service Robotics (JIST),http://www.springer.com/engineering/control/journal/11370
+61,program committee member,2018,IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2018),https://www.iros2018.org/
+60,program committee member,2018,"Workshop on Computational Modeling of People's Opinions, Personality, and Emotions in Social Media (PEOPLES 2018)",https://peopleswksh.github.io/
+59,program committee member,2018,The 27th International Conference on Computational Linguistics (COLING 2018),https://coling2018.org/
 58,program committee member,2018,Re-coding Black Mirror workshop at WWW2018,https://kmitd.github.io/recoding-black-mirror/
 57,program committee member,2018,Language Resources and Evaluation Conference (LREC 2018),http://lrec2018.lrec-conf.org/en/
 56,program committee member,2018,International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2018),http://www.ijcai-18.org/
@@ -14,7 +25,7 @@ Id,Role,Year,Description,URL
 46,reviewer,2017,Artificial Intelligence,https://www.journals.elsevier.com/artificial-intelligence/
 45,program committee member,2017,1st Workshop on Natural Language for Artificial Intelligence (NL4AI),http://sag.art.uniroma2.it/NL4AI/
 44,reviewer,2017,Advances in Knowledge Discovery and Management Vol. 8 (AKDM-8),http://www.labri.fr/perso/bpinaud/akdm8/
-43,speaker,2017," Seminar ""Linking Data, Ontologies and Distributional Models for the Representation of Lexical Meaning""",https://linguistlist.org/callconf/browse-conf-action.cfm?Submissionid=36290457
+43,speaker,2017,"Seminar ""Linking Data, Ontologies and Distributional Models for the Representation of Lexical Meaning""",https://linguistlist.org/callconf/browse-conf-action.cfm?Submissionid=36290457
 42,program committee member,2017,MIREL workshop at ICAIL 2017,http://www.mirelproject.eu/MIRELws/
 41,program committee member,2017,International Semantic Web Conference (ISWC 2017),https://iswc2017.semanticweb.org/
 40,organizer,2017,First Workshop on Contextual Representation of Objects and Events in Language (CREOL 2017),http://creol2017.di.unito.it/
@@ -26,28 +37,28 @@ Id,Role,Year,Description,URL
 34,program committee member,2017,1st International Workshop on Application of Semantic Web technologies in Robotics (AnSWeR 2017),http://answer.kmi.open.ac.uk/
 33,program committee member,2017,Extended Semantic Web Conference (ESWC 2017),http://2017.eswc-conferences.org/
 32,program committee member,2017,16th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2017),http://www.aamas2017.org/
-30,speaker,2017,"Seminar ""Building a default knowledge base of objects (and other stories of robots)"", University of Turin",
-29,reviewer,2017,Language and Cognition,https://www.cambridge.org/core/journals/language-and-cognition
-28,reviewer,2017,Computer Speech & Language,https://www.journals.elsevier.com/computer-speech-and-language
-27,internship supervisor,2016,"Avijit Shah, Bootstrapping the construction of a Knowledge Base of objects",
-26,program committee member,2016,"Computational Modeling of People's Opinions, Personality, and Emotions in Social Media (PEOPLES workshop at COLING 2016)",https://peoples2016.github.io/
-25,area chair,2016,Third Italian Conference on Computational Linguistics (CliC-it 2016),http://clic-it2016.dieti.unina.it/index.php/en/
-24,local organization committee member,2016,International Conference on Legal Knowledge and Information Systems (JURIX 2016),http://jurix2016.unice.fr/
-23,organizer,2016,SENTIPOLC challenge at EVALITA 2016,http://www.di.unito.it/~tutreeb/sentipolc-evalita16/
-22,program committee member,2016,Language Resources and Evaluation Conference (LREC 2016),http://lrec2016.lrec-conf.org/en/
-21,program committee member,2016,20th International Conference on Knowledge Engineering and Knowledge Management (EKAW 2016),http://ekaw2016.cs.unibo.it/
-20,program committee member,2016,International Workshop on Natural Language Generation and the Semantic Web (WebNLG workshop at INLG 2016),https://webnlg2016.sciencesconf.org/
-19,program committee member,2016,15th International Semantic Web Conference Applications Track (ISWC 2016),http://iswc2016.semanticweb.org/
-18,program committee member,2016,European Semantic Web Conference Poster and Demo Track (ESWC 2016),http://2016.eswc-conferences.org/
-17,program committee member,2016,1st International Workshop on Mining and Reasoning with Legal Text (MIREL at JURIX 2016),http://www.mirelproject.eu/MIRELws/index.html
-16,program committee member,2016,4th International Workshop on Artificial Intelligence and Cognition (AIC 2016),http://www.di.unito.it/~lieto/AIC2016/
-15,program committee member,2016,The 3rd IEEE International Conference on Data Science and Advanced Analytics (DSAA 2016),https://sites.ualberta.ca/~dsaa16/
-14,reviewer,2016,Interacting with Computers,https://academic.oup.com/iwc
-13,program committee member,2016,25th International Joint Conference on Artificial Intelligence (IJCAI 2016),http://ijcai-16.org/index.php/welcome/view/home
-12,reviewer,2016,Computer Speech & Language,https://www.journals.elsevier.com/computer-speech-and-language
-11,speaker,2015,Seminar “Meaning Banking and Beyond”,http://rali.iro.umontreal.ca/rali/?q=en/node/1222/show/3671
-10,program committee member,2015,International Workshop on Natural Language Generation and the Semantic Web (WebNLG workshop at INLG 2015),
-,program committee member,2015,IEEE International Conference on Data Science and Advanced Analytics (DSAA 2015),http://dsaa2015.lip6.fr/
+31,speaker,2017,"Seminar ""Building a default knowledge base of objects (and other stories of robots)"", University of Turin",
+30,reviewer,2017,Language and Cognition,https://www.cambridge.org/core/journals/language-and-cognition
+29,reviewer,2017,Computer Speech & Language,https://www.journals.elsevier.com/computer-speech-and-language
+28,internship supervisor,2016,"Avijit Shah, Bootstrapping the construction of a Knowledge Base of objects",
+27,program committee member,2016,"Computational Modeling of People's Opinions, Personality, and Emotions in Social Media (PEOPLES workshop at COLING 2016)",https://peoples2016.github.io/
+26,area chair,2016,Third Italian Conference on Computational Linguistics (CliC-it 2016),http://clic-it2016.dieti.unina.it/index.php/en/
+25,local organization committee member,2016,International Conference on Legal Knowledge and Information Systems (JURIX 2016),http://jurix2016.unice.fr/
+24,organizer,2016,SENTIPOLC challenge at EVALITA 2016,http://www.di.unito.it/~tutreeb/sentipolc-evalita16/
+23,program committee member,2016,Language Resources and Evaluation Conference (LREC 2016),http://lrec2016.lrec-conf.org/en/
+22,program committee member,2016,20th International Conference on Knowledge Engineering and Knowledge Management (EKAW 2016),http://ekaw2016.cs.unibo.it/
+21,program committee member,2016,International Workshop on Natural Language Generation and the Semantic Web (WebNLG workshop at INLG 2016),https://webnlg2016.sciencesconf.org/
+20,program committee member,2016,15th International Semantic Web Conference Applications Track (ISWC 2016),http://iswc2016.semanticweb.org/
+19,program committee member,2016,European Semantic Web Conference Poster and Demo Track (ESWC 2016),http://2016.eswc-conferences.org/
+18,program committee member,2016,1st International Workshop on Mining and Reasoning with Legal Text (MIREL at JURIX 2016),http://www.mirelproject.eu/MIRELws/index.html
+17,program committee member,2016,4th International Workshop on Artificial Intelligence and Cognition (AIC 2016),http://www.di.unito.it/~lieto/AIC2016/
+16,program committee member,2016,The 3rd IEEE International Conference on Data Science and Advanced Analytics (DSAA 2016),https://sites.ualberta.ca/~dsaa16/
+15,reviewer,2016,Interacting with Computers,https://academic.oup.com/iwc
+14,program committee member,2016,25th International Joint Conference on Artificial Intelligence (IJCAI 2016),http://ijcai-16.org/index.php/welcome/view/home
+13,reviewer,2016,Computer Speech & Language,https://www.journals.elsevier.com/computer-speech-and-language
+12,speaker,2015,Seminar “Meaning Banking and Beyond”,http://rali.iro.umontreal.ca/rali/?q=en/node/1222/show/3671
+11,program committee member,2015,International Workshop on Natural Language Generation and the Semantic Web (WebNLG workshop at INLG 2015),
+10,program committee member,2015,IEEE International Conference on Data Science and Advanced Analytics (DSAA 2015),http://dsaa2015.lip6.fr/
 9,reviewer,2015,Information & Processing Management,https://www.journals.elsevier.com/information-processing-and-management/
 8,reviewer,2014,Literary and Linguistic Computing.,https://global.oup.com/academic/product/literary-and-linguistic-computing-14774615?cc=it&lang=en&
 7,speaker,2014,"Seminar ""Linguistic Games for Semantic Annotation: the Case of Wordrobe""",http://dh.fbk.eu/events/LinguisticGamesSeminar
