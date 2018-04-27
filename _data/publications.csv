@@ -1,15 +1,22 @@
 Id,Type,Year,Author,Title,Publication,PublicationURL,URL,Bibtex
-30,journalArticle,2018,"Soufian Jebbara, Valerio Basile, Elena Cabrio, Philip Cimiano",Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models,Semantic Web,http://www.semantic-web-journal.net/,http://www.semantic-web-journal.net/system/files/swj1772.pdf,"@article{jebbara2018extracting,
+31,journalArticle,2018,"Soufian Jebbara, Valerio Basile, Elena Cabrio, Philip Cimiano",Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models,Semantic Web,http://www.semantic-web-journal.net/,http://www.semantic-web-journal.net/system/files/swj1772.pdf,"@article{jebbara2018extracting,
   title={Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models},
   author={Jebbara, Soufian and Basile, Valerio and Cabrio, Elena and Cimiano, Philipp},
   journal={Semantic Web},
   year={2018}
 }"
-29,book chapter,2017,"Pierpaolo Basile, Valerio Basile, Malvina Nissim, Nicole Novielli, Viviana Patti",Sentiment Analysis of Microblogging Data,,http://www.springer.com/it/book/9781461461692,https://iris.unito.it/handle/2318/1652672,"@article{basile2017sentiment,
+30,book chapter,2017,"Pierpaolo Basile, Valerio Basile, Malvina Nissim, Nicole Novielli, Viviana Patti",Sentiment Analysis of Microblogging Data,,http://www.springer.com/it/book/9781461461692,https://iris.unito.it/handle/2318/1652672,"@article{basile2017sentiment,
   title={Sentiment Analysis of Microblogging Data},
   author={Basile, Pierpaolo and Basile, Valerio and Nissim, Malvina and Novielli, Nicole and Patti, Viviana and others},
   year={2017},
   publisher={Springer Science+ Business Media}
+}"
+29,conferencePaper,2017,"Avijit Shah, Valerio Basile, Elena Cabrio, Sowmya Kamath S.",Frame Instance Extraction and Clustering for Default Knowledge Building,AnSWeR 2017,http://answer.kmi.open.ac.uk/previous/2017/,http://ceur-ws.org/Vol-1935/paper-01.pdf,"@inproceedings{ShahEtAl:AnSWeR2017,
+  title = {Frame Instance Extraction and Clustering for Default Knowledge Building},
+  author = {Avijit Shah and  Valerio Basile and Elena Cabrio and Sowmya Kamath S.},
+  pages = {1--10},
+  url = {http://ceur-ws.org/Vol-1935/#paper-01},
+  Crossref = {AnSWeR2017},
 }"
 28,conferencePaper,2017,"Jay Young, Valerio Basile, Markus Suchi, Lars Kunze, Nick Hawes, Markus Vincze, Barbara Caputo",Making sense of indoor spaces using semantic web mining and situated robot perception,ESWC 2017,https://2017.eswc-conferences.org/,https://pdfs.semanticscholar.org/7a0f/24f82b632cd08134777d869c7c9941af67fb.pdf,"@inproceedings{young2017making,
   title={Making sense of indoor spaces using semantic web mining and situated robot perception},
