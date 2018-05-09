@@ -10,7 +10,7 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 My research interests include:
 
 * Computational Semantics
-* Langugage Resources
+* Language Resources
 * Semantic Web
 * Natural Language Generation
 * Information Extraction
@@ -22,5 +22,6 @@ My research interests include:
 * Sentiment Analysis
 * Legal Informatics
 * Argument Mining
+* Hate Speech
 
 I like math, videogames, <del>beer</del> pasta, and Oxford commas :)
