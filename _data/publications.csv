@@ -1,5 +1,5 @@
 "Id","Type","Year","Author","Title","Publication","PublicationURL","URL","Bibtex"
-44,"conferencePaper",2018,"Valerio Basile, Elena Cabrio, Fabien Gandon, Debora Nozza","Mapping Natural Language Labels to Structured Web Resources","NL4AI 2018","http://sag.art.uniroma2.it/NL4AI/","Mapping Natural Language Labels to Structured Web Resources","@inproceedings{DBLP:conf/aiia/BasileCGN18,
+44,"conferencePaper",2018,"Valerio Basile, Elena Cabrio, Fabien Gandon, Debora Nozza","Mapping Natural Language Labels to Structured Web Resources","NL4AI 2018","http://sag.art.uniroma2.it/NL4AI/","http://ceur-ws.org/Vol-2244/paper_06.pdf","@inproceedings{DBLP:conf/aiia/BasileCGN18,
   author    = {Valerio Basile and
                Elena Cabrio and
                Fabien Gandon and
@@ -94,7 +94,7 @@
   year={2018},
   organization={CEUR-WS}
 }"
-35,"conferencePaper",2018,"Alessandra Teresa Cignarella, Simona Frenda, Valerio Basile, Cristina Bosco, Viviana Patti, Paolo Rosso","Overview of the evalita 2018 task on irony detection in italian tweets (ironita)","EVALITA 2018","http://www.evalita.it/2018","https://iris.unito.it/bitstream/2318/1684779/1/paper005.pdf","@inproceedings{cignarella2018overview,
+35,"conferencePaper",2018,"Alessandra Teresa Cignarella, Simona Frenda, Valerio Basile, Cristina Bosco, Viviana Patti, Paolo Rosso","Overview of the EVALITA 2018 Task on Irony Detection in Italian Tweets (IronITA)","EVALITA 2018","http://www.evalita.it/2018","https://iris.unito.it/bitstream/2318/1684779/1/paper005.pdf","@inproceedings{cignarella2018overview,
   title={Overview of the evalita 2018 task on irony detection in italian tweets (ironita)},
   author={Cignarella, Alessandra Teresa and Frenda, Simona and Basile, Valerio and Bosco, Cristina and Patti, Viviana and Rosso, Paolo and others},
   booktitle={Sixth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian (EVALITA 2018)},
@@ -228,7 +228,7 @@
 	year = {2016},
 	file = {document.pdf:files/282/document.pdf:application/pdf}
 }"
-16,"thesis",2015,"Valerio Basile","From Logic to Language: Natural Language Generation from Logical Forms",,"http://hdl.handle.net/11370/16f993bf-bb74-4372-9077-a363d4d05804","https://www.rug.nl/research/portal/files/41544529/Complete_thesis.pdf","@phdthesis{basile_logic_2015,
+16,"thesis",2015,"Valerio Basile","From Logic to Language: Natural Language Generation from Logical Forms","PhD thesis","http://hdl.handle.net/11370/16f993bf-bb74-4372-9077-a363d4d05804","https://www.rug.nl/research/portal/files/41544529/Complete_thesis.pdf","@phdthesis{basile_logic_2015,
 	address = {Groningen},
 	title = {From logic to language: natural language generation from logical forms},
 	shorttitle = {From logic to language},

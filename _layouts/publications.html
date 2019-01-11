@@ -13,19 +13,17 @@ layout: default
   <ul>
     {% for publication in site.data.publications %}
     <li>
-      {{ publication.Author }}:
-      <em>{{ publication.Title }}</em>,
+      {{ publication.Author }} ({{ publication.Year}}):<br/>
+      <em>{{ publication.Title }}</em><br/>
       {% if publication.PublicationURL == null %}
-        {{ publication.Publication }},
+        {{ publication.Publication }}
       {% else %}
-        <a href="{{ publication.PublicationURL }}">{{ publication.Publication }}</a>,
+        <a href="{{ publication.PublicationURL }}">{{ publication.Publication }}</a><br/>
       {% endif %}
-      {% if publication.URL == null %}
-        n/a,
-      {% else %}
-        <a href="{{ publication.URL }}">PDF</a>,
+      {% if publication.URL != null %}
+        <a href="{{ publication.URL }}">[PDF]</a>
       {% endif %}
-      <a href="/bibtex#{{ publication.Id }}">bibtex</a>
+      <a href="/bibtex#{{ publication.Id }}">[bibtex]</a>
     </li>
     {% endfor %}
     </ul>
