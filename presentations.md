@@ -12,9 +12,10 @@ Here is a list of presentations I have given here and there.
 
 - *Semantic Parsing and Beyond to Create a Commonsense Knowledge Base*
   University of Rome "Tor Vergata", 11/4/2018
-  [PDF](tv2019.pdf)
+  [PDF](tv2018.pdf)
+  
   Institute for Language and Information Science, University of Düsseldorf, 19/4/2018
-  [PDF](dusseldorf2019.pdf)
+  [PDF](dusseldorf2018.pdf)
 
 - *Commonsense Knowledge Bases*
   [LCL Reading Group](http://wwwusers.di.uniroma1.it/~basile/readinggroup/), University of Rome "La Sapienza", 23/11/2017
