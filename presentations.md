@@ -6,6 +6,16 @@ permalink: /presentations/
 
 Here is a list of presentations I have given here and there.
 
+- *Calcolare opinioni e controversialità (Italian)*
+  [DipInfo si racconta](http://beta.di.unito.it/index.php/italiano/news/eventi/dipinfo-si-racconta-workshop-del-dipartimento-di-informatica), University of Turin, 11/1/2019
+  [PDF](dipinfo2019.pdf)
+
+- *Semantic Parsing and Beyond to Create a Commonsense Knowledge Base*
+  University of Rome "Tor Vergata", 11/4/2018
+  [PDF](tv2019.pdf)
+  Institute for Language and Information Science, University of Düsseldorf, 19/4/2018
+  [PDF](dusseldorf2019.pdf)
+
 - *Commonsense Knowledge Bases*
   [LCL Reading Group](http://wwwusers.di.uniroma1.it/~basile/readinggroup/), University of Rome "La Sapienza", 23/11/2017
   [PDF](commonsensekb.pdf)
