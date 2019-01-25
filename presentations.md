@@ -6,7 +6,7 @@ permalink: /presentations/
 
 Here is a list of presentations I have given here and there.
 
-- *Not on my (Neural) Watch: Automatic Detection of Hate Speech in Social Media (Italian)*
+- *Not on my (Neural) Watch: Automatic Detection of Hate Speech in Social Media*
   [ExMachinaConf 2019](https://www.exmachinaconf.it/), Casalecchio, 25/1/2019
   [PDF](exmachinaconf2019.pdf)
 
