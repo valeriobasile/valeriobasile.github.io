@@ -6,6 +6,10 @@ permalink: /presentations/
 
 Here is a list of presentations I have given here and there.
 
+- *Not on my (Neural) Watch: Automatic Detection of Hate Speech in Social Media (Italian)*
+  [ExMachinaConf 2019](https://www.exmachinaconf.it/), Casalecchio, 25/1/2019
+  [PDF](exmachinaconf2019.pdf)
+
 - *Calcolare opinioni e controversialità (Italian)*
   [DipInfo si racconta](http://beta.di.unito.it/index.php/italiano/news/eventi/dipinfo-si-racconta-workshop-del-dipartimento-di-informatica), University of Turin, 11/1/2019
   [PDF](dipinfo2019.pdf)
