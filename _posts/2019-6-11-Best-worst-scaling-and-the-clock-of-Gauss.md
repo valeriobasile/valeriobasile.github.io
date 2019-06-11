@@ -12,24 +12,28 @@ Can we do better? My friend Marco from [ACMOS](http://acmos.net/) asked me this 
 
 For *n* instances, there will be *n/k* tuples times *p*. Therefore, with *x* ranging between 0 and *n/k*, and *j* ranging between 0 and *k*, each tuple is composed by the instances identified by the formula:
 
-(x k^j+1^ + i k^j^) mod n
+(x k^{j+1} + i k^j) mod n
 
 Where *i* ranges between 0 and *k*.
 
 It sounds a bit complicated, but it makes sense once looking at the output. Let's try with a set of 101 instances, asking for 4-uples with each instance repeating in exactly 4 4-uples (*k*=4, *p*=4). The first tuples we get are
 
-  1, 2, 3, 4
-  5, 6, 7, 8
-  ...
+```
+1, 2, 3, 4
+5, 6, 7, 8
+...
+```
 
 and so on. Then, once we get to *n* (101), the formula starts to wrap the indexes around: 
 
-  ...
-  1, 5, 9, 13
-  81, 85, 89, 93
-  97, 101, 4, 8
-  12, 16, 20, 24
-  ...
+```
+...
+1, 5, 9, 13
+81, 85, 89, 93
+97, 101, 4, 8
+12, 16, 20, 24
+...
+```
     
 Nice, huh? It comes with a couple of caveats though. First, *n* (the number of instances) and *k* (the size of the tuples) must be [co-primes](https://en.wikipedia.org/wiki/Coprime_integers), i.e., they need not have common divisors other than 1. The other issue is that although we can produce an almost perfect set of tuples given the initial instances, it is mathematically impossible to have all the instances appear in exactly *p* tuples. More precisely, there will be up to *k*-1 instances that occur *p*-1 times. In other words, a very small set of instances will lack one annotation. 
 
