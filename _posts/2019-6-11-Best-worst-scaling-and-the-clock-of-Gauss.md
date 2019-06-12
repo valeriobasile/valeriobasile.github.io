@@ -12,7 +12,7 @@ Can we do better? My friend Marco from [ACMOS](http://acmos.net/) asked me this 
 
 For *n* instances, there will be *n/k* tuples times *p*. Therefore, with *x* ranging between 0 and *n/k*, and *j* ranging between 0 and *k*, each tuple is composed by the instances identified by the formula:
 
-![(x k^{j+1} + i k^j) mod n](2019-6-11-equation.gif)
+![(x k^{j+1} + i k^j) mod n](https://valeriobasile.github.io/images/2019-6-11-equation.gif)
 
 Where *i* ranges between 0 and *k*.
 
