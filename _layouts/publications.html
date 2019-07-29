@@ -18,7 +18,7 @@ layout: default
       {% if publication.PublicationURL == null %}
         {{ publication.Publication }}
       {% else %}
-        <a href="{{ publication.PublicationURL }}">{{ publication.Publication }}</a><br/>
+        <a href="{{ publication.PublicationURL }}">{{ publication.Publication }}</a>
       {% endif %}
       {% if publication.URL != null %}
         <a href="{{ publication.URL }}">[PDF]</a>
