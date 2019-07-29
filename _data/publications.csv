@@ -1,6 +1,25 @@
 Id,Type,Year,Author,Title,Publication,PublicationURL,URL,Bibtex
-,,2019,"Endang Wahyu Pamungkas, Valerio Basile, Viviana Patti","Stance Classification for Rumour Analysis in Twitter: 
-Exploiting Affective Information and Conversation Structure",SemEval-2017,http://alt.qcri.org/semeval2017/task8/,https://www.groundai.com/project/stance-classification-for-rumour-analysis-in-twitter-exploiting-affective-information-and-conversation-structure/,"@article{DBLP:journals/corr/abs-1901-01911,
+47,conferencePaper,2019,"Valerio Basile, Cristina Bosco, Elisabetta Fersini, Debora Nozza, Viviana Patti, Francisco Manuel Rangel Pardo, Paolo Rosso, Manuela Sanguinetti",SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter,SemEval 2019,http://alt.qcri.org/semeval2019/,https://www.aclweb.org/anthology/papers/S/S19/S19-2007/,"@inproceedings{basile-etal-2019-semeval,
+    title = ""{S}em{E}val-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter"",
+    author = ""Basile, Valerio  and
+      Bosco, Cristina  and
+      Fersini, Elisabetta  and
+      Nozza, Debora  and
+      Patti, Viviana  and
+      Rangel Pardo, Francisco Manuel  and
+      Rosso, Paolo  and
+      Sanguinetti, Manuela"",
+    booktitle = ""Proceedings of the 13th International Workshop on Semantic Evaluation"",
+    month = jun,
+    year = ""2019"",
+    address = ""Minneapolis, Minnesota, USA"",
+    publisher = ""Association for Computational Linguistics"",
+    url = ""https://www.aclweb.org/anthology/S19-2007"",
+    pages = ""54--63"",
+    abstract = ""The paper describes the organization of the SemEval 2019 Task 5 about the detection of hate speech against immigrants and women in Spanish and English messages extracted from Twitter. The task is organized in two related classification subtasks: a main binary subtask for detecting the presence of hate speech, and a finer-grained one devoted to identifying further features in hateful contents such as the aggressive attitude and the target harassed, to distinguish if the incitement is against an individual rather than a group. HatEval has been one of the most popular tasks in SemEval-2019 with a total of 108 submitted runs for Subtask A and 70 runs for Subtask B, from a total of 74 different teams. Data provided for the task are described by showing how they have been collected and annotated. Moreover, the paper provides an analysis and discussion about the participant systems and the results they achieved in both subtasks."",
+}"
+47,conferencePaper,2019,"Endang Wahyu Pamungkas, Valerio Basile, Viviana Patti","Stance Classification for Rumour Analysis in Twitter: 
+Exploiting Affective Information and Conversation Structure",RDSM 2018,https://www.pheme.eu/rdsm2018/,https://www.groundai.com/project/stance-classification-for-rumour-analysis-in-twitter-exploiting-affective-information-and-conversation-structure/,"@article{DBLP:journals/corr/abs-1901-01911,
   author    = {Endang Wahyu Pamungkas and
                Valerio Basile and
                Viviana Patti},
@@ -16,7 +35,33 @@ Exploiting Affective Information and Conversation Structure",SemEval-2017,http:/
   biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1901-01911},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }"
-,conferencePaper,2018,"Alessandra Teresa Cignarella, Simona Frenda, Valerio Basile, Cristina Bosco, Viviana Patti, Paolo Rosso",Overview of the evalita 2018 task on irony detection in italian tweets (ironita),,,,
+46,conferencePaper,2018,"Pierpaolo Basile, Valerio Basile, Danilo Croce, Marco Polignano",Overview of the EVALITA 2018 Aspect-based Sentiment Analysis Task (ABSITA),EVALITA 2018,http://www.evalita.it/2018,http://ceur-ws.org/Vol-2263/paper003.pdf,"@inproceedings{DBLP:conf/evalita/BasileBCP18,
+  author    = {Pierpaolo Basile and
+               Valerio Basile and
+               Danilo Croce and
+               Marco Polignano},
+  title     = {Overview of the {EVALITA} 2018 Aspect-based Sentiment Analysis Task
+               {(ABSITA)}},
+  booktitle = {Proceedings of the Sixth Evaluation Campaign of Natural Language Processing
+               and Speech Tools for Italian. Final Workshop {(EVALITA} 2018) co-located
+               with the Fifth Italian Conference on Computational Linguistics (CLiC-it
+               2018), Turin, Italy, December 12-13, 2018.},
+  year      = {2018},
+  crossref  = {DBLP:conf/evalita/2018},
+  url       = {http://ceur-ws.org/Vol-2263/paper003.pdf},
+  timestamp = {Tue, 28 May 2019 16:23:49 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/evalita/BasileBCP18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}"
+45,conferencePaper,2018,"Alessandra Teresa Cignarella, Simona Frenda, Valerio Basile, Cristina Bosco, Viviana Patti, Paolo Rosso",Overview of the evalita 2018 task on irony detection in italian tweets (ironita),EVALITA 2018,http://www.evalita.it/2018,http://ceur-ws.org/Vol-2263/paper005.pdf,"@inproceedings{cignarella2018overview,
+  title={Overview of the {EVALITA} 2018 task on Irony Detection in {I}talian tweets ({IronITA})},
+  author={Cignarella, Alessandra Teresa and Frenda, Simona and Basile, Valerio and Bosco, Cristina and Patti, Viviana and Rosso, Paolo and others},
+  booktitle={Sixth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian (EVALITA 2018)},
+  volume={2263},
+  pages={1--6},
+  year={2018},
+  organization={CEUR-WS}
+}"
 44,conferencePaper,2018,"Valerio Basile, Elena Cabrio, Fabien Gandon, Debora Nozza",Mapping Natural Language Labels to Structured Web Resources,NL4AI 2018,http://sag.art.uniroma2.it/NL4AI/,http://ceur-ws.org/Vol-2244/paper_06.pdf,"@inproceedings{DBLP:conf/aiia/BasileCGN18,
   author    = {Valerio Basile and
                Elena Cabrio and
