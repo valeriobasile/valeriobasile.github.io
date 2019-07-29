@@ -6,6 +6,15 @@ permalink: /data/
 
 Here are some of the things I did, or I was involved in somehow, and software I maintain.
 
+Hurtlex
+-------
+
+Hurtlex is a multilingual lexicon of offensive, aggressive and hateful words. 
+It was created starting from an original resource by linguist Tullio De Mauro 
+and semi-automatically translated into many languages.
+
+[Hurtlex repository](https://github.com/valeriobasile/hurtlex)
+
 KNEWS
 -----
 
