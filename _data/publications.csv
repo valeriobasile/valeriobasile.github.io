@@ -403,7 +403,7 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
 }"
 6,conferencePaper,2013,"Valerio Basile, Malvina Nissim",Sentiment analysis on Italian tweets,WASSA 2013,http://optima.jrc.it/wassa2013/index.htm,http://www.aclweb.org/anthology/W/W13/W13-16.pdf#page=112,"@inproceedings{basile_sentiment_2013,
 	title = {Sentiment analysis on {Italian} tweets},
-	url = {http://www.aclweb.org/anthology/W/W13/W13-16.pdf#page=112},
+	url = {https://www.aclweb.org/anthology/W13-1614},
 	urldate = {2015-08-21},
 	booktitle = {Proceedings of the 4th {Workshop} on {Computational} {Approaches} to {Subjectivity}, {Sentiment} and {Social} {Media} {Analysis}},
 	author = {Basile, Valerio and Nissim, Malvina},
