@@ -1,26 +1,43 @@
 Id,Role,Year,Description,URL
-,reviewer,2019,Applied Ontology,https://www.iospress.nl/journal/applied-ontology/
-,reviewer,2019,South African Journal of Science,https://www.sajs.co.za/
-89,steering committee member,2020,International Workshop on Semantic Evaluation (SemEval 2020),http://alt.qcri.org/semeval2020/
-88,program committee member,2019,International Semantic Web Conference (ISWC 2019),https://iswc2019.semanticweb.org/
-87,organizer,2019,2nd Workshop on Contextual Representation of Events and Objects in Language (CREOL@JOWO 2019),https://creol2019.di.unito.it/
-86,program committee member,2019,International Joint Conference on Artificial Intelligence (IJCAI 2019),https://ijcai19.org/
-85,mentor,2019,ACL 2019 Student Research Workshop,https://sites.google.com/view/acl19studentresearchworkshop/home?authuser=0
-84,program committee member,2019,The Eighth Joint Conference on Lexical and Computational Semantics (*SEM 2019),https://starsem.org/2019/
-83,reviewer,2019,International Journal on Artificial Intelligence Tools,https://www.worldscientific.com/worldscinet/ijait
-82,organizer,2019,SemEval 2019 Task 5 - Shared Task on Multilingual Detection of Hate,https://competitions.codalab.org/competitions/19935
-81,reviewer,2019,Transactions on Social Computing,https://tsc.acm.org/
-80,program committee member,2019,57th Annual Meeting of the Association for Computational Linguistics (ACL 2019),http://www.acl2019.org/EN/index.xhtml
-79,program committee member,2019,"2nd Conference on Language, Data and Knowledge (LDK 2019)",http://2019.ldk-conf.org/
-78,reviewer,2019,Journal of Experimental & Theoretical Artificial Intelligence,https://www.tandfonline.com/toc/teta20/current
-77,program committee member,2019,Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-HTL 2019),https://naacl2019.org/
-76,program committee member,2019,Extended Semantic Web Conference (ESWC 2019),https://2019.eswc-conferences.org
-75,guest editor,2019,Applied Ontology,https://submissions.iospress.com/applied-ontology/CIM
-74,program committee member,2019,The Web Conference 2019,https://www2019.thewebconf.org/
-73,program committee member,2019,The 34th ACM/SIGAPP Symposium On Applied Computing (SAC),https://www.sigapp.org/sac/sac2019/
-72,program committee member,2019,Privacy-Enhancing Artificial Intelligence and Language Technologies AAAI Spring Symposium ,https://sites.google.com/view/pal2019/
-71,organizer,2018,Aspect-based Sentiment Analysis at EVALITA 2019 (ABSITA),http://sag.art.uniroma2.it/absita/
-70,organizer,2018,Irony Detection in Italian Tweets shared task at EVALITA 2019 (IronITA),http://www.di.unito.it/~tutreeb/ironita-evalita18/index.html
+108,program committee member,2019,22nd Nordic Conference on Computational Linguistics (NoDaLiDa’19),https://nodalida2019.org/
+107,speaker,2019,Ex Machina,https://www.exmachinaconf.it/
+106,program committee member,2019,2019 Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP 2019),https://www.emnlp-ijcnlp2019.org/
+105,program committee member,2019,Sixth Italian Conference on Computational Linguistics (CLiC-it 2019),http://clic2019.di.uniba.it/
+104,program committee member,2019,The Web Conference (WWW 2020),https://www2020.thewebconf.org/
+103,program committee member,2019,14th International Conference on Web and Social Media,https://www.icwsm.org/2020/index.html
+102,program committee member,2019,Second Workshop on Multilingual Surface Realization,http://taln.upf.edu/pages/msr2019-ws/
+101,organizer,2019,3rd Workshop on Natural Language for Artificial Intelligence (NL4AI),http://sag.art.uniroma2.it/NL4AI/
+100,program committee member,2019,The 35th ACM/SIGAPP Symposium On Applied Computing,https://www.sigapp.org/sac/sac2020/
+99,program committee member,2019,The Thirty-Fourth AAAI Conference on Artificial Intelligence,https://aaai.org/Conferences/AAAI-20
+98,program committee member,2019,European Conference on Artificial Intelligence,http://ecai2020.eu/
+97,,,,
+96,reviewer,2019,IEEE Transactions on Affective Computing,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369
+95,reviewer,2019,ACM Transactions on Internet Technology (TOIT),https://toit.acm.org/
+94,reviewer,2019,Applied Ontology,https://www.iospress.nl/journal/applied-ontology/
+93,reviewer,2019,Applied Sciences,https://www.mdpi.com/journal/applsci
+92,reviewer,2019,South African Journal of Science,https://www.sajs.co.za/
+91,steering committee member,2020,International Workshop on Semantic Evaluation (SemEval 2020),http://alt.qcri.org/semeval2020/
+90,program committee member,2019,International Semantic Web Conference (ISWC 2019),https://iswc2019.semanticweb.org/
+89,organizer,2019,2nd Workshop on Contextual Representation of Events and Objects in Language (CREOL@JOWO 2019),https://creol2019.di.unito.it/
+88,program committee member,2019,International Joint Conference on Artificial Intelligence (IJCAI 2019),https://ijcai19.org/
+87,mentor,2019,ACL 2019 Student Research Workshop,https://sites.google.com/view/acl19studentresearchworkshop/home?authuser=0
+86,program committee member,2019,The Eighth Joint Conference on Lexical and Computational Semantics (*SEM 2019),https://starsem.org/2019/
+85,reviewer,2019,International Journal on Artificial Intelligence Tools,https://www.worldscientific.com/worldscinet/ijait
+84,organizer,2019,SemEval 2019 Task 5 - Shared Task on Multilingual Detection of Hate,https://competitions.codalab.org/competitions/19935
+83,reviewer,2019,Transactions on Social Computing,https://tsc.acm.org/
+82,program committee member,2019,57th Annual Meeting of the Association for Computational Linguistics (ACL 2019),http://www.acl2019.org/EN/index.xhtml
+81,program committee member,2019,"2nd Conference on Language, Data and Knowledge (LDK 2019)",http://2019.ldk-conf.org/
+80,reviewer,2019,Journal of Experimental & Theoretical Artificial Intelligence,https://www.tandfonline.com/toc/teta20/current
+79,program committee member,2019,Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-HTL 2019),https://naacl2019.org/
+78,program committee member,2019,Extended Semantic Web Conference (ESWC 2019),https://2019.eswc-conferences.org
+77,guest editor,2019,Applied Ontology,https://submissions.iospress.com/applied-ontology/CIM
+76,program committee member,2019,The Web Conference 2019,https://www2019.thewebconf.org/
+75,program committee member,2019,The 34th ACM/SIGAPP Symposium On Applied Computing (SAC),https://www.sigapp.org/sac/sac2019/
+74,program committee member,2019,Privacy-Enhancing Artificial Intelligence and Language Technologies AAAI Spring Symposium ,https://sites.google.com/view/pal2019/
+73,program committee member,2018,Fifth Italian Conference on Computational Linguistics (CLiC-it 2018),http://clic2018.di.unito.it/en/home-2/
+72,organizer,2018,Aspect-based Sentiment Analysis at EVALITA 2019 (ABSITA),http://sag.art.uniroma2.it/absita/
+71,organizer,2018,Irony Detection in Italian Tweets shared task at EVALITA 2019 (IronITA),http://www.di.unito.it/~tutreeb/ironita-evalita18/index.html
+70,organizer,2018,2nd Workshop on Natural Language for Artificial Intelligence (NL4AI),http://sag.art.uniroma2.it/NL4AI/
 69,program committee member,2018,Re-coding Black Mirror workshop at WWW2018,https://kmitd.github.io/recoding-black-mirror/
 68,program committee member,2018,17th International Semantic Web Conference (ISWC 2018),http://iswc2018.semanticweb.org/
 67,program committee member,2018,2nd International Workshop on the Application of Semantic Web technologies in Robotics (AnSWeR18),http://answer.kmi.open.ac.uk/
