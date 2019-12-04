@@ -6,6 +6,10 @@ permalink: /presentations/
 
 Here is a list of presentations I have given here and there.
 
+- *Computational Linguistics against Hate: Resources, Models, and Evaluation to Monitor and Contrast Abusive Language Online*
+  CISA Seminar, University of Edinburgh, 2/12/2019
+  [PDF](cisa2019.pdf)
+
 - *Hate Speech Detection*
   Video lecture, University of Teheran, 30/7/2019
   [PDF](teheran2019.pdf)
