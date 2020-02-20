@@ -6,6 +6,14 @@ permalink: /presentations/
 
 Here is a list of presentations I have given here and there.
 
+- *Cos’è un lessico affettivo. L’esperienza di Sentix*
+  Workshop "Sentiment Analysis in Agricoltura", CREA Rome, 19/2/2020
+  [PDF](crea2020.pdf)
+
+- *Creating a Commonsense Knowledge Base about Objects*
+  SAILab Seminar, University of Siena, 12/2/2020
+  [PDF](SAILab2020.pdf)
+
 - *Computational Linguistics against Hate: Resources, Models, and Evaluation to Monitor and Contrast Abusive Language Online*
   CISA Seminar, University of Edinburgh, 2/12/2019
   [PDF](cisa2019.pdf)
