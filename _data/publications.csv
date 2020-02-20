@@ -1,5 +1,32 @@
 Id,Type,Year,Author,Title,Publication,PublicationURL,URL,Bibtex
-54,journalArticle,2019,"Davide Marengo, Danny Azucar, Fabrizia Giannotta, Valerio Basile, Michele Settanni",Exploring the association between problem drinking and language use on Facebook in young adults,Heliyon,https://www.sciencedirect.com/science/journal/24058440,https://www.sciencedirect.com/science/article/pii/S2405844019361833,"@article{MARENGO2019e02523,
+55,conferencePaper,2019,"Komal Florio, Valerio Basile, Mirko Lai, Viviana Patti",Leveraging Hate Speech Detection to Investigate Immigration-related Phenomena in Italy,4th Workshop on Emotion and Sentiment in Social and Expressive Media (ESSEM 2019),http://www.di.unito.it/~rossana/essem19/schedule.html,https://ieeexplore.ieee.org/abstract/document/8925079,"@inproceedings{florio2019leveraging,
+  title={Leveraging Hate Speech Detection to Investigate Immigration-related Phenomena in Italy},
+  author={Florio, Kamal and Basile, Valerio and Lai, Mirko and Patti, Viviana},
+  booktitle={2019 8th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW)},
+  pages={1--7},
+  year={2019},
+  organization={IEEE}
+}"
+54,conferencePaper,2019,"Alessandro Mazzei, Valerio Basile",The DipInfoUniTo Realizer at SRST'19: Learning to Rank and Deep Morphology Prediction for Multilingual Surface Realization,Surface Realization Shared Task 2019,http://taln.upf.edu/pages/msr2019-ws/SRST.html,https://www.aclweb.org/anthology/D19-6311.pdf,"@inproceedings{mazzei-basile-2019-dipinfounito,
+    title = ""The {D}ip{I}nfo{U}ni{T}o Realizer at {SRST}{'}19: Learning to Rank and Deep Morphology Prediction for Multilingual Surface Realization"",
+    author = ""Mazzei, Alessandro  and
+      Basile, Valerio"",
+    booktitle = ""Proceedings of the 2nd Workshop on Multilingual Surface Realisation (MSR 2019)"",
+    month = nov,
+    year = ""2019"",
+    address = ""Hong Kong, China"",
+    publisher = ""Association for Computational Linguistics"",
+    url = ""https://www.aclweb.org/anthology/D19-6311"",
+    doi = ""10.18653/v1/D19-6311"",
+    pages = ""81--87"",
+    abstract = ""We describe the system presented at the SR{'}19 shared task by the DipInfoUnito team. Our approach is based on supervised machine learning. In particular, we divide the SR task into two independent subtasks, namely word order prediction and morphology inflection prediction. Two neural networks with different architectures run on the same input structure, each producing a partial output which is recombined in the final step in order to produce the predicted surface form. This work is a direct successor of the architecture presented at SR{'}19."",
+}"
+53,editorial,2019,"Valerio Basile, Caselli Tommaso, Daniele P Radicioni",Meaning in Context: Ontologically and linguistically motivated representations of objects and events,Applied Ontology,https://www.iospress.nl/journal/applied-ontology/,https://content.iospress.com/articles/applied-ontology/ao190221," @article{basile2019meaning,
+  title={Meaning in Context: Ontologically and linguistically motivated representations of objects and events},
+  author={Basile, Valerio and Tommaso, Caselli and Radicioni, Daniele P and others},
+  year={2019}
+}"
+52,journalArticle,2019,"Davide Marengo, Danny Azucar, Fabrizia Giannotta, Valerio Basile, Michele Settanni",Exploring the association between problem drinking and language use on Facebook in young adults,Heliyon,https://www.sciencedirect.com/science/journal/24058440,https://www.sciencedirect.com/science/article/pii/S2405844019361833,"@article{MARENGO2019e02523,
 title = ""Exploring the association between problem drinking and language use on Facebook in young adults"",
 journal = ""Heliyon"",
 volume = ""5"",
@@ -13,14 +40,81 @@ author = ""Davide Marengo and Danny Azucar and Fabrizia Giannotta and Valerio Ba
 keywords = ""Psychology, Linguistics, Problem alcohol drinking, Social media, Digital footprints, Data mining, Text analysis"",
 abstract = ""Recent literature suggests that variations in both formal and content aspects of texts shared on social media tend to reflect user-level differences in demographic, psychosocial, and behavioral characteristics. In the present study, we examined associations between language use on Facebook and problematic alcohol use. We collected texts shared on Facebook by a sample of 296 adult social media users (66.9% females; mean age = 28.44 years (SD = 7.38)). Texts were mined using the closed-vocabulary approach based on the Linguistic Inquiry Word Count (LIWC) semantic dictionary, and an open-vocabulary approach performed via Latent Dirichlet Allocation (LDA). Then, we examined associations between emerging textual features and alcohol-drinking scores as assessed using the AUDIT-C questionnaire. As a final aim, we employed the Random Forest machine-learning algorithm to determine and compare the predictive accuracy of closed- and open-vocabulary features over users' AUDIT-C scores. We found use of words about family, school, and positive feelings and emotions to be negatively associated with alcohol use and problematic drinking, while words suggesting interest in sport events, politics and economics, nightlife, and use of coarse language were more frequent among problematic drinkers. Results coming from LIWC and LDA analyses were quite similar, but LDA added information that could not be retrieved only with LIWC analysis. Furthermore, open-vocabulary features outperformed closed-vocabulary features in terms of predictive power over participants’ AUDIT-C scores (r = .46 vs. r = .28, respectively). Emerging relationships between text features and offline behaviors may have important implications for alcohol screening purposes in the online environment.""
 "
-53,conferencePaper,2019,"Marco Polignano, Pierpaolo Basile, Marco de Gemmis, Giovanni Semeraro and Valerio Basile",AlBERTo: Italian BERT Language Understanding Model for NLP Challenging Tasks Based on Tweets,6th Italian Conference on Computational Linguistics (CliC-it 2019),http://clic2019.di.uniba.it/,,
-52,conferencePaper,2019,"Marco Vassallo, Giuliano Gabrieli, Valerio Basile and Cristina Bosco",The Tenuousness of Lemmatization in Lexicon-based Sentiment Analysis,6th Italian Conference on Computational Linguistics (CliC-it 2019),http://clic2019.di.uniba.it/,,
-51,conferencePaper,2019,"Arthur T. E. Capozzi, Mirko Lai, Valerio Basile, Cataldo Musto, Marco Polignano, Fabio Poletto, Manuela Sanguinetti, Cristina Bosco, Viviana Patti, Giancarlo Ruffo, Giovanni Semeraro and Marco Stranisci","Computational Linguistics Against Hate: Hate Speech Detection and Visualization on Social Media in the ""Contro L’Odio"" Project",6th Italian Conference on Computational Linguistics (CliC-it 2019),http://clic2019.di.uniba.it/,,
-50,conferencePaper,2019,"Fabio Poletto, Valerio Basile, Cristina Bosco, Viviana Patti and Marco Stranisci",Annotating Hate Speech: Three Schemes at Comparison,6th Italian Conference on Computational Linguistics (CliC-it 2019),http://clic2019.di.uniba.it/,,
-49,conferencePaper,2019,"Sohail Akhtar, Valerio Basile, and Viviana Patti","A New Measure of Polarization in the
-Annotation of Hate Speech",18th International Conference of the Italian Association for Artificial Intelligence (AIIA 2019),https://aiia2019.mat.unical.it,,
-48,journalArticle,2019,"Fabio Poletto ,Valerio Basile, Manuela Sanguinetti, Cristina Bosco, VivianaPatti",Resources and Benchmark Corpora for Hate SpeechDetection: a Systematic Review (submitted),Language Resources and Evaluation,https://link.springer.com/journal/10579,,
-47,conferencePaper,2019,"Valerio Basile, Cristina Bosco, Elisabetta Fersini, Debora Nozza, Viviana Patti, Francisco Manuel Rangel Pardo, Paolo Rosso, Manuela Sanguinetti",SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter,SemEval 2019,http://alt.qcri.org/semeval2019/,https://www.aclweb.org/anthology/papers/S/S19/S19-2007/,"@inproceedings{basile-etal-2019-semeval,
+51,conferencePaper,2019,"Marco Polignano, Pierpaolo Basile, Marco de Gemmis, Giovanni Semeraro and Valerio Basile",AlBERTo: Italian BERT Language Understanding Model for NLP Challenging Tasks Based on Tweets,6th Italian Conference on Computational Linguistics (CliC-it 2019),http://clic2019.di.uniba.it/,http://ceur-ws.org/Vol-2481/paper57.pdf,"@InProceedings{PolignanoEtAlCLIC2019,
+  author    = {Marco Polignano and Pierpaolo Basile and Marco de Gemmis and Giovanni Semeraro and Valerio Basile},
+  title     = {{AlBERTo: Italian BERT Language Understanding Model for NLP Challenging Tasks Based on Tweets}},
+  booktitle = {Proceedings of the Sixth Italian Conference on Computational Linguistics (CLiC-it 2019)},
+  year      = {2019},
+  publisher = {CEUR},
+  journal={CEUR Workshop Proceedings},
+  volume={2481},
+  url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85074851349&partnerID=40&md5=7abed946e06f76b3825ae5e294ffac14},
+  document_type={Conference Paper},
+  source={Scopus}
+}"
+50,conferencePaper,2019,"Marco Vassallo, Giuliano Gabrieli, Valerio Basile and Cristina Bosco",The Tenuousness of Lemmatization in Lexicon-based Sentiment Analysis,6th Italian Conference on Computational Linguistics (CliC-it 2019),http://clic2019.di.uniba.it/,http://ceur-ws.org/Vol-2481/paper74.pdf,"@inproceedings{marco2019tenuousness,
+  title={The Tenuousness of lemmatization in lexicon-based sentiment analysis},
+  author={Marco, Vassallo and Giuliano, Gabrieli and Basile, Valerio and Bosco, Cristina},
+  booktitle={Sixth Italian Conference on Computational Linguistics},
+  volume={2481},
+  pages={1--6},
+  year={2019},
+  organization={Ceur}
+}"
+49,conferencePaper,2019,"Arthur T. E. Capozzi, Mirko Lai, Valerio Basile, Cataldo Musto, Marco Polignano, Fabio Poletto, Manuela Sanguinetti, Cristina Bosco, Viviana Patti, Giancarlo Ruffo, Giovanni Semeraro and Marco Stranisci","Computational Linguistics Against Hate: Hate Speech Detection and Visualization on Social Media in the ""Contro L’Odio"" Project",6th Italian Conference on Computational Linguistics (CliC-it 2019),http://clic2019.di.uniba.it/,http://ceur-ws.org/Vol-2481/paper14.pdf,"@inproceedings{capozzi2019computational,
+  title={Computational linguistics against hate: Hate speech detection and visualization on social media in the"" Contro L’Odio"" project},
+  author={Capozzi, Arthur TE and Lai, Mirko and Basile, Valerio and Poletto, Fabio and Sanguinetti, Manuela and Bosco, Cristina and Patti, Viviana and Ruffo, Giancarlo and Musto, Cataldo and Polignano, Marco and others},
+  booktitle={6th Italian Conference on Computational Linguistics, CLiC-it 2019},
+  volume={2481},
+  pages={1--6},
+  year={2019},
+  organization={CEUR-WS}
+}"
+48,conferencePaper,2019,"Fabio Poletto, Valerio Basile, Cristina Bosco, Viviana Patti and Marco Stranisci",Annotating Hate Speech: Three Schemes at Comparison,6th Italian Conference on Computational Linguistics (CliC-it 2019),http://clic2019.di.uniba.it/,http://ceur-ws.org/Vol-2481/paper56.pdf,"@inproceedings{poletto2019annotating,
+  title={Annotating hate speech: Three schemes at comparison},
+  author={Poletto, Fabio and Basile, Valerio and Bosco, Cristina and Patti, Viviana and Stranisci, Marco},
+  booktitle={6th Italian Conference on Computational Linguistics, CLiC-it 2019},
+  volume={2481},
+  pages={1--8},
+  year={2019},
+  organization={CEUR-WS}
+}"
+47,conferencePaper,2019,"Sohail Akhtar, Valerio Basile, and Viviana Patti","A New Measure of Polarization in the
+Annotation of Hate Speech",18th International Conference of the Italian Association for Artificial Intelligence (AIIA 2019),https://aiia2019.mat.unical.it,https://link.springer.com/chapter/10.1007/978-3-030-35166-3_41,"@InProceedings{10.1007/978-3-030-35166-3_41,
+author=""Akhtar, Sohail
+and Basile, Valerio
+and Patti, Viviana"",
+editor=""Alviano, Mario
+and Greco, Gianluigi
+and Scarcello, Francesco"",
+title=""A New Measure of Polarization in the Annotation of Hate Speech"",
+booktitle=""AI*IA 2019 -- Advances in Artificial Intelligence"",
+year=""2019"",
+publisher=""Springer International Publishing"",
+address=""Cham"",
+pages=""588--603"",
+abstract=""The number of social media users is ever-increasing. Unfortunately, this has also resulted in the massive rise of uncensored online hate against vulnerable communities such as immigrants, LGBT and women. Current work on the automatic detection of various forms of hate speech (HS) typically employs supervised learning, requiring manually annotated data. The highly polarizing nature of the topics involved raises concerns about the quality of annotations these systems rely on, because not all the annotators are equally sensitive to different kinds of hate speech. We propose an approach to leverage the fine-grained knowledge expressed by individual annotators, before their subjectivity is averaged out by the gold standard creation process. This helps us to refine the quality of training sets for hate speech detection. We introduce a measure of polarization at the level of single instances in the data to manipulate the training set and reduce the impact of most polarizing text on the learning process."",
+isbn=""978-3-030-35166-3""
+}
+"
+46,conferencePaper,2019,"Endang Wahyu Pamungkas, Valerio Basile, Viviana Patti","Stance Classification for Rumour Analysis in Twitter: 
+Exploiting Affective Information and Conversation Structure",RDSM 2018,https://www.pheme.eu/rdsm2018/,https://www.groundai.com/project/stance-classification-for-rumour-analysis-in-twitter-exploiting-affective-information-and-conversation-structure/,"@article{DBLP:journals/corr/abs-1901-01911,
+  author    = {Endang Wahyu Pamungkas and
+               Valerio Basile and
+               Viviana Patti},
+  title     = {Stance Classification for Rumour Analysis in Twitter: Exploiting Affective
+               Information and Conversation Structure},
+  journal   = {CoRR},
+  volume    = {abs/1901.01911},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1901.01911},
+  archivePrefix = {arXiv},
+  eprint    = {1901.01911},
+  timestamp = {Thu, 31 Jan 2019 13:52:49 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1901-01911},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}"
+45,conferencePaper,2019,"Valerio Basile, Cristina Bosco, Elisabetta Fersini, Debora Nozza, Viviana Patti, Francisco Manuel Rangel Pardo, Paolo Rosso, Manuela Sanguinetti",SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter,SemEval 2019,http://alt.qcri.org/semeval2019/,https://www.aclweb.org/anthology/papers/S/S19/S19-2007/,"@inproceedings{basile-etal-2019-semeval,
     title = ""{S}em{E}val-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter"",
     author = ""Basile, Valerio  and
       Bosco, Cristina  and
@@ -39,24 +133,13 @@ Annotation of Hate Speech",18th International Conference of the Italian Associat
     pages = ""54--63"",
     abstract = ""The paper describes the organization of the SemEval 2019 Task 5 about the detection of hate speech against immigrants and women in Spanish and English messages extracted from Twitter. The task is organized in two related classification subtasks: a main binary subtask for detecting the presence of hate speech, and a finer-grained one devoted to identifying further features in hateful contents such as the aggressive attitude and the target harassed, to distinguish if the incitement is against an individual rather than a group. HatEval has been one of the most popular tasks in SemEval-2019 with a total of 108 submitted runs for Subtask A and 70 runs for Subtask B, from a total of 74 different teams. Data provided for the task are described by showing how they have been collected and annotated. Moreover, the paper provides an analysis and discussion about the participant systems and the results they achieved in both subtasks."",
 }"
-47,conferencePaper,2019,"Endang Wahyu Pamungkas, Valerio Basile, Viviana Patti","Stance Classification for Rumour Analysis in Twitter: 
-Exploiting Affective Information and Conversation Structure",RDSM 2018,https://www.pheme.eu/rdsm2018/,https://www.groundai.com/project/stance-classification-for-rumour-analysis-in-twitter-exploiting-affective-information-and-conversation-structure/,"@article{DBLP:journals/corr/abs-1901-01911,
-  author    = {Endang Wahyu Pamungkas and
-               Valerio Basile and
-               Viviana Patti},
-  title     = {Stance Classification for Rumour Analysis in Twitter: Exploiting Affective
-               Information and Conversation Structure},
-  journal   = {CoRR},
-  volume    = {abs/1901.01911},
-  year      = {2019},
-  url       = {http://arxiv.org/abs/1901.01911},
-  archivePrefix = {arXiv},
-  eprint    = {1901.01911},
-  timestamp = {Thu, 31 Jan 2019 13:52:49 +0100},
-  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1901-01911},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+44,journalArticle,2019,"Soufian Jebbara, Valerio Basile, Elena Cabrio, Philip Cimiano",Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models,Semantic Web,http://www.semantic-web-journal.net/,http://www.semantic-web-journal.net/system/files/swj1772.pdf,"@article{jebbara2018extracting,
+  title={Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models},
+  author={Jebbara, Soufian and Basile, Valerio and Cabrio, Elena and Cimiano, Philipp},
+  journal={Semantic Web},
+  year={2018}
 }"
-46,conferencePaper,2018,"Pierpaolo Basile, Valerio Basile, Danilo Croce, Marco Polignano",Overview of the EVALITA 2018 Aspect-based Sentiment Analysis Task (ABSITA),EVALITA 2018,http://www.evalita.it/2018,http://ceur-ws.org/Vol-2263/paper003.pdf,"@inproceedings{DBLP:conf/evalita/BasileBCP18,
+43,conferencePaper,2018,"Pierpaolo Basile, Valerio Basile, Danilo Croce, Marco Polignano",Overview of the EVALITA 2018 Aspect-based Sentiment Analysis Task (ABSITA),EVALITA 2018,http://www.evalita.it/2018,http://ceur-ws.org/Vol-2263/paper003.pdf,"@inproceedings{DBLP:conf/evalita/BasileBCP18,
   author    = {Pierpaolo Basile and
                Valerio Basile and
                Danilo Croce and
@@ -74,7 +157,7 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
   biburl    = {https://dblp.org/rec/bib/conf/evalita/BasileBCP18},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }"
-45,conferencePaper,2018,"Alessandra Teresa Cignarella, Simona Frenda, Valerio Basile, Cristina Bosco, Viviana Patti, Paolo Rosso",Overview of the evalita 2018 task on irony detection in italian tweets (ironita),EVALITA 2018,http://www.evalita.it/2018,http://ceur-ws.org/Vol-2263/paper005.pdf,"@inproceedings{cignarella2018overview,
+42,conferencePaper,2018,"Alessandra Teresa Cignarella, Simona Frenda, Valerio Basile, Cristina Bosco, Viviana Patti, Paolo Rosso",Overview of the evalita 2018 task on irony detection in italian tweets (ironita),EVALITA 2018,http://www.evalita.it/2018,http://ceur-ws.org/Vol-2263/paper005.pdf,"@inproceedings{cignarella2018overview,
   title={Overview of the {EVALITA} 2018 task on Irony Detection in {I}talian tweets ({IronITA})},
   author={Cignarella, Alessandra Teresa and Frenda, Simona and Basile, Valerio and Bosco, Cristina and Patti, Viviana and Rosso, Paolo and others},
   booktitle={Sixth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian (EVALITA 2018)},
@@ -83,7 +166,7 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
   year={2018},
   organization={CEUR-WS}
 }"
-44,conferencePaper,2018,"Valerio Basile, Elena Cabrio, Fabien Gandon, Debora Nozza",Mapping Natural Language Labels to Structured Web Resources,NL4AI 2018,http://sag.art.uniroma2.it/NL4AI/,http://ceur-ws.org/Vol-2244/paper_06.pdf,"@inproceedings{DBLP:conf/aiia/BasileCGN18,
+41,conferencePaper,2018,"Valerio Basile, Elena Cabrio, Fabien Gandon, Debora Nozza",Mapping Natural Language Labels to Structured Web Resources,NL4AI 2018,http://sag.art.uniroma2.it/NL4AI/,http://ceur-ws.org/Vol-2244/paper_06.pdf,"@inproceedings{DBLP:conf/aiia/BasileCGN18,
   author    = {Valerio Basile and
                Elena Cabrio and
                Fabien Gandon and
@@ -101,7 +184,7 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
   biburl    = {https://dblp.org/rec/bib/conf/aiia/BasileCGN18},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }"
-43,conferencePaper,2018,"Valerio Basile, Alessandro Mazzei",Neural Surface Realization for Italian,CliC-it 2018,http://ceur-ws.org/Vol-2253/paper50.pdf,https://iris.unito.it/bitstream/2318/1684807/1/paper49-clic2018.pdf,"@inproceedings{DBLP:conf/clic-it/BasileM18,
+40,conferencePaper,2018,"Valerio Basile, Alessandro Mazzei",Neural Surface Realization for Italian,CliC-it 2018,http://ceur-ws.org/Vol-2253/paper50.pdf,https://iris.unito.it/bitstream/2318/1684807/1/paper49-clic2018.pdf,"@inproceedings{DBLP:conf/clic-it/BasileM18,
   author    = {Valerio Basile and
                Alessandro Mazzei},
   title     = {Neural Surface Realization for Italian},
@@ -114,7 +197,7 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
   biburl    = {https://dblp.org/rec/bib/conf/clic-it/BasileM18},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }"
-42,conferencePaper,2018,"Valerio Basile, Mirko Lai, Manuela Sanguinetti",Long-term Social Media Data Collection at the University of Turin,CliC-it 2018,http://ceur-ws.org/Vol-2253/paper48.pdf,https://iris.unito.it/bitstream/2318/1684807/1/paper49-clic2018.pdf,"@inproceedings{DBLP:conf/clic-it/BasileLS18,
+39,conferencePaper,2018,"Valerio Basile, Mirko Lai, Manuela Sanguinetti",Long-term Social Media Data Collection at the University of Turin,CliC-it 2018,http://ceur-ws.org/Vol-2253/paper48.pdf,https://iris.unito.it/bitstream/2318/1684807/1/paper49-clic2018.pdf,"@inproceedings{DBLP:conf/clic-it/BasileLS18,
   author    = {Valerio Basile and
                Mirko Lai and
                Manuela Sanguinetti},
@@ -128,7 +211,7 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
   biburl    = {https://dblp.org/rec/bib/conf/clic-it/BasileLS18},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }"
-41,conferencePaper,2018,"Asprino Luigi, Valerio Basile, Ciancarini Paolo, Presutti Valentina",Empirical Analysis of Foundational Distinctions in Linked Open Data,IJCAI 2018,https://www.ijcai-18.org/,https://iris.unito.it/bitstream/2318/1682166/1/0551.pdf,"@inproceedings{luigi2018empirical,
+38,conferencePaper,2018,"Asprino Luigi, Valerio Basile, Ciancarini Paolo, Presutti Valentina",Empirical Analysis of Foundational Distinctions in Linked Open Data,IJCAI 2018,https://www.ijcai-18.org/,https://iris.unito.it/bitstream/2318/1682166/1/0551.pdf,"@inproceedings{luigi2018empirical,
   title={Empirical Analysis of Foundational Distinctions in Linked Open Data},
   author={Luigi, Asprino and Basile, Valerio and Paolo, Ciancarini and Valentina, Presutti},
   booktitle={27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence},
@@ -136,14 +219,14 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
   year={2018},
   organization={International Joint Conferences on Artificial Intelligence}
 }"
-40,conferencePaper,2018,"Valerio Basile, Alessandro Mazzei",The DipInfo-UniTo System for SRST 2018,SRST 2018,http://taln.upf.edu/pages/msr2018-ws/SRST.html,http://www.aclweb.org/anthology/W18-3609,"@inproceedings{basile2018dipinfo,
+37,conferencePaper,2018,"Valerio Basile, Alessandro Mazzei",The DipInfo-UniTo System for SRST 2018,SRST 2018,http://taln.upf.edu/pages/msr2018-ws/SRST.html,http://www.aclweb.org/anthology/W18-3609,"@inproceedings{basile2018dipinfo,
   title={The DipInfo-UniTo System for SRST 2018},
   author={Basile, Valerio and Mazzei, Alessandro},
   booktitle={Proceedings of the First Workshop on Multilingual Surface Realisation},
   pages={65--71},
   year={2018}
 }"
-39,conferencePaper,2018,"Endang Wahyu Pamungkas, Alessandra Teresa Cignarella, Valerio Basile, Viviana Patti",14-ExLab@ UniTo for AMI at IberEval2018: Exploiting lexical knowledge for detecting misogyny in English and Spanish tweets,IberEval 2018,https://sites.google.com/view/ibereval-2018,https://iris.unito.it/bitstream/2318/1684775/1/AMI_paper2.pdf,"@inproceedings{pamungkas201814,
+36,conferencePaper,2018,"Endang Wahyu Pamungkas, Alessandra Teresa Cignarella, Valerio Basile, Viviana Patti",14-ExLab@ UniTo for AMI at IberEval2018: Exploiting lexical knowledge for detecting misogyny in English and Spanish tweets,IberEval 2018,https://sites.google.com/view/ibereval-2018,https://iris.unito.it/bitstream/2318/1684775/1/AMI_paper2.pdf,"@inproceedings{pamungkas201814,
   title={14-ExLab@ UniTo for AMI at IberEval2018: Exploiting lexical knowledge for detecting misogyny in English and Spanish tweets},
   author={Pamungkas, Endang Wahyu and Cignarella, Alessandra Teresa and Basile, Valerio and Patti, Viviana and others},
   booktitle={3rd Workshop on Evaluation of Human Language Technologies for Iberian Languages, IberEval 2018},
@@ -152,7 +235,7 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
   year={2018},
   organization={CEUR-WS}
 }"
-38,conferencePaper,2018,"Elisa Bassignana, Valerio Basile, Viviana Patti",Hurtlex: A multilingual lexicon of words to hurt,CliC-it 2018,http://clic2018.di.unito.it/en/home-2/,https://iris.unito.it/bitstream/2318/1684807/1/paper49-clic2018.pdf,"@inproceedings{bassignana2018hurtlex,
+35,conferencePaper,2018,"Elisa Bassignana, Valerio Basile, Viviana Patti",Hurtlex: A multilingual lexicon of words to hurt,CliC-it 2018,http://clic2018.di.unito.it/en/home-2/,https://iris.unito.it/bitstream/2318/1684807/1/paper49-clic2018.pdf,"@inproceedings{bassignana2018hurtlex,
   title={Hurtlex: A multilingual lexicon of words to hurt},
   author={Bassignana, Elisa and Basile, Valerio and Patti, Viviana},
   booktitle={5th Italian Conference on Computational Linguistics, CLiC-it 2018},
@@ -161,14 +244,14 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
   year={2018},
   organization={CEUR-WS}
 }"
-37,journalArticle,2018,"Valerio Basile, Nicole Novielli, Danilo Croce, Francesco Barbieri, Malvina Nissim, Viviana Patti",Sentiment Polarity Classification at EVALITA: Lessons Learned and Open Challenges,IEEE Transactions on Affective Computing,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369,https://ieeexplore.ieee.org/abstract/document/8550785,"@article{basile2018sentiment,
+34,journalArticle,2018,"Valerio Basile, Nicole Novielli, Danilo Croce, Francesco Barbieri, Malvina Nissim, Viviana Patti",Sentiment Polarity Classification at EVALITA: Lessons Learned and Open Challenges,IEEE Transactions on Affective Computing,https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165369,https://ieeexplore.ieee.org/abstract/document/8550785,"@article{basile2018sentiment,
   title={Sentiment Polarity Classification at EVALITA: Lessons Learned and Open Challenges},
   author={Basile, Valerio and Novielli, Nicole and Croce, Danilo and Barbieri, Francesco and Nissim, Malvina and Patti, Viviana},
   journal={IEEE Transactions on Affective Computing},
   year={2018},
   publisher={IEEE}
 }"
-36,conferencePaper,2018,"Endang Wahyu Pamungkas, Alessandra Teresa Cignarella, Valerio Basile, Viviana Patti",Automatic Identification of Misogyny in English and Italian Tweets at EVALITA 2018 with a Multilingual Hate Lexicon,EVALITA 2018,http://www.evalita.it/2018,https://iris.unito.it/bitstream/2318/1684776/1/paper033.pdf,"@inproceedings{pamungkas2018automatic,
+33,conferencePaper,2018,"Endang Wahyu Pamungkas, Alessandra Teresa Cignarella, Valerio Basile, Viviana Patti",Automatic Identification of Misogyny in English and Italian Tweets at EVALITA 2018 with a Multilingual Hate Lexicon,EVALITA 2018,http://www.evalita.it/2018,https://iris.unito.it/bitstream/2318/1684776/1/paper033.pdf,"@inproceedings{pamungkas2018automatic,
   title={Automatic Identification of Misogyny in English and Italian Tweets at EVALITA 2018 with a Multilingual Hate Lexicon},
   author={Pamungkas, Endang Wahyu and Cignarella, Alessandra Teresa and Basile, Valerio and Patti, Viviana and others},
   booktitle={Sixth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian (EVALITA 2018)},
@@ -178,42 +261,21 @@ Exploiting Affective Information and Conversation Structure",RDSM 2018,https://w
   year={2018},
   organization={CEUR-WS}
 }"
-35,conferencePaper,2018,"Alessandra Teresa Cignarella, Simona Frenda, Valerio Basile, Cristina Bosco, Viviana Patti, Paolo Rosso",Overview of the EVALITA 2018 Task on Irony Detection in Italian Tweets (IronITA),EVALITA 2018,http://www.evalita.it/2018,https://iris.unito.it/bitstream/2318/1684779/1/paper005.pdf,"@inproceedings{cignarella2018overview,
-  title={Overview of the evalita 2018 task on irony detection in italian tweets (ironita)},
-  author={Cignarella, Alessandra Teresa and Frenda, Simona and Basile, Valerio and Bosco, Cristina and Patti, Viviana and Rosso, Paolo and others},
-  booktitle={Sixth Evaluation Campaign of Natural Language Processing and Speech Tools for Italian (EVALITA 2018)},
-  Volume={2263},
-  pages={1--6},
-  year={2018},
-  organization={CEUR-WS}
-}"
-34,conferencePaper,2018,"Pierpaolo Basile, Valerio Basile, Danilo Croce, Marco Polignano",Overview of the EVALITA 2018 Aspect-based Sentiment Analysis task (ABSITA),EVALITA 2018,http://www.evalita.it/2018,http://ceur-ws.org/Vol-2263/paper003.pdf,"@article{basile2018overview,
-  title={Overview of the EVALITA 2018 Aspect-based Sentiment Analysis task (ABSITA)},
-  author={Basile, Pierpaolo and Basile, Valerio and Croce, Danilo and Polignano, Marco},
-  journal={Proceedings of the 6th evaluation campaign of Natural Language Processing and Speech tools for Italian (EVALITA’18), Turin, Italy. CEUR. org},
-  year={2018}
-}"
-33,conferencePaper,2018,"Valerio Basile, Roque Lopez Condori, Elena Cabrio",Measuring Frame Instance Relatedness,*SEM 2018,https://sites.google.com/view/starsem2018,http://www.aclweb.org/anthology/S18-2029,"@inproceedings{basile2018measuring,
+32,conferencePaper,2018,"Valerio Basile, Roque Lopez Condori, Elena Cabrio",Measuring Frame Instance Relatedness,*SEM 2018,https://sites.google.com/view/starsem2018,http://www.aclweb.org/anthology/S18-2029,"@inproceedings{basile2018measuring,
   title={Measuring Frame Instance Relatedness},
   author={Basile, Valerio and Condori, Roque Lopez and Cabrio, Elena},
   booktitle={Proceedings of the Seventh Joint Conference on Lexical and Computational Semantics},
   pages={245--254},
   year={2018}
 }"
-32,conferencePaper,2018,"Francesco Barbieri, Jose Camacho-Collados, Francesco Ronzano, Luis Espinosa Anke, Miguel Ballesteros, Valerio Basile, Viviana Patti, Horacio Saggion",SemEval 2018 Task 2: Multilingual Emoji Prediction,SemEval 2018,http://alt.qcri.org/semeval2018/,http://www.aclweb.org/anthology/S18-1003,"@inproceedings{barbieri2018semeval,
+31,conferencePaper,2018,"Francesco Barbieri, Jose Camacho-Collados, Francesco Ronzano, Luis Espinosa Anke, Miguel Ballesteros, Valerio Basile, Viviana Patti, Horacio Saggion",SemEval 2018 Task 2: Multilingual Emoji Prediction,SemEval 2018,http://alt.qcri.org/semeval2018/,http://www.aclweb.org/anthology/S18-1003,"@inproceedings{barbieri2018semeval,
   title={SemEval 2018 Task 2: Multilingual Emoji Prediction},
   author={Barbieri, Francesco and Camacho-Collados, Jose and Ronzano, Francesco and Anke, Luis Espinosa and Ballesteros, Miguel and Basile, Valerio and Patti, Viviana and Saggion, Horacio},
   booktitle={Proceedings of The 12th International Workshop on Semantic Evaluation},
   pages={24--33},
   year={2018}
 }"
-31,journalArticle,2018,"Soufian Jebbara, Valerio Basile, Elena Cabrio, Philip Cimiano",Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models,Semantic Web,http://www.semantic-web-journal.net/,http://www.semantic-web-journal.net/system/files/swj1772.pdf,"@article{jebbara2018extracting,
-  title={Extracting common sense knowledge via triple ranking using supervised and unsupervised distributional models},
-  author={Jebbara, Soufian and Basile, Valerio and Cabrio, Elena and Cimiano, Philipp},
-  journal={Semantic Web},
-  year={2018}
-}"
-30,book chapter,2017,"Pierpaolo Basile, Valerio Basile, Malvina Nissim, Nicole Novielli, Viviana Patti",Sentiment Analysis of Microblogging Data,Encyclopedia of Social Network Analysis and Mining,http://www.springer.com/it/book/9781461461692,https://iris.unito.it/handle/2318/1652672,"@article{basile2017sentiment,
+30,book chapter,2018,"Pierpaolo Basile, Valerio Basile, Malvina Nissim, Nicole Novielli, Viviana Patti",Sentiment Analysis of Microblogging Data,Encyclopedia of Social Network Analysis and Mining,http://www.springer.com/it/book/9781461461692,https://iris.unito.it/handle/2318/1652672,"@article{basile2017sentiment,
   title={Sentiment Analysis of Microblogging Data},
   author={Basile, Pierpaolo and Basile, Valerio and Nissim, Malvina and Novielli, Nicole and Patti, Viviana and others},
   year={2017},
