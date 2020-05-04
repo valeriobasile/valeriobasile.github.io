@@ -48,4 +48,5 @@ this is the complete archive.
  * [The Copula and the Bit #39: It's dangerous to go alone](https://tinyletter.com/thecopulaandthebit/letters/the-copula-and-the-bit-39-it-s-dangerous-to-go-alone)
  * [The Copula and the Bit #40: In a character far away](https://tinyletter.com/thecopulaandthebit/letters/the-copula-and-the-bit-40-in-a-character-far-away)
  * [The Copula and the Bit #41: The Bookworm Dilemma](https://tinyletter.com/thecopulaandthebit/letters/the-copula-and-the-bit-41-the-bookworm-dilemma)
+ * [The Copula and the Bit #42: Season Finale](https://tinyletter.com/thecopulaandthebit/letters/the-copula-and-the-bit-42-season-finale)
 
