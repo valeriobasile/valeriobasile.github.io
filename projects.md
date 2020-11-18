@@ -11,7 +11,7 @@ UnToLD
 
 Unsupervised Topic-based Lexical Debias
 
-[Website](untold)
+[Website](/untold)
 
 Hurtlex
 -------
