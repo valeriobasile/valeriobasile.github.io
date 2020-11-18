@@ -14,6 +14,7 @@ The second output is a vector of nodes with a dimension matching the output of a
 The loss function for the network is a linear combination of two components:
 
 * Cross-categorical entropy for the first output;
-* The inverse of Minimum Squared Error for the secondo output;
+* The inverse of Minimum Squared Error for the second output;
 
+![The UnToLD model.](/images/untold.png)
 
