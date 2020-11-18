@@ -21,3 +21,4 @@ The loss function for the network is a linear combination of two components:
 ![The UnToLD model.](/images/untold_model.png)
 
 A use case to exemplify why the topic bias problem is relevant is the automatic detection of **abusive language**. [Wiegand et al. (2019)](https://d-nb.info/1190084805/34) show how topic bias is problematic for this task, as supervised models learn patterns from the training data that are correlated with their topic. Using the trained model to predict abusive language in another dataset then yields sub-optimal results, even if the phenomenon (abusive language) is the same.
+
