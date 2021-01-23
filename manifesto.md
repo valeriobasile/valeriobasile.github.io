@@ -48,5 +48,25 @@ Unfortunately, such practices start to fall apart once the focus moves to more a
 ## Action Points
 
 1. Create and distribute **non-aggregated** datasets.
+
+
+
 2. Avoid evaluating models against aggregated gold standards.
+
+
 3. Sign this manifesto and spread the word.
+
+Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal relevant reading material and tools, and most importantly, to be added to the list of people adhering to this initiative.
+
+### The non-aggregation manifesto has been signed by:
+
+* Valerio Basile
+
+
+## Further Reading
+
+On the issues of inter-annotator agreement:
+
+On the benefits of non-aggregation:
+
+## DO NOT AGGREGATE, INCLUDE!
