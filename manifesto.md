@@ -62,6 +62,7 @@ Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal re
 
 * *Valerio Basile*
 
+---
 
 ## Further Reading
 
