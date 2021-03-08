@@ -80,7 +80,9 @@ On the issues of inter-annotator agreement:
  * D. Hovy, T. Berg-Kirkpatrick, A. Vaswani, E. Hovy (2013)  
    [Learning Whom to Trust with MACE](https://www.aclweb.org/anthology/N13-1132.pdf)    
    Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
-   
+ * B. Plank, D. Hovy, A. Søgaard (2014)    
+   [Linguistically debatable or just plain wrong?](https://www.aclweb.org/anthology/P14-2083.pdf)    
+   Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics   
 
 On the benefits of non-aggregation:
  * L. Aroyo, C. Welty (2015)  
@@ -96,7 +98,6 @@ On the benefits of non-aggregation:
    [Modeling annotator perspective and polarized opinions to improve hate speech detection](https://ojs.aaai.org/index.php/HCOMP/article/view/7473/7260
 )    
    Proceedings of the Eighth AAAI Conference on Human Computation and Crowdsourcing (HCOMP-20)
-
 
 On evaluation:
 
