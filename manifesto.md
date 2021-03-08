@@ -68,11 +68,22 @@ Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal re
 On the issues of inter-annotator agreement:
 
  * D. M. W. Powers (2012)
+ 
    [The Problem with Kappa](https://www.aclweb.org/anthology/E12-1035.pdf)
+   
    Proceedings of the 13th Conference of the European Chapter of the Association for Computational Linguistics.
+   
  * A. Checco, K. Roitero, E. Maddalena, S. Mizzaro, G. Demartini (2017)
+   
    [Let’s Agree to Disagree: Fixing Agreement Measures for Crowdsourcing](https://ojs.aaai.org/index.php/HCOMP/article/view/13306/13154)
+   
    Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
+   
+ * D. Hovy, T. Berg-Kirkpatrick, A. Vaswani, E. Hovy (2013)
+   
+   [Learning Whom to Trust with MACE](https://www.aclweb.org/anthology/N13-1132.pdf)
+   
+   Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
    
 
 On the benefits of non-aggregation:
