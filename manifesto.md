@@ -60,32 +60,48 @@ Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal re
 
 ### The non-aggregation manifesto has been signed by:
 
-* Valerio Basile
+* *Valerio Basile*
 
 
 ## Further Reading
 
 On the issues of inter-annotator agreement:
 
- * D. M. W. Powers (2012)
- 
-   [The Problem with Kappa](https://www.aclweb.org/anthology/E12-1035.pdf)
-   
+ * D. M. W. Powers (2012) 
+   [The Problem with Kappa](https://www.aclweb.org/anthology/E12-1035.pdf)   
    Proceedings of the 13th Conference of the European Chapter of the Association for Computational Linguistics.
-   
- * A. Checco, K. Roitero, E. Maddalena, S. Mizzaro, G. Demartini (2017)
-   
-   [Let’s Agree to Disagree: Fixing Agreement Measures for Crowdsourcing](https://ojs.aaai.org/index.php/HCOMP/article/view/13306/13154)
-   
-   Proceedings of the AAAI Conference on Human Computation and Crowdsourcing
-   
- * D. Hovy, T. Berg-Kirkpatrick, A. Vaswani, E. Hovy (2013)
-   
-   [Learning Whom to Trust with MACE](https://www.aclweb.org/anthology/N13-1132.pdf)
-   
+ * A. Checco, K. Roitero, E. Maddalena, S. Mizzaro, G. Demartini (2017)  
+   [Let’s Agree to Disagree: Fixing Agreement Measures for Crowdsourcing](https://ojs.aaai.org/index.php/HCOMP/article/view/13306/13154)  
+   Proceedings of the AAAI Conference on Human Computation and Crowdsourcing  
+ * D. Hovy, T. Berg-Kirkpatrick, A. Vaswani, E. Hovy (2013)  
+   [Learning Whom to Trust with MACE](https://www.aclweb.org/anthology/N13-1132.pdf)    
+   Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
+ * D. Hovy, T. Berg-Kirkpatrick, A. Vaswani, E. Hovy (2013)  
+   [Learning Whom to Trust with MACE](https://www.aclweb.org/anthology/N13-1132.pdf)    
    Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
    
 
 On the benefits of non-aggregation:
+ * L. Aroyo, C. Welty (2015)  
+   [Truth is a lie: Crowd truth and the seven myths of human annotation](https://ojs.aaai.org/index.php/aimagazine/article/view/2564/2468)    
+   AI Magazine.
+ * M. Klenner, A. Göhring, M. Amsler (2020)   
+   [Harmonization sometimes harms.](http://ceur-ws.org/Vol-2624/paper10.pdf)    
+   SwissText/KONVENS 2020
+ * S. Akhtar, V. Basile, V. Patti (2019)   
+   [A New Measure of Polarization in the Annotation of Hate Speech](https://link.springer.com/chapter/10.1007/978-3-030-35166-3_41)    
+   18th International Conference of the Italian Association for Artificial Intelligence (AIIA 2019) 
+ * S. Akhtar, V. Basile, V. Patti (2020)   
+   [Modeling annotator perspective and polarized opinions to improve hate speech detection](https://ojs.aaai.org/index.php/HCOMP/article/view/7473/7260
+)    
+   Proceedings of the Eighth AAAI Conference on Human Computation and Crowdsourcing (HCOMP-20)
+
+
+On evaluation:
+
+ * V. Basile (2020)   
+   [It’s the End of the Gold Standard as we Know it. On the Impact of Pre-aggregation on the Evaluation of Highly Subjective Tasks](http://ceur-ws.org/Vol-2776/paper-4.pdf)    
+   Proceedings of the AIxIA 2020 Discussion Papers Workshop
+
 
 ## -> DO NOT AGGREGATE, INCLUDE! <-
