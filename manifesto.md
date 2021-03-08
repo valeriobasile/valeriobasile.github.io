@@ -103,6 +103,4 @@ On evaluation:
    [It’s the End of the Gold Standard as we Know it. On the Impact of Pre-aggregation on the Evaluation of Highly Subjective Tasks](http://ceur-ws.org/Vol-2776/paper-4.pdf)    
    Proceedings of the AIxIA 2020 Discussion Papers Workshop
 
---
 
--> DO NOT AGGREGATE, INCLUDE! <-
