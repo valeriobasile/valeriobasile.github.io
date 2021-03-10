@@ -60,7 +60,9 @@ Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal re
 
 ### The non-aggregation manifesto has been signed by:
 
-* *Valerio Basile*
+* *Valerio Basile, University of Turin (Italy)*
+* *Tommaso Caselli, University of Groningen (Netherlands)*
+* *Marco Guerini, Bruno Kessler Foundation (Italy)*
 
 ---
 
