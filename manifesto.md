@@ -69,8 +69,11 @@ Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal re
 
 ## Further Reading
 
-On the issues of inter-annotator agreement:
+On inter-annotator agreement and its issues:
 
+ * R. Artstein, M. Poesio (2008)
+   [Inter-coder agreement for computational linguistics](https://direct.mit.edu/coli/article/34/4/555/1999/Inter-Coder-Agreement-for-Computational)
+   Computational Linguistics
  * D. M. W. Powers (2012) 
    [The Problem with Kappa](https://www.aclweb.org/anthology/E12-1035.pdf)   
    Proceedings of the 13th Conference of the European Chapter of the Association for Computational Linguistics.
