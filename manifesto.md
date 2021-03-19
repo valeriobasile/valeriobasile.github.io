@@ -64,6 +64,7 @@ Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal re
 * *Tommaso Caselli, University of Groningen (Netherlands)*
 * *Marco Guerini, Bruno Kessler Foundation (Italy)*
 * *Alessandra T. Cignarella, University of Turin (Italy)*
+* *Massimo Poesio, Queen Mary University of London (United Kingdom)*
 
 ---
 
