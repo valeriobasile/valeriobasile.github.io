@@ -66,7 +66,7 @@ Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal re
 * *Alessandra T. Cignarella, University of Turin (Italy)*
 * *Massimo Poesio, Queen Mary University of London (United Kingdom)*
 * *Marco Stranisci, University of Turin (Italy)*
-
+* *Manuela Sanguinetti, University of Cagliari (Italy)*
 ---
 
 ## Further Reading
