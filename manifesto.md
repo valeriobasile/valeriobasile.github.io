@@ -67,6 +67,7 @@ Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal re
 * *Massimo Poesio, Queen Mary University of London (United Kingdom)*
 * *Marco A. Stranisci, University of Turin (Italy)*
 * *Manuela Sanguinetti, University of Cagliari (Italy)*
+
 ---
 
 ## Further Reading
