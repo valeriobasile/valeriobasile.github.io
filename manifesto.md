@@ -67,7 +67,7 @@ Send an email to <valerio.basile@unito.it> for feedback, criticism, to signal re
 * *Massimo Poesio, Queen Mary University of London (United Kingdom)*
 * *Marco A. Stranisci, University of Turin (Italy)*
 * *Manuela Sanguinetti, University of Cagliari (Italy)*
-* *Federico Cabitza*, University of Milano-Bicocca (Italy)*
+* *Federico Cabitza, University of Milano-Bicocca (Italy)*
 
 ---
 
@@ -93,8 +93,8 @@ On inter-annotator agreement and its issues:
  * B. Plank, D. Hovy, A. Søgaard (2014)    
    [Linguistically debatable or just plain wrong?](https://www.aclweb.org/anthology/P14-2083.pdf)    
    Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics   
- * F. Cabitza, A. Campagner, D. Albano, A. Aliprandi, A. Bruno, V. Chianca, A. Corazza, F. Di Pietto, A. Gambino, S. Gitto, C. Messina, D. Orlandi, L. Pedone, M. Zappia, L. M. Sconfienza (2020)
-   [The Elephant in the Machine: Proposing a New Metric of Data Reliability and its Application to a Medical Case to Assess Classification Reliability](https://www.mdpi.com/2076-3417/10/11/4014)
+ * F. Cabitza, A. Campagner, D. Albano, A. Aliprandi, A. Bruno, V. Chianca, A. Corazza, F. Di Pietto, A. Gambino, S. Gitto, C. Messina, D. Orlandi, L. Pedone, M. Zappia, L. M. Sconfienza (2020)    
+   [The Elephant in the Machine: Proposing a New Metric of Data Reliability and its Application to a Medical Case to Assess Classification Reliability](https://www.mdpi.com/2076-3417/10/11/4014)    
    Applied Sciences
 
 On the benefits of non-aggregation:
@@ -108,11 +108,10 @@ On the benefits of non-aggregation:
    [A New Measure of Polarization in the Annotation of Hate Speech](https://link.springer.com/chapter/10.1007/978-3-030-35166-3_41)    
    18th International Conference of the Italian Association for Artificial Intelligence (AIIA 2019) 
  * S. Akhtar, V. Basile, V. Patti (2020)   
-   [Modeling annotator perspective and polarized opinions to improve hate speech detection](https://ojs.aaai.org/index.php/HCOMP/article/view/7473/7260
-)    
+   [Modeling annotator perspective and polarized opinions to improve hate speech detection](https://ojs.aaai.org/index.php/HCOMP/article/view/7473/7260)    
    Proceedings of the Eighth AAAI Conference on Human Computation and Crowdsourcing (HCOMP-20)
- * F. Cabitza, A. Campagner,  L. M. Sconfienza (2020)
-   [As if sand were stone. New concepts and metrics to probe the ground on which to build trustable AI](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01224-9)
+ * F. Cabitza, A. Campagner,  L. M. Sconfienza (2020)    
+   [As if sand were stone. New concepts and metrics to probe the ground on which to build trustable AI](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01224-9)    
    BMC Medical Informatics and Decision Making
 
 On evaluation:
