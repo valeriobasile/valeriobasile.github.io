@@ -7,6 +7,11 @@ I am an assistant professor in the [Content-Centered Computing group](https://cs
 
 Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inria.fr/) team of [INRIA](http://www.inria.fr), and before that a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/), [University of Groningen](http://www.rug.nl/).
 
+**New!**
+
+I wrote an introductory article on Computational Linguistics, in Italian: [*I Computer e il Linguaggio Naturale*](http://ithaca.unisalento.it/nr-16_2020/articolo_IIp_11.pdf) Ithaca, XVI 2020
+![I Computer e il Linguaggio Naturale](/images/cln.png)
+
 My research interests include:
 
 * Computational Semantics
