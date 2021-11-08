@@ -1,5 +1,35 @@
 Id,Role,Year,Description,URL
-,mentor,2020,ACL 2020 Student Research Workshop,https://sites.google.com/view/acl20studentresearchworkshop/
+158,program committee member,2022,SyntaxFest,https://syntaxfest.github.io/
+157,program committee member,2022,TheWebConf 2022,https://www2022.thewebconf.org/
+156,program committee member,2022,36th AAAI conference on Artificial Intelligence (AAAI-22),https://aaai.org/Conferences/AAAI-22/aaai22call/
+155,program committee member,2021,The Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (ACL-IJCNLP 2021),https://2021.aclweb.org/
+154,speaker,2021,Digital Humanities group at Fondazione Bruno Kessler,https://dh.fbk.eu/2021/03/talk_valerio_basile/
+153,program committee member,2021,20th International Semantic Web Conference (ISWC 2021),https://iswc2021.semanticweb.org/
+152,area chair,2021,10th Joint Conference on Lexical and Computational Semantics (*SEM 2021),https://sites.google.com/view/starsem2021/
+151,publication chair,2021,The 16th Conference of the European Chapter of the Association for Computational Linguistics,https://2021.eacl.org/
+150,program committee member,2021,5th Workshop on Natural Language for Artificial Intelligence ,http://sag.art.uniroma2.it/NL4AI/
+149,area chair,2021,Eighth Italian Conference on Computational Linguistics,https://clic2021.disco.unimib.it/
+148,program committee member,2021,2021 IEEE International Conference on Big Data (IEEE BigData 2021),http://bigdataieee.org/BigData2021/
+147,program committee member,2021,Language Resources and Evaluation (LREV),https://link.springer.com/journal/10579
+146,reviewer,2021,AI Communications,https://www.aicommunications.eu/
+145,reviewer,2021,Journal of Business Research,https://www.sciencedirect.com/journal/journal-of-business-research
+144,program committee member,2021,1st International Workshop on Relations in the Legal Domain (RELATED),https://related.di.unito.it/
+143,reviewer,2021,Future internet,https://www.mdpi.com/journal/futureinternet
+142,program committee member,2021,Workshop on Sentiment Analysis and Linguistic Linked Data (SALLD-1),https://www.salld.org/
+141,reviewer,2021,Information,https://www.mdpi.com/journal/information
+140,program committee member,2021,"3rd Conference on Language, Data and Knowledge (LDK 2019)",http://2021.ldk-conf.org/
+139,reviewer,2021,Applied Sciences,https://www.mdpi.com/journal/applsci
+138,reviewer,2021,PeerJ,https://peerj.com/
+137,reviewer,2021,Behaviour & Information Technology (TBIT),https://www.tandfonline.com/toc/tbit20/current
+136,reviewer,2021,Online Social Networks and Media  (OSNEM),https://www.sciencedirect.com/journal/online-social-networks-and-media
+135,reviewer,2021,Transactions on Asian and Low-Resource Language Information Processing (TALLIP),https://dl.acm.org/journal/tallip
+134,reviewer,2021,Natural Language Engineering (NLE),https://www.cambridge.org/core/journals/natural-language-engineering
+133,reviewer,2021,Artificial Intelligence,https://www.journals.elsevier.com/artificial-intelligence/
+132,reviewer,2021,ACL Rolling Review,
+131,reviewer,2021,SN Social Sciences,
+130,program committee member,2021,Transdisciplinary AI    (TransAI 2021),https://www.transai.org/
+129,speaker,2020,Pattern Recognition and Human Language Technology (PRHLT) research center,https://linguistica.ub.edu/agenda/conferencia-computational-linguistics-against-hate-datasets-and-models-for-hate-speech
+128,mentor,2020,ACL 2020 Student Research Workshop,https://sites.google.com/view/acl20studentresearchworkshop/
 127,program committee member,2020,5th SwissText & 16th KONVENS Joint Conference 2020,https://swisstext-and-konvens-2020.org/
 126,program committee member,2020,The 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP 2020),https://2020.emnlp.org/
 125,program committee member,2020,19th International Semantic Web Conference (ISWC 2020),https://iswc2020.semanticweb.org/
@@ -11,9 +41,9 @@ Id,Role,Year,Description,URL
 119,speaker,2020,Sentiment Analysis in Agricoltura,
 118,speaker,2020,SAILab seminar,http://sailab.diism.unisi.it/feb-12th-2020-creating-a-commonsense-knowledge-base-about-objects/
 117,reviewer,2020,Future Generation Computer Systems,https://www.journals.elsevier.com/future-generation-computer-systems
-116,academic partner,2020,5th SwissText & 16th KONVENS Joint Conference 2020,https://swisstext-and-konvens-2020.org/
+116,program committee member,2020,5th SwissText & 16th KONVENS Joint Conference 2020,https://swisstext-and-konvens-2020.org/
 115,reviewer,2020,Journal for Language Technology and Computational Linguistics ,https://jlcl.org/
-114,program committee member,2020,Language Resources and Evaluation Conference (LREC 2016),https://link.springer.com/journal/10579
+114,program committee member,2020,Language Resources and Evaluation (LREV),https://link.springer.com/journal/10579
 113,reviewer,2020,Computers,https://www.mdpi.com/journal/computers
 112,chair,2020,7th evaluation campaign EVALITA 2020,http://www.evalita.it/2020
 111,chair,2020,1st Workshop on Resources and Techniques for User and Author Profiling in Abusive Language (ResT-UP 2020),https://rest-up2020.di.unito.it/
@@ -38,12 +68,12 @@ Id,Role,Year,Description,URL
 92,reviewer,2019,South African Journal of Science,https://www.sajs.co.za/
 91,steering committee member,2020,International Workshop on Semantic Evaluation (SemEval 2020),http://alt.qcri.org/semeval2020/
 90,program committee member,2019,International Semantic Web Conference (ISWC 2019),https://iswc2019.semanticweb.org/
-89,organizer,2019,2nd Workshop on Contextual Representation of Events and Objects in Language (CREOL@JOWO 2019),https://creol2019.di.unito.it/
+89,chair,2019,2nd Workshop on Contextual Representation of Events and Objects in Language (CREOL@JOWO 2019),https://creol2019.di.unito.it/
 88,program committee member,2019,International Joint Conference on Artificial Intelligence (IJCAI 2019),https://ijcai19.org/
 87,mentor,2019,ACL 2019 Student Research Workshop,https://sites.google.com/view/acl19studentresearchworkshop/home?authuser=0
 86,program committee member,2019,The Eighth Joint Conference on Lexical and Computational Semantics (*SEM 2019),https://starsem.org/2019/
 85,reviewer,2019,International Journal on Artificial Intelligence Tools,https://www.worldscientific.com/worldscinet/ijait
-84,organizer,2019,SemEval 2019 Task 5 - Shared Task on Multilingual Detection of Hate,https://competitions.codalab.org/competitions/19935
+84,chair,2019,SemEval 2019 Task 5 - Shared Task on Multilingual Detection of Hate,https://competitions.codalab.org/competitions/19935
 83,reviewer,2019,Transactions on Social Computing,https://tsc.acm.org/
 82,program committee member,2019,57th Annual Meeting of the Association for Computational Linguistics (ACL 2019),http://www.acl2019.org/EN/index.xhtml
 81,program committee member,2019,"2nd Conference on Language, Data and Knowledge (LDK 2019)",http://2019.ldk-conf.org/
@@ -55,9 +85,9 @@ Id,Role,Year,Description,URL
 75,program committee member,2019,The 34th ACM/SIGAPP Symposium On Applied Computing (SAC),https://www.sigapp.org/sac/sac2019/
 74,program committee member,2019,Privacy-Enhancing Artificial Intelligence and Language Technologies AAAI Spring Symposium ,https://sites.google.com/view/pal2019/
 73,program committee member,2018,Fifth Italian Conference on Computational Linguistics (CLiC-it 2018),http://clic2018.di.unito.it/en/home-2/
-72,organizer,2018,Aspect-based Sentiment Analysis at EVALITA 2019 (ABSITA),http://sag.art.uniroma2.it/absita/
-71,organizer,2018,Irony Detection in Italian Tweets shared task at EVALITA 2019 (IronITA),http://www.di.unito.it/~tutreeb/ironita-evalita18/index.html
-70,organizer,2018,2nd Workshop on Natural Language for Artificial Intelligence (NL4AI),http://sag.art.uniroma2.it/NL4AI/
+72,chair,2018,Aspect-based Sentiment Analysis at EVALITA 2019 (ABSITA),http://sag.art.uniroma2.it/absita/
+71,chair,2018,Irony Detection in Italian Tweets shared task at EVALITA 2019 (IronITA),http://www.di.unito.it/~tutreeb/ironita-evalita18/index.html
+70,chair,2018,2nd Workshop on Natural Language for Artificial Intelligence (NL4AI),http://sag.art.uniroma2.it/NL4AI/
 69,program committee member,2018,Re-coding Black Mirror workshop at WWW2018,https://kmitd.github.io/recoding-black-mirror/
 68,program committee member,2018,17th International Semantic Web Conference (ISWC 2018),http://iswc2018.semanticweb.org/
 67,program committee member,2018,2nd International Workshop on the Application of Semantic Web technologies in Robotics (AnSWeR18),http://answer.kmi.open.ac.uk/
@@ -72,7 +102,7 @@ Id,Role,Year,Description,URL
 58,program committee member,2018,Re-coding Black Mirror workshop at WWW2018,https://kmitd.github.io/recoding-black-mirror/
 57,program committee member,2018,Language Resources and Evaluation Conference (LREC 2018),http://lrec2018.lrec-conf.org/en/
 56,program committee member,2018,International Joint Conference on Artificial Intelligence (IJCAI-ECAI 2018),http://www.ijcai-18.org/
-55,organizer,2018,"SemEval-2018 Task 2, Multilingual Emoji Prediction",https://competitions.codalab.org/competitions/17344
+55,chair,2018,SemEval-2018 Task 2: Multilingual Emoji Prediction ,https://competitions.codalab.org/competitions/17344
 54,program committee member,2018,ACM Symposium On Applied Computing (SAC 2018),https://www.sigapp.org/sac/sac2018/
 53,program committee member,2018,Open Knowledge Extraction Open Challenge (OKE 2018),https://project-hobbit.eu/open-challenges/oke-open-challenge/
 52,program committee member,2018,AAAI Conference on Artificial Intelligence (AAAI-18),https://aaai.org/Conferences/AAAI-18/
