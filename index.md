@@ -7,7 +7,17 @@ I am an assistant professor in the [Content-Centered Computing group](https://cs
 
 Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inria.fr/) team of [INRIA](http://www.inria.fr), and before that a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/), [University of Groningen](http://www.rug.nl/).
 
-**New!**
+--
+
+Recent roles:
+
+ * Senior Area Co-chair of EMNLP 2022 
+ * System Demonstration Co-chair of ACL 2022 
+ * Program Co-chair of NLDB 2022 
+ * Publication Co-chair of EACL 2021 
+ * Co-chair of EVALITA 2020
+
+--
 
 I wrote an introductory article on Computational Linguistics, in Italian: [*I Computer e il Linguaggio Naturale*](http://ithaca.unisalento.it/nr-16_2020/articolo_IIp_11.pdf) Ithaca, XVI 2020
 ![I Computer e il Linguaggio Naturale](/images/cln.png)
