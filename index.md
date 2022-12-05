@@ -9,6 +9,10 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 
 --
 
+<iframe src="https://livellosegreto.it/@Ginger_in_AI/109462518510660245/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://livellosegreto.it/embed.js" async="async"></script>
+
+--
+
 Recent roles:
 
  * Senior Area Co-chair of EMNLP 2022 
@@ -16,7 +20,7 @@ Recent roles:
  * Program Co-chair of NLDB 2022 
  * Publication Co-chair of EACL 2021 
  * Co-chair of EVALITA 2020
-
+ * Senior Program Committee ECAI 2020
 --
 
 I wrote an introductory article on Computational Linguistics, in Italian: [*I Computer e il Linguaggio Naturale*](http://ithaca.unisalento.it/nr-16_2020/articolo_IIp_11.pdf) Ithaca, XVI 2020
