@@ -21,6 +21,7 @@ Recent roles:
  * Publication Co-chair of EACL 2021 
  * Co-chair of EVALITA 2020
  * Senior Program Committee ECAI 2020
+
 --
 
 I wrote an introductory article on Computational Linguistics, in Italian: [*I Computer e il Linguaggio Naturale*](http://ithaca.unisalento.it/nr-16_2020/articolo_IIp_11.pdf) Ithaca, XVI 2020
