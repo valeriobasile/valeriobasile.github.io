@@ -15,6 +15,7 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 
 Recent roles:
 
+ * Faculty Advisor at the EACL 2023 Student Research Workshop
  * Area Chair at EACL 2023 
  * Senior Area Co-chair of EMNLP 2022 
  * System Demonstration Co-chair of ACL 2022 
