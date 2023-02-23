@@ -9,12 +9,16 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 
 --
 
-<iframe src="https://livellosegreto.it/@Ginger_in_AI/109462518510660245/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://livellosegreto.it/embed.js" async="async"></script>
+Planned trips:
 
+ * Passau, Germany, March 30-31 2023, for [PasDas and the CAROLL workshop](https://pasdas.de)
+# * Ljubljana, Slovenia, August ... 2023, for [ESSLLI](https://2023.esslli.eu/)
+# * Jaén, Spain, September 27-29, for [SEPLN 2023](sepln2023.sepln.org/)
 --
 
 Recent roles:
 
+ * Area Chair at *SEM 2023 
  * Faculty Advisor at the EACL 2023 Student Research Workshop
  * Area Chair at EACL 2023 
  * Senior Area Co-chair of EMNLP 2022 
