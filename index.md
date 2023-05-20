@@ -11,9 +11,10 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 
 Planned trips:
 
- * Passau, Germany, March 30-31 2023, for [PasDas and the CAROLL workshop](https://pasdas.de)
-# * Ljubljana, Slovenia, August ... 2023, for [ESSLLI](https://2023.esslli.eu/)
-# * Jaén, Spain, September 27-29, for [SEPLN 2023](sepln2023.sepln.org/)
+ * Bologna, Italy, June 12-14 2023, kindly hosted by [ABSTRACTION](https://www.abstractionproject.eu/)
+ * Ljubljana, Slovenia, August 1-7 2023, for [ESSLLI](https://2023.esslli.eu/)
+ * Jaén, Spain, September 27-29, for [SEPLN 2023](sepln2023.sepln.org/)
+ * Krakow, Poland, September 30, for [NLPerspectives](https://nlperspectives.di.unito.it/w/2nd-workshop-on-perspectivist-approaches-to-nlp/) and [ECAI 2023](https://ecai2023.eu/)
 --
 
 Recent roles:
