@@ -15,6 +15,7 @@ Planned trips:
  * Ljubljana, Slovenia, August 1-7 2023, for [ESSLLI](https://2023.esslli.eu/)
  * Jaén, Spain, September 27-29, for [SEPLN 2023](sepln2023.sepln.org/)
  * Krakow, Poland, September 30, for [NLPerspectives](https://nlperspectives.di.unito.it/w/2nd-workshop-on-perspectivist-approaches-to-nlp/) and [ECAI 2023](https://ecai2023.eu/)
+ 
 --
 
 Recent roles:
