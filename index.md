@@ -11,7 +11,6 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 
 Planned trips:
 
- * Bologna, Italy, June 12-14 2023, kindly hosted by [ABSTRACTION](https://www.abstractionproject.eu/)
  * Ljubljana, Slovenia, August 1-7 2023, for [ESSLLI](https://2023.esslli.eu/)
  * Jaén, Spain, September 27-29, for [SEPLN 2023](sepln2023.sepln.org/)
  * Krakow, Poland, September 30, for [NLPerspectives](https://nlperspectives.di.unito.it/w/2nd-workshop-on-perspectivist-approaches-to-nlp/) and [ECAI 2023](https://ecai2023.eu/)
@@ -20,6 +19,9 @@ Planned trips:
 
 Recent roles:
 
+ * Local Chair at LREC-COLING 2024 
+ * Area Chair at EMNLP 2023 
+ * Local Chair at *SEM 2024 
  * Area Chair at *SEM 2023 
  * Faculty Advisor at the EACL 2023 Student Research Workshop
  * Area Chair at EACL 2023 
@@ -37,10 +39,15 @@ I wrote an introductory article on Computational Linguistics, in Italian: [*I Co
 
 My research interests include:
 
+* [Data Perspectivism](https://pdai.info)
 * Computational Semantics
 * Language Resources
-* Semantic Web
 * Natural Language Generation
+* Hate Speech and abusive language
+* Semantic Web
+
+In my career, I dabbled in more related areas though:
+
 * Information Extraction
 * Linguistic Annotation
 * Distributional Semantics
@@ -50,6 +57,5 @@ My research interests include:
 * Sentiment Analysis
 * Legal Informatics
 * Argument Mining
-* Hate Speech and abusive language
 
 I like math, videogames, <del>beer</del> pasta, and Oxford commas :)
