@@ -4,8 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
-Here is a list of my publications. See also my [Google
-Scholar](https://scholar.google.com/citations?user=5VCe4aAAAAAJ)
-profile page.
-
+Here is a list of selected publications. See also my 
+[Semantic Scholar](https://www.semanticscholar.org/author/Valerio-Basile/3101511) 
+and [Google Scholar](https://scholar.google.com/citations?user=5VCe4aAAAAAJ)
+profiles.
 
