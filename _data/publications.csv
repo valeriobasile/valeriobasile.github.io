@@ -1,11 +1,15 @@
 Id,Type,Year,Author,Title,Publication,PublicationURL,URL,Bibtex
-28,conferencePaper,2023,"Federico Cabitza, Andrea Campagner and Valerio Basile",Toward a Perspectivist Turn in Ground Truthing for Predictive Computing,Proceedings of the 37th AAAI Conference on Artificial Intelligence,https://aaai.org/Conferences/AAAI-23/,,"@inproceedings{cabitza-etal-2023-toward,
-   author    = {Federico Cabitza                and Andrea Campagner                and Valerio Basile},
-   title     = {Toward a Perspectivist Turn in Ground Truthing for Predictive Computing},
-    boooktitle={Proceedings of the 37th AAAI Conference on Artificial Intelligence},
-   Year      = {2023},
-   address = {Washington DC, USA},
-   month = {February 7–14}
+28,conferencePaper,2023,"Federico Cabitza, Andrea Campagner and Valerio Basile",Toward a Perspectivist Turn in Ground Truthing for Predictive Computing,Proceedings of the 37th AAAI Conference on Artificial Intelligence,https://aaai.org/Conferences/AAAI-23/,,"@article{Cabitza_Campagner_Basile_2023,
+         title={Toward a Perspectivist Turn in Ground Truthing for Predictive Computing},
+          Volume={37},
+          url={https://ojs.aaai.org/index.php/AAAI/article/view/25840},
+         DOI={10.1609/aaai.v37i6.25840},
+         Number={6},
+         journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+         author={Cabitza, Federico and Campagner, Andrea and Basile, Valerio},
+         Year={2023},
+         month={Jun.},
+         pages={6860-6868} 
 }"
 27,conferencePaper,2022,"Valerio Basile, Tomaso Caselli, Anna Koufakou and Viviana Patti",Automatically Computing Connotative Shifts of Lexical Items,Natural Language Processing and Information Systems ,http://nldb2022.prhlt.upv.es/,https://link.springer.com/chapter/10.1007/978-3-031-08473-7_39,"@InProceedings{10.1007/978-3-031-08473-7_39,
      author=""Basile, Valerio     and Caselli, Tommaso     and Koufakou, Anna     and Patti, Viviana"",
