@@ -11,7 +11,7 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 
 Planned trips:
 
- * Ljubljana, Slovenia, August 1-7 2023, for [ESSLLI](https://2023.esslli.eu/)
+ * Parma, Italy, September 7-8 2023, for [EVALITA](https://www.evalita.it/2023/)
  * Jaén, Spain, September 27-29, for [SEPLN 2023](sepln2023.sepln.org/)
  * Krakow, Poland, September 30, for [NLPerspectives](https://nlperspectives.di.unito.it/w/2nd-workshop-on-perspectivist-approaches-to-nlp/) and [ECAI 2023](https://ecai2023.eu/)
  
@@ -32,6 +32,8 @@ Recent roles:
  * Co-chair of EVALITA 2020
  * Senior Program Committee ECAI 2020
 
+--
+I got a [badge for teaching](https://bestr.it/badge/show/1894)!
 --
 
 I wrote an introductory article on Computational Linguistics, in Italian: [*I Computer e il Linguaggio Naturale*](http://ithaca.unisalento.it/nr-16_2020/articolo_IIp_11.pdf) Ithaca, XVI 2020
