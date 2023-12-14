@@ -11,14 +11,14 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 
 Planned trips:
 
- * Parma, Italy, September 7-8 2023, for [EVALITA](https://www.evalita.it/2023/)
- * Jaén, Spain, September 27-29, for [SEPLN 2023](sepln2023.sepln.org/)
- * Krakow, Poland, September 30, for [NLPerspectives](https://nlperspectives.di.unito.it/w/2nd-workshop-on-perspectivist-approaches-to-nlp/) and [ECAI 2023](https://ecai2023.eu/)
+ * Gothenburg, Sweden, January 21, 2024, at [CLASP](https://gu-clasp.github.io/)
+ * Cardiff, Wales, February 21-23, at [Cardiff NLP 2023](https://www.cardiff.ac.uk/research/explore/research-units/natural-language-processing)
  
 --
 
 Recent roles:
 
+ * Senior Area Chair at EACL 2024 
  * Local Chair at LREC-COLING 2024 
  * Area Chair at EMNLP 2023 
  * Local Chair at *SEM 2024 
