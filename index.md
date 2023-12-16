@@ -21,7 +21,6 @@ Recent roles:
  * Senior Area Chair at EACL 2024 
  * Local Chair at LREC-COLING 2024 
  * Area Chair at EMNLP 2023 
- * Local Chair at *SEM 2024 
  * Area Chair at *SEM 2023 
  * Faculty Advisor at the EACL 2023 Student Research Workshop
  * Area Chair at EACL 2023 
