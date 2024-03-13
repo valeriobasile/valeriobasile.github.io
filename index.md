@@ -11,8 +11,7 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 
 Planned trips:
 
- * Gothenburg, Sweden, January 21, 2024, at [CLASP](https://gu-clasp.github.io/)
- * Cardiff, Wales, February 21-23, at [Cardiff NLP 2023](https://www.cardiff.ac.uk/research/explore/research-units/natural-language-processing)
+ * Mexico City, June 2024, for [NAACL](https://2024.naacl.org/)
  
 --
 
