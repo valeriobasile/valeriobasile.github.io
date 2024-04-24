@@ -11,7 +11,7 @@ The deadline for application is **May 13th 2024**.
 
 The gross salary is €25.328 (about €1,860/month net salary). [Turin](https://www.turismotorino.org/en/territory/torino-metropoli/torino) is a vibrant and liveable city in Northern Italy, close to the beautiful Italian Alps and with a [manageable cost of living](https://en.unito.it/living-turin/when-you-arrive/cost-living-turin).
 
-[Link to the call](https://webapps.unito.it/albo_ateneo/?area=Albo&action=Read_Download&id_attach=61813) (in Italian). [Link to the application platform](https://pica.cineca.it/unito/assegni-di-ricerca-unito-2024-i-pnrr/).
+[Link to the call](https://webapps.unito.it/albo_ateneo/?area=Albo&action=Read_Download&id_attach=61813) (in Italian, llok for codes **INF.2024.06** and **INF.2024.07**). [Link to the application platform](https://pica.cineca.it/unito/assegni-di-ricerca-unito-2024-i-pnrr/).
 Please write to [Valerio Basile](mailto:valerio.basile@unito.it) or [Viviana Patti](mailto:viviana.patti@unito.it) for further information on how to apply.
 
 --
