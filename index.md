@@ -8,14 +8,9 @@ I am an assistant professor in the [Content-Centered Computing group](https://cs
 Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inria.fr/) team of [INRIA](http://www.inria.fr), and before that a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/), [University of Groningen](http://www.rug.nl/).
 
 ---
-Planned trips:
-
- * Mexico City, June 2024, for [NAACL](https://2024.naacl.org/)
- * Bangkok, August 2024, for [ACL](https://2024.aclweb.org/)
- 
----
 Recent roles:
 
+ * Area Chair (Language and Computation) at [ESSLLI 2025](https://2025.esslli.eu/)
  * Senior Area Chair at [COLING 2025](http://coling2025.org/)
  * Senior Area Chair at [EACL 2024](https://2024.eacl.org/) 
  * Local Chair at [LREC-COLING 2024](https://lrec-coling-2024.org/)
