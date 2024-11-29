@@ -1,3 +1,8 @@
+---
+layout: page
+title: Open Position: Post-doc on Perspectivist Dialog Models
+---
+
 We are looking for a Post-doc researcher on "Perspectivist Dialog Models". 
 
 The 1-year position (with possibility of extension) is funded by an ongoing partnerhip between the University of Turin and [Amazon Science](https://www.amazon.science).
