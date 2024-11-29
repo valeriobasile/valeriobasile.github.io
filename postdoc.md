@@ -30,5 +30,5 @@ The interdisciplinary team includes research fellows, PhD students and post-docs
  
 A PhD in Computer Science, Computational Linguistics, or related areas is highly recommended. Knowledge of Italian is not mandatory.
 
-For further questions and information, feel free to send an email to [mailto:valerio.basile@unito.it](valerio.basile@unito.it).
+For further questions and information, feel free to send an email to [valerio.basile@unito.it](mailto:valerio.basile@unito.it).
 
