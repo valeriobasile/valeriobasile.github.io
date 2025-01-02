@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Open Position: Post-doc on Perspectivist Dialog Models"
+permalink: /postdoc/
 ---
 
 We are looking for a Post-doc researcher on "Perspectivist Dialog Models". 
