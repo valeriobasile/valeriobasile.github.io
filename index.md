@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-I am an assistant professor in the [Content-Centered Computing group](https://cs.unito.it/do/gruppi.pl/Show?_id=453y) at University of Turin.
+I am an associate professor in the [Content-Centered Computing group](https://cs.unito.it/do/gruppi.pl/Show?_id=453y) at University of Turin.
 
 Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inria.fr/) team of [INRIA](http://www.inria.fr), and before that a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/), [University of Groningen](http://www.rug.nl/).
 
