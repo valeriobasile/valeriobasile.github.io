@@ -10,6 +10,7 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 ---
 Recent roles:
 
+ * Area Chair at [EMNLP 2025 System Demonstrations](https://2025.emnlp.org/calls/demos/)
  * Area Chair (Language and Computation) at [ESSLLI 2025](https://2025.esslli.eu/)
  * Senior Area Chair at [COLING 2025](http://coling2025.org/)
  * Senior Area Chair at [EACL 2024](https://2024.eacl.org/) 
@@ -29,14 +30,14 @@ Recent roles:
 My research interests include:
 
 * [Data Perspectivism](https://pdai.info)
-* Computational Semantics
 * Language Resources
 * Natural Language Generation
 * Hate Speech and abusive language
-* Semantic Web
 
 In my career, I dabbled in more related areas though:
 
+* Computational Semantics
+* Lexical Semantics
 * Information Extraction
 * Linguistic Annotation
 * Distributional Semantics
@@ -46,6 +47,7 @@ In my career, I dabbled in more related areas though:
 * Sentiment Analysis
 * Legal Informatics
 * Argument Mining
+* Semantic Web
 
 I like math, videogames, <del>beer</del> pasta, and Oxford commas :)
 
