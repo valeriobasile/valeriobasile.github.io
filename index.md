@@ -8,25 +8,6 @@ I am an associate professor in the [Content-Centered Computing group](https://cs
 Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inria.fr/) team of [INRIA](http://www.inria.fr), and before that a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/), [University of Groningen](http://www.rug.nl/).
 
 ---
-Recent roles:
-
- * Area Chair at [EMNLP 2025 System Demonstrations](https://2025.emnlp.org/calls/demos/)
- * Area Chair (Language and Computation) at [ESSLLI 2025](https://2025.esslli.eu/)
- * Senior Area Chair at [COLING 2025](http://coling2025.org/)
- * Senior Area Chair at [EACL 2024](https://2024.eacl.org/) 
- * Local Chair at [LREC-COLING 2024](https://lrec-coling-2024.org/)
- * Area Chair at [EMNLP 2023](https://2023.emnlp.org/)
- * Area Chair at [*SEM 2023](https://sites.google.com/view/starsem2023)
- * Faculty Advisor at the [EACL 2023 Student Research Workshop](https://sites.google.com/view/eacl2023srw)
- * Area Chair at [EACL 2023](https://2023.eacl.org/)
- * Senior Area Co-chair of [EMNLP 2022](https://2022.emnlp.org/) 
- * System Demonstration Co-chair of [ACL 2022](https://aclanthology.org/events/acl-2022/)
- * Program Co-chair of [NLDB 2022](https://dblp.org/db/conf/nldb/nldb2022.html)
- * Publication Co-chair of [EACL 2021](https://2021.eacl.org/)
- * Co-chair of [EVALITA 2020](https://www.evalita.it/2020/)
- * Senior Program Committee [ECAI 2020](http://ecai2020.eu/)
-
----
 My research interests include:
 
 * [Data Perspectivism](https://pdai.info)
@@ -49,6 +30,39 @@ In my career, I dabbled in more related areas though:
 * Argument Mining
 * Semantic Web
 
+---
+Recent roles:
+
+ * Area Chair at [EMNLP 2025 System Demonstrations](https://2025.emnlp.org/calls/demos/)
+ * Area Chair (Language and Computation) at [ESSLLI 2025](https://2025.esslli.eu/)
+ * Senior Area Chair at [COLING 2025](http://coling2025.org/)
+ * Senior Area Chair at [EACL 2024](https://2024.eacl.org/) 
+ * Local Chair at [LREC-COLING 2024](https://lrec-coling-2024.org/)
+ * Area Chair at [EMNLP 2023](https://2023.emnlp.org/)
+ * Area Chair at [*SEM 2023](https://sites.google.com/view/starsem2023)
+ * Faculty Advisor at the [EACL 2023 Student Research Workshop](https://sites.google.com/view/eacl2023srw)
+ * Area Chair at [EACL 2023](https://2023.eacl.org/)
+ * Senior Area Co-chair of [EMNLP 2022](https://2022.emnlp.org/) 
+ * System Demonstration Co-chair of [ACL 2022](https://aclanthology.org/events/acl-2022/)
+ * Program Co-chair of [NLDB 2022](https://dblp.org/db/conf/nldb/nldb2022.html)
+ * Publication Co-chair of [EACL 2021](https://2021.eacl.org/)
+ * Co-chair of [EVALITA 2020](https://www.evalita.it/2020/)
+ * Senior Program Committee [ECAI 2020](http://ecai2020.eu/)
+
+---
+I organized a few workshops:
+ * [NLPerspectives](nlperspectives.di.unito.it/): Perspectivist Approaches to Natural Language Processing
+   * In 2025 at EMNLP
+   * In 2024 at LREC-COLING
+   * In 2023 at ECAI
+   * In 2022 at LREC
+ * [Identity-Aware AI](https://identity-aware-ai.github.io/)
+   * In 2025 at ECAI
+ * [CREOL](https://creol2019.di.unito.it/)
+   * In 2019 at JOWO
+   * In 2017 at JOWO
+
+---
 I like math, videogames, <del>beer</del> pasta, and Oxford commas :)
 
 ---
