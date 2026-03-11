@@ -3,7 +3,7 @@ layout: page
 title: About me
 ---
 
-I am an associate professor in the [Content-Centered Computing group](https://cs.unito.it/do/gruppi.pl/Show?_id=453y) at University of Turin.
+I am an associate professor in the [Content-Centered Computing group](https://ccc.di.unito.it/) at University of Turin.
 
 Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inria.fr/) team of [INRIA](http://www.inria.fr), and before that a PhD candidate at [Center for Language and Cognition Groningen](http://www.let.rug.nl/clcg/), [University of Groningen](http://www.rug.nl/).
 
@@ -33,6 +33,8 @@ In my career, I dabbled in more related areas though:
 ---
 Recent roles:
 
+ * Area Chair at [ACL 2026](https://2026.aclweb.org/)
+ * Area Chair at [*SEM 2026](https://starsem2026.github.io/)
  * Area Chair at [EMNLP 2025 System Demonstrations](https://2025.emnlp.org/calls/demos/)
  * Area Chair (Language and Computation) at [ESSLLI 2025](https://2025.esslli.eu/)
  * Senior Area Chair at [COLING 2025](http://coling2025.org/)
