@@ -10,7 +10,7 @@ Previously, I was a postdoc research fellow in the [Wimmics](http://wimmics.inri
 ---
 My research interests include:
 
-* [Data Perspectivism](https://pdai.info)
+* [Perspectivist NLP](https://pdai.info)
 * Language Resources
 * Natural Language Generation
 * Hate Speech and abusive language
@@ -33,6 +33,7 @@ In my career, I dabbled in more related areas though:
 ---
 Recent roles:
 
+ * General Chair of [CLiC-it 2026](https://clic2026.unipa.it/)
  * Area Chair at [ACL 2026](https://2026.aclweb.org/)
  * Area Chair at [*SEM 2026](https://starsem2026.github.io/)
  * Area Chair at [EMNLP 2025 System Demonstrations](https://2025.emnlp.org/calls/demos/)
@@ -54,11 +55,13 @@ Recent roles:
 ---
 I organized a few workshops:
  * [NLPerspectives](nlperspectives.di.unito.it/): Perspectivist Approaches to Natural Language Processing
+   * In 2026 at LREC
    * In 2025 at EMNLP
    * In 2024 at LREC-COLING
    * In 2023 at ECAI
    * In 2022 at LREC
  * [Identity-Aware AI](https://identity-aware-ai.github.io/)
+   * In 2026 at LREC
    * In 2025 at ECAI
  * [CREOL](https://creol2019.di.unito.it/)
    * In 2019 at JOWO
