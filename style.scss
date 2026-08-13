@@ -292,7 +292,12 @@ footer {
   background-color: $lightGray;
 }
 
-.white.entry {
+.white h1 {
+  font-size: xx-small;
+  color: $lightGray;
+  background-color: $lightGray;
+}
+.white p {
   font-size: xx-small;
   color: $lightGray;
   background-color: $lightGray;
