@@ -13,7 +13,7 @@ Valerio Basile is the founder of **Data Perspectivism** and a pioneer of **Persp
 
 He has senior roles in scientific journals (e.g., [Journal of Artificial Intelligence Research](https://www.jair.org/)) and international top conferences (ACL, EMNLP).
 
-He is the author of more than 70 peer-reviewed publications and has been cited over 9,000 times (Google Scholar). He created and contributed to widely used language resources and tools, including **HurtLex** (a multilingual lexicon of hate/offensive words), **TWITA** and **Sentix** (Italian Twitter and sentiment resources), and tools such as **KnEWS** and **Litescale**.
+He is the author of more than 70 peer-reviewed publications and has been cited over 9,000 times (Google Scholar). He created and contributed to widely used language resources and tools, including **[HateBERT](https://huggingface.co/GroNLP/hateBERT)** (over one million downloads), **HurtLex** (a multilingual lexicon of hate/offensive words), **TWITA** and **Sentix** (Italian Twitter and sentiment resources), and tools such as **KnEWS** and **Litescale**.
 
 # Detailed Bio
 
