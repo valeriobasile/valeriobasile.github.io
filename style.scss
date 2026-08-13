@@ -292,16 +292,12 @@ footer {
   background-color: $lightGray;
 }
 
-.white h1 {
+.white p,h1,h2,a {
   font-size: xx-small;
   color: $lightGray;
   background-color: $lightGray;
 }
-.white p {
-  font-size: xx-small;
-  color: $lightGray;
-  background-color: $lightGray;
-}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
